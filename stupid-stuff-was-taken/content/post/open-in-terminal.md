@@ -3,13 +3,11 @@ title: 'Enable open in terminal option for elementaryOS file manager'
 date: 2022-02-28T03:56:00.003-08:00
 draft: false
 url: /2022/02/open-in-terminal.html
+categories: ["note"]
 tags: 
-- ubuntu
-- terminal
-- filemanager
+- cli
 - linux
-- elementaryOS
-- terminalemulator
+- elementary
 ---
 
 This is how to add an "Open terminal here" entry to the eOS file manager.

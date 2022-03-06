@@ -3,13 +3,11 @@ title: 'Display Blogger feed on HTML site using RSS'
 date: 2022-02-13T10:48:00.001-08:00
 draft: false
 url: /2022/02/display-blogger-feed-on-html-site-using.html
+categories: ["note"]
 tags: 
-- js
 - javascript
-- google
 - blogger
 - rss
-- blog
 ---
 
 This is how to parse and display a blogger feed on your website. Replace the URL of the API-call in the last script tag to change the RSS feed the script pulls. Update the `months` array to change the language for the date to English.

@@ -4,15 +4,8 @@ date: 2021-08-03T07:03:00.008-07:00
 draft: false
 url: /2021/08/smaller-gtk-headerbars-on-non-csd.html
 tags: 
-- css
-- mutter
-- marco
 - linux
-- gtk
-- gala
-- titlebar
-- csd
-- metacity
+- css
 ---
 
 This is how to make the titlebars on non-CSD windows in Metacity, Marco, Mutter and Gala smaller using gtk.css

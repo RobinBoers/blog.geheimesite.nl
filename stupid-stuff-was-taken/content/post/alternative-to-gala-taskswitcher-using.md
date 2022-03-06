@@ -3,14 +3,11 @@ title: 'Alternative to Gala taskswitcher using Rofi'
 date: 2021-08-06T10:26:00.003-07:00
 draft: false
 url: /2021/08/alternative-to-gala-taskswitcher-using.html
+categories: ["note"]
 tags: 
-- eOS
-- rofi
 - linux
-- gala
 - pantheon
-- bash
-- elementaryOS
+- elementary
 ---
 
 I kinda hate the default Alt+Tab switcher in Pantheon, so I use Rofi to fix that. This is how to use rofi as Alt+Tab switcher. Make sure you have rofi version 1.6.1 installed for this to work propperly.

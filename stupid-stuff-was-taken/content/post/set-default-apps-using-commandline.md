@@ -3,13 +3,10 @@ title: 'Set default apps using the commandline'
 date: 2021-08-03T07:17:00.008-07:00
 draft: false
 url: /2021/08/set-default-apps-using-commandline.html
+categories: ["note"]
 tags: 
-- terminal
-- commandline
-- xdg-mime
-- default apps
+- cli
 - linux
-- bash
 ---
 
 To look up what the current default is:

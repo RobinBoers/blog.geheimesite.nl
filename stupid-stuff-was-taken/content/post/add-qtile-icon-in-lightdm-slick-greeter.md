@@ -3,11 +3,10 @@ title: 'Add Qtile icon in LightDM slick-greeter'
 date: 2021-08-03T07:11:00.008-07:00
 draft: false
 url: /2021/08/add-qtile-icon-in-lightdm-slick-greeter.html
+categories: ["note"]
 tags: 
 - linux
-- slick-greeter
-- qtile
-- lightdm
+- twm
 ---
 
 This is how to a Qtile icon to LightDM slick-greeter. By default it displays a stupid circle.

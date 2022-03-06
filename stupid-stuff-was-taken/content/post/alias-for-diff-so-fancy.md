@@ -3,13 +3,10 @@ title: 'Alias for diff-so-fancy'
 date: 2021-08-27T04:59:00.004-07:00
 draft: false
 url: /2021/08/alias-for-diff-so-fancy.html
+categories: ["note"]
 tags: 
-- commandline
-- diff-so-fancy
-- alias
+- tools
 - git
-- tool
-- diff
 - cli
 ---
 

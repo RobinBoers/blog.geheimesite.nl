@@ -5,9 +5,6 @@ draft: false
 url: /2021/08/send-emails-using-php.html
 tags: 
 - email
-- mail
-- sendmail
-- server
 - php
 ---
 

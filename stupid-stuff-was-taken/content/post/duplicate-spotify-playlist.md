@@ -3,10 +3,9 @@ title: 'Duplicate Spotify playlist'
 date: 2021-08-10T12:30:00.003-07:00
 draft: false
 url: /2021/08/duplicate-spotify-playlist.html
+categories: ["note"]
 tags: 
 - music
-- backup
-- duplicate
 - spotify
 ---
 

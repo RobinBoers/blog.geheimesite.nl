@@ -3,12 +3,9 @@ title: 'Notes-Up "GitHub" theme'
 date: 2022-01-05T02:04:00.005-08:00
 draft: false
 url: /2022/01/notes-up-github-theme.html
+categories: ["note"]
 tags: 
-- notesup
 - linux
-- gtk
-- theme
-- themes
 - notes-up
 - github
 ---

@@ -3,12 +3,10 @@ title: 'Missing depedencies when installing rofi from source on Ubuntu'
 date: 2021-08-08T10:30:00.006-07:00
 draft: false
 url: /2021/08/missing-depedencies-when-installing.html
+categories: ["note"]
 tags: 
-- ubuntu
-- depedencies
-- rofi
 - linux
-- elementaryOS
+- elementary
 ---
 
 When installing rofi 1.6.1 from source on Ubuntu, there are some missing dependencies. To install those, enter this command:

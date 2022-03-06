@@ -3,12 +3,11 @@ title: 'Prevent dunst from autostarting using DBus'
 date: 2021-09-03T12:12:00.002-07:00
 draft: false
 url: /2021/09/prevent-dunst-from-autostarting-using.html
+categories: ["note"]
 tags: 
-- commandline
-- debus
+- cli
 - linux
 - dunst
-- autostart
 ---
 
 By default, dunst is autostarted by DBus. This can be turned off by editing `/usr/share/dbus-1/services/org.knopwob.dunst.service` and changing
