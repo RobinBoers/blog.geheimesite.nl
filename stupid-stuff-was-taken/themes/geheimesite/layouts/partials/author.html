@@ -1,21 +1,5 @@
 <div class="flex flex-row justify-between items-center">
-    <div rel="author" class="flex items-center gap-5 p-author h-card">
-        <img class="u-photo"
-            src="{{ with $.Site.Author.image }}{{ . | absURL }}{{ else }}https://picsum.photos/120.webp{{ end }}"
-            alt="{{.Site.Author.name}}" id="author-img">
-        <div>
-            <p rel="me" class="p-name font-bold m-0" id="author-name">
-                {{ with .Params.author }}
-                {{ . }}
-                {{ else }}
-                {{ $.Site.Author.name }}
-                {{ end }}
-            </p>
-            <p class="m-0">
-                {{ if isset .Params "date" }}
-                {{ .Date.Format (.Site.Params.dateFormat | default "02 January 2006") }}{{ end }}
-            </p>
-        </div>
+    <div rel="author" class="">
     </div>
     <div class="flex">
       {{ if in .Params.Categories "reply" }}

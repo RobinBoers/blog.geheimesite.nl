@@ -1,6 +1,6 @@
 baseURL = "https://blog.geheimesite.nl/notes"
 languageCode = "en-us"
-title = "Stupid Codes"
+title = "Notes"
 paginate = 16
 theme = "geheimesite"
 
@@ -21,8 +21,8 @@ skin = "macintosh"
 # customCSS = "css/style.css" # relative to ./static/
 # plausible = true
 # paymentPointer = "$wallet.provider.com/myspecialid123"
-# webmentionUrl = "https://webmention.io/example/webmention"
-# pingbackUrl = "https://webmention.io/example/xmlrpc"
+webmentionUrl = "https://webmention.io/geheimesite.nl/webmention"
+pingbackUrl = "https://webmention.io/geheimesite.nl/xmlrpc"
 # micropubUrl = "https://example.com/.netlify/functions/micropub"
 # microsubUrl = "https://aperture.p3k.io/microsub/example"
 

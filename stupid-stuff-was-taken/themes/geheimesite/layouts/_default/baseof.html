@@ -5,6 +5,7 @@
     {{- partial "header" . -}}
     {{- block "main" . }}
     <main aria-role="main">
+        {{- partial "intro" . -}}
         {{- block "feed" . }}{{- end }}
         {{- block "footer" . }}
         {{- end }}

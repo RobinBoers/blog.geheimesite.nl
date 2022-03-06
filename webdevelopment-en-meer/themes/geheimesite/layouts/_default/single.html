@@ -32,11 +32,17 @@
                 <a class="hidden" href="https://brid.gy/publish/twitter"></a>
                 <a class="hidden" href="https://fed.brid.gy/"></a>
                 <data class="p-bridgy-omit-link" value="false"></data>
+
+                <section>
+                    <p>{{ partial "webmentions" . }}</p>
+                    <div id="webmentions"></div>
+                </section>
             </article>
+            
             <!-- <div class="my-7 max-w-xl mx-auto" style="min-width: 960px;">
                 {{ partial "author" . }}
             </div> -->
-{{ partial "webmentions" . }}
+
 <!-- show Webmentions -->
 <div id="webmentions"></div>
 

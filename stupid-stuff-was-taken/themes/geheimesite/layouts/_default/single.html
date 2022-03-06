@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ if in .Params.Categories "note" }}
-    <article class="feed__li feed__content p-summary p-name e-content">
+<div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
+    <article class="feed__li feed__content p-summary e-content">
         {{ partial "author" . }}
         {{ else if in .Params.Categories "reply" }}
         <article class="feed__li feed__content p-summary e-content"></article>
@@ -32,13 +33,15 @@
                 <a class="hidden" href="https://brid.gy/publish/twitter"></a>
                 <a class="hidden" href="https://fed.brid.gy/"></a>
                 <data class="p-bridgy-omit-link" value="false"></data>
+
+                <section>
+                    <p>{{ partial "webmentions" . }}</p>
+                    <div id="webmentions"></div>
+                </section>
             </article>
             <!-- <div class="my-7 max-w-xl mx-auto" style="min-width: 960px;">
                 {{ partial "author" . }}
             </div> -->
-{{ partial "webmentions" . }}
-<!-- show Webmentions -->
-<div id="webmentions"></div>
-
+</div>
 <hr class="my-7 border-none">
 {{ end }}

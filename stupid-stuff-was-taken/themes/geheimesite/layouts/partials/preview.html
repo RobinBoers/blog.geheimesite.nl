@@ -5,7 +5,8 @@
         {{ partial "author" . }}
     
         {{ if in .Params.Categories "note" }}
-        <article class="md p-summary p-name e-content">
+        <article class="md p-summary e-content">
+            <p class="font-bold">{{ .Title }}</p>
             <div class="post mt-5">
                 {{ .Content }}
             </div>
@@ -23,19 +24,10 @@
             </div>
             {{ else }}
             <article class="md p-summary e-content">
-                <h1 class="p-name">
-                    <a class="no-underline hover:bg-vibrant" href="{{ .Permalink }}">
-                        {{ .Title }}
-                    </a>
-                </h1>
-                {{ .Summary | markdownify }}
+                <a href="{{ .Permalink }}">
+                    {{ .Title }}
+                </a>
             {{ end }}
-                {{ $img := (.Resources.ByType "image").GetMatch "*" }}
-                {{ if .Truncated }}...
-                <div id="open">
-                <a href="{{ .Permalink }}" class="properties"><strong>[ read more ]</strong></a>
-                </div>
-                {{ end }}
             </article>
             {{ partial "properties" . }}
         </div>
