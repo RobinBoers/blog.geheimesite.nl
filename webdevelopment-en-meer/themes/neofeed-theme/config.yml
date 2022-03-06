@@ -1,7 +1,0 @@
-exclude: ["archetypes", "exampleSite", "layouts", "theme.toml"]
-
-module:
-  hugoVersion:
-    extended: false
-    max: ""
-    min: ""

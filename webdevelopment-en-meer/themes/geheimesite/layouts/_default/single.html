@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ if in .Params.Categories "note" }}
+    <article class="feed__li feed__content p-summary p-name e-content">
+        {{ partial "author" . }}
+        {{ else if in .Params.Categories "reply" }}
+        <article class="feed__li feed__content p-summary e-content"></article>
+            {{ partial "author" . }}
+            <h2 class="p-name reply-context">
+            {{ with .Params.Reply }}
+            <a class="u-in-reply-to h-cite" href="{{ . }}">{{ $.Title }}</a>
+            {{ else }}
+            {{ .Title }}
+            {{ end }}
+            </h2>
+            {{ else }}
+            <article class="feed__li feed__content post mt-10">
+                <div class="text-center my-7 max-w-xl mx-auto">
+                    <time class="hidden dt-published">{{ .Date }}</time>
+                
+                    <h1 class="p-name mb-0 text-4xl">{{ .Title }}</h1>
+                    <p class="my-5 bold">
+                        {{ if isset .Params "date" }}
+                        {{ .Date.Format (.Site.Params.dateFormat | default "02 January 2006") }}{{ end }}
+                    </p>
+                </div>
+                {{ end }}
+                <section class="p-summary e-content">
+                    {{.Content }}
+                </section>
+                <!-- Bridgy -->
+                <a class="hidden" href="https://brid.gy/publish/mastodon"></a>
+                <a class="hidden" href="https://brid.gy/publish/twitter"></a>
+                <a class="hidden" href="https://fed.brid.gy/"></a>
+                <data class="p-bridgy-omit-link" value="false"></data>
+            </article>
+            <!-- <div class="my-7 max-w-xl mx-auto" style="min-width: 960px;">
+                {{ partial "author" . }}
+            </div> -->
+{{ partial "webmentions" . }}
+<!-- show Webmentions -->
+<div id="webmentions"></div>
+
+<hr class="my-7 border-none">
+{{ end }}
