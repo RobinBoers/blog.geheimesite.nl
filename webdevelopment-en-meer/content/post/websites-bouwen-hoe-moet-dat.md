@@ -4,11 +4,7 @@ date: 2020-02-29T04:00:00.004-08:00
 draft: false
 url: /2020/02/websites-bouwen-hoe-moet-dat.html
 tags: 
-- website-maken
 - webdesign
-- coderen
-- webdevelopment
-- programmeren
 ---
 
 [![](https://1.bp.blogspot.com/-8BVsGTCTpJA/XfSzOqIHv3I/AAAAAAAAB1c/onYrjjqMvvAr-hi77NCpvBJzAi2JzCUNgCLcBGAsYHQ/s200/Untitled.png)](https://1.bp.blogspot.com/-8BVsGTCTpJA/XfSzOqIHv3I/AAAAAAAAB1c/onYrjjqMvvAr-hi77NCpvBJzAi2JzCUNgCLcBGAsYHQ/s1600/Untitled.png)**Een tutorial over het bouwen van je eerste website**  

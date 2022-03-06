@@ -4,12 +4,8 @@ date: 2020-02-17T08:39:00.001-08:00
 draft: false
 url: /2020/02/jailbreak-oude-ipad-iphone-ipod-touch.html
 tags: 
-- ipod-touch
 - ios
-- ios9
 - jailbreak
-- iphone
-- ipad
 ---
 
 Hallo allemaal,  

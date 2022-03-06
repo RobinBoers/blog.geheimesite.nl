@@ -4,15 +4,8 @@ date: 2020-07-27T00:30:00.004-07:00
 draft: false
 url: /2020/07/nieuw-project-nibor.html
 tags: 
-- js
-- appdevelopment
-- code
+- javascript
 - webdesign
-- coderen
-- app
-- webdevelopment
-- webapp
-- scripten
 ---
 
 Hoi, ik ben een tijdje geleden aan een nieuw project begonnen, en het is nu in de fase waarin het redelijk werkt. Het is een virtuele assistent genaamd Nibor Virtual Assistant, of gewoon kort: Nibor. 

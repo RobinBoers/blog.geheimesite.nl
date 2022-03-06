@@ -4,17 +4,8 @@ date: 2021-05-09T05:51:00.000-07:00
 draft: false
 url: /2021/05/mogelijke-besturingssystemen-voor-mijn.html
 tags: 
-- ubuntu
-- distro
-- telefoon
-- linux
-- Phosh
 - diy
-- smartphone
-- os
-- Plasma
-- touch
-- kde
+- rpi
 ---
 
 Zoals ik in mijn vorige post al zei draait mijn theoretische telefoon Linux. Ik ben momenteel aan het testen met verschillende Linux distro's / mobile shells. Ik gebruik hiervoor een Raspberry Pi omdat ik die toevallig heb, maar in de toekomst zijn andere SBCs (singleboard computers) niet uitgesloten. 

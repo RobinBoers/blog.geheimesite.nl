@@ -4,18 +4,8 @@ date: 2020-06-23T10:55:00.001-07:00
 draft: false
 url: /2020/06/nieuwe-app-website-to-webapp.html
 tags: 
-- onsenui
-- appdevelopment
-- coderen
-- html
-- webdevelopment
-- webapp
-- ios
-- code
 - webdesign
-- app
-- programma
-- apps
+- javascript
 ---
 
 Ik heb de laatste tijd hard gewerkt aan een nieuwe app: Website-To-Webapp. Met deze app kun je van elke website simpel een PWA maken.  

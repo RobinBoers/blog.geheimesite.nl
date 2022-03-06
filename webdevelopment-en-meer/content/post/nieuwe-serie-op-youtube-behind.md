@@ -4,8 +4,7 @@ date: 2020-05-28T11:27:00.005-07:00
 draft: false
 url: /2020/05/nieuwe-serie-op-youtube-behind.html
 tags: 
-- moviemagic
-- video-editing
+- video
 ---
 
 Ik heb sinds kort een playlist op mijn YouTube kanaal staan, die MovieMagic heet.

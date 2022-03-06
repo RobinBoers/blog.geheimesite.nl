@@ -4,14 +4,8 @@ date: 2020-06-25T03:23:00.000-07:00
 draft: false
 url: /2020/06/datapacks-in-minecraft.html
 tags: 
-- frederico
 - datapacks
-- FREDProject
-- rescourcepacks
-- code
-- coderen
 - minecraft
-- commands
 ---
 
 Ik ben met een vriend bezig om een ‘mod’ voor Minecraft te maken. Officieel is het geen mod, maar een combinatie van rescourcepacks en datapacks. Een datapack is een soort rescourcepack, maar inplaatsvan de shaders, textures en geluiden, kun je er de crafting recipes, structures en advancements mee aanpassen.

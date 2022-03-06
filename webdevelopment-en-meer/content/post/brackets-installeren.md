@@ -4,15 +4,8 @@ date: 2019-11-27T07:29:00.001-08:00
 draft: false
 url: /2019/11/brackets-installeren.html
 tags: 
-- IDE
-- ontwikkelomgeving_opzetten
-- code
-- coderen
-- app
-- code-editor
-- programmeren
-- apps
-- crossplatform
+- tools
+- brackets
 ---
 
 [![](https://1.bp.blogspot.com/-2DNqGXtkLhc/XTwKyJ5_KTI/AAAAAAAABn0/uFlT9gGlTREsfVTdIIfXMrs85mV_XKMtACPcBGAYYCw/s200/brackets-seeklogo.com.png)](https://1.bp.blogspot.com/-2DNqGXtkLhc/XTwKyJ5_KTI/AAAAAAAABn0/uFlT9gGlTREsfVTdIIfXMrs85mV_XKMtACPcBGAYYCw/s1600/brackets-seeklogo.com.png)Ik ben momenteel bezig met het maken van tutorials over het coderen van simpele programma's, spelletjes, websites, en veel meer. Voor al die dingen heb je een code-editor nodig. Daarom is hier een stappenplan, voor het installeren van mijn favoriete code-editor: [Brackets](https://webdevelopment-en-meer.blogspot.com/2019/07/beste-code-editor-brackets.html)  

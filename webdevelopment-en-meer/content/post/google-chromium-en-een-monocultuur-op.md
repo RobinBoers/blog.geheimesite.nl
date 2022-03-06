@@ -4,12 +4,7 @@ date: 2021-12-05T22:00:00.002-08:00
 draft: false
 url: /2021/12/google-chromium-en-een-monocultuur-op.html
 tags: 
-- firefox
-- browsers
-- google
-- chromium
-- chrome
-- webbrowser
+- browser
 ---
 
 De letters die je nu leest zijn door mij getypt, naar een Blogger server gestuurd via een glasvezelverbinding, daar opgeslagen in een database en toen ik op publiceren klikte via RSS en de homepage van mijn blog verspreid naar mijn lezers. 

@@ -4,11 +4,7 @@ date: 2021-01-13T09:16:00.004-08:00
 draft: false
 url: /2021/01/chrome-dino-game-hacken-met-javascript.html
 tags: 
-- js
-- dino game
 - javascript
-- game
-- chrome
 - hacken
 ---
 

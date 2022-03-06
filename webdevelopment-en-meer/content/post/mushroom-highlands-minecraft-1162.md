@@ -5,11 +5,7 @@ draft: false
 url: /2020/08/mushroom-highlands-minecraft-1162.html
 tags: 
 - datapacks
-- coderen
-- cool
 - minecraft
-- programmeren
-- commands
 ---
 
 [![](https://1.bp.blogspot.com/-Mkjc_WKny3g/X0pnei8Uu0I/AAAAAAAAITc/mf4QUbWMbEovU7eVq5GWCR2ABgtqws1GgCLcBGAsYHQ/s0/pack.png)](https://1.bp.blogspot.com/-Mkjc_WKny3g/X0pnei8Uu0I/AAAAAAAAITc/mf4QUbWMbEovU7eVq5GWCR2ABgtqws1GgCLcBGAsYHQ/s128/pack.png)

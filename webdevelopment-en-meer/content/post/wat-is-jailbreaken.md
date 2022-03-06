@@ -4,10 +4,8 @@ date: 2020-03-02T06:40:00.001-08:00
 draft: false
 url: /2020/03/wat-is-jailbreaken.html
 tags: 
-- tech
 - ios
 - jailbreak
-- hacken
 ---
 
 [![](https://upload.wikimedia.org/wikipedia/commons/8/8b/Cydia_logo.png)](https://upload.wikimedia.org/wikipedia/commons/8/8b/Cydia_logo.png)Als je jailbreakt krijg je volledige toegang tot het besturingssysteem op je iDevice (iOS). Hierdoor heb je er volledige controle over. Je hackt een soort van je eigen apparaat. Na de jailbreak kan je vanalles met je apparaat doen: animaties toevoegen, dualbooten, icoontjes laten vliegen, wat je maar wilt. Jij bent de baas!  

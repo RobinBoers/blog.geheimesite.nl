@@ -3,6 +3,8 @@ title: 'Een virus maken! (Part 2)'
 date: 2019-12-13T07:03:00.000-08:00
 draft: false
 url: /2019/12/een-virus-maken-part-2.html
+tags: 
+- windows
 ---
 
 Hi,  

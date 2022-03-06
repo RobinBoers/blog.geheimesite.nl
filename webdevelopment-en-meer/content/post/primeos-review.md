@@ -4,10 +4,7 @@ date: 2019-08-21T01:00:00.000-07:00
 draft: false
 url: /2019/08/primeos-review.html
 tags: 
-- tech
-- booting
-- review
-- os
+- linux
 ---
 
 Hai,  

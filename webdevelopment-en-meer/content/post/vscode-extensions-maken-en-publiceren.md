@@ -4,10 +4,7 @@ date: 2021-09-10T11:23:00.001-07:00
 draft: false
 url: /2021/09/vscode-extensions-maken-en-publiceren.html
 tags: 
-- vscode
-- themedevelopment
-- code-editor
-- microsoft
+- tools
 ---
 
 Hello world! Ik heb dus vorige week een eigen VSCode extension gemaakt en gepubliceerd. Met VSCode extensions kan je functionaliteit aan de code editor van Microsoft, Visual Studio Code, toevoegen. Ik heb een extension gemaakt die een color theme bevat. Daarmee kan je de interface van VSCode themen.

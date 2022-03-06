@@ -4,12 +4,8 @@ date: 2019-07-27T01:54:00.001-07:00
 draft: false
 url: /2019/07/beste-code-editor-brackets.html
 tags: 
-- IDE
-- code
 - brackets
-- programma
-- webdevelopment
-- code-editor
+- tools
 ---
 
 [![](https://1.bp.blogspot.com/-2DNqGXtkLhc/XTwKyJ5_KTI/AAAAAAAABnw/9hfCNpf4P6cleEU1H34LuwqdsYfKgRMMwCLcBGAs/s200/brackets-seeklogo.com.png)](https://1.bp.blogspot.com/-2DNqGXtkLhc/XTwKyJ5_KTI/AAAAAAAABnw/9hfCNpf4P6cleEU1H34LuwqdsYfKgRMMwCLcBGAs/s1600/brackets-seeklogo.com.png)Hey, zoals je waarschijnlijk wel weet, als je op mijn blog komt, houd ik van programmeren. Vandaag, wil ik jullie mijn favoriete code-editor laten zien: [Brackets](http://brackets.io/)  

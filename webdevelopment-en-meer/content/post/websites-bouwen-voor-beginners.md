@@ -5,9 +5,6 @@ draft: false
 url: /2020/02/websites-bouwen-voor-beginners.html
 tags: 
 - webdesign
-- coderen
-- webdevelopment
-- programmeren
 ---
 
 [![](https://1.bp.blogspot.com/-5ExypmpUzWI/XlpS0J3RJaI/AAAAAAAAGaM/AZfC9xrBZHMZlcG193-nTNTkB8EzpvXFACLcBGAsYHQ/s200/code-logo-png-1.png)](https://1.bp.blogspot.com/-5ExypmpUzWI/XlpS0J3RJaI/AAAAAAAAGaM/AZfC9xrBZHMZlcG193-nTNTkB8EzpvXFACLcBGAsYHQ/s1600/code-logo-png-1.png)

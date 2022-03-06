@@ -4,10 +4,9 @@ date: 2022-01-03T00:36:00.001-08:00
 draft: false
 url: /2022/01/plannen-en-projecten-vorig-jaar-en.html
 tags: 
-- plannen
 - phoenix
-- react
 - elixir
+- tools
 ---
 
 Begin vorig jaar plaatste ik [deze blogpost](https://webdevelopment-en-meer.blogspot.com/2021/01/dit-wil-ik-leren-in-2021.html) over mijn plannen voor 2021. Later dat jaar publiceerde ik [een tweede post](https://webdevelopment-en-meer.blogspot.com/2021/07/waar-ben-ik-momenteel-in-mijn-plannen.html) waarin in reflecteerde op de voltooiing van die plannen en beschreef wat ik dat jaar nog wilde doen. Kleine recap:

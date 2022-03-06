@@ -4,11 +4,8 @@ date: 2021-07-02T07:48:00.001-07:00
 draft: false
 url: /2021/07/threejs-3d-grahics-met-javascript.html
 tags: 
-- threejs
 - webgl
 - javascript
-- gamedevelopment
-- webdevelopment
 - 3d
 ---
 

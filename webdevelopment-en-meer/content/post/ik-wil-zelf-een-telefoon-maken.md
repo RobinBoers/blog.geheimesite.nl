@@ -3,15 +3,9 @@ title: 'Ik wil zelf een telefoon maken'
 date: 2021-01-23T02:32:00.003-08:00
 draft: false
 url: /2021/01/ik-wil-zelf-een-telefoon-maken.html
-tags: 
-- sbc
-- telefoon
-- linux
-- electronica
-- smartphone
-- os
-- rpi4
-- apps
+tags:
+- diy
+- rpi
 ---
 
 Misschien een beetje raar, maar ik heb besloten dat ik zelf een telefoon wil maken. Ik wil een telefoon waar ik alles mee kan doen, en die ik daar niet voor hoef te rooten of jailbreaken. Ik wil een telefoon die makkelijk uit te breiden is. Ik wil een telefoon die makkelijk te upgraden is. En dus ga ik zelf een smartphone maken.

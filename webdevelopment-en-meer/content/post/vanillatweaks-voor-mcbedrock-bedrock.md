@@ -5,12 +5,7 @@ draft: false
 url: /2020/10/vanillatweaks-voor-mcbedrock-bedrock.html
 tags: 
 - datapacks
-- mcbe
-- rescourcepacks
-- add-ons
-- vanillatweaks
 - minecraft
-- mcpe
 ---
 
 [![](https://1.bp.blogspot.com/-CiRKtVi5st0/XylB6z2jFKI/AAAAAAAAIO4/BVxJbYMuNvIfl8nHlv6SmtCTDmCihQ6jwCLcBGAsYHQ/s0/unnamed.png)](https://1.bp.blogspot.com/-CiRKtVi5st0/XylB6z2jFKI/AAAAAAAAIO4/BVxJbYMuNvIfl8nHlv6SmtCTDmCihQ6jwCLcBGAsYHQ/s262/unnamed.png)

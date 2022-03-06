@@ -4,12 +4,7 @@ date: 2019-11-27T07:57:00.003-08:00
 draft: false
 url: /2019/11/een-virus-maken.html
 tags: 
-- native look
 - windows
-- code
-- coderen
-- programmeren
-- scripten
 ---
 
 [![](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzc/1z4gvn2ZljI_Pk5x6U7WLDuqc0kaacBMQCLcBGAsYHQ/s320/popup.PNG)](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzc/1z4gvn2ZljI_Pk5x6U7WLDuqc0kaacBMQCLcBGAsYHQ/s1600/popup.PNG)**Een simpel VBScript maken**

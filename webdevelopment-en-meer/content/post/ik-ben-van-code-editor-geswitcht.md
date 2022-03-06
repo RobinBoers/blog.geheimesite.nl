@@ -4,26 +4,7 @@ date: 2020-03-03T07:26:00.000-08:00
 draft: false
 url: /2020/03/ik-ben-van-code-editor-geswitcht.html
 tags: 
-- css
-- appdevelopment
-- vscode
-- coderen
-- review
-- brackets
-- cool
-- html
-- themedevelopment
-- webdevelopment
-- webapp
-- programmeren
-- scripten
-- IDE
-- js
-- code
-- webdesign
-- programma
-- code-editor
-- php
+- tools
 - github
 ---
 

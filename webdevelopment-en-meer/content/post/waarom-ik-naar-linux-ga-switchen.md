@@ -4,12 +4,7 @@ date: 2021-03-23T01:47:00.000-07:00
 draft: false
 url: /2021/03/waarom-ik-naar-linux-ga-switchen.html
 tags: 
-- computer
 - linux
-- open-source
-- laptop
-- os
-- besturingssysteem
 ---
 
 He hallo,

@@ -4,10 +4,7 @@ date: 2020-12-21T08:46:00.003-08:00
 draft: false
 url: /2020/12/maak-een-minimale-linux-desktop-met.html
 tags: 
-- desktop-enviroment
 - linux
-- openbox
-- minimal
 ---
 
  Hoi!  

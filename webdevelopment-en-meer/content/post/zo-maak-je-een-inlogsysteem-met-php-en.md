@@ -4,11 +4,8 @@ date: 2020-02-25T06:56:00.003-08:00
 draft: false
 url: /2020/02/zo-maak-je-een-inlogsysteem-met-php-en.html
 tags: 
-- code
-- coderen
-- webdevelopment
-- programmeren
-- scripten
+- php
+- webdesign
 ---
 
   

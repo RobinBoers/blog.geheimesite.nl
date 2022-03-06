@@ -4,12 +4,8 @@ date: 2022-03-04T00:19:00.002-08:00
 draft: false
 url: /2022/03/een-maand-zonder-telefoon.html
 tags: 
-- social-media
-- verslaving
 - challenge
-- telefoon
 - social media
-- apps
 ---
 
 Februari was voor mij een speciale maand. Ik had mezelf namelijk gechallenged om een maand lang mijn telefoon niet te gebruiken. In deze post wil ik graag mijn ervaringen delen.

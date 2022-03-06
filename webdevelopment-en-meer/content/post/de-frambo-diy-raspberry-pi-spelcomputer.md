@@ -4,15 +4,8 @@ date: 2020-08-13T11:43:00.002-07:00
 draft: false
 url: /2020/08/de-frambo-diy-raspberry-pi-spelcomputer.html
 tags: 
-- kodi
-- tech
-- retropie
-- raspbian
-- retrogaming
-- cool
 - diy
-- rpi4
-- raspberry pi
+- rpi
 ---
 
  Ik heb vorig jaar (2019) voor kerst een Raspberry Pi gekregen. Nu (een half jaar later) heb ik hem eindelijk gebruikt. En wel in een heel cool project: een retrogaming spelcomputer! Hij heet de Frambo (van frambozentaart, vertaling van Raspberry Pi), en hij draait RetroPie, een opensource programma wat Emulation Station en RetroArch combineert, zodat je N64, SNES, NES, GameCube, GameBoy Color en nog veel meer kan spelen.

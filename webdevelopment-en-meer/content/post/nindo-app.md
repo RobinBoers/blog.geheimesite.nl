@@ -4,13 +4,7 @@ date: 2019-07-25T07:31:00.002-07:00
 draft: false
 url: /2019/07/nindo-app.html
 tags: 
-- onsenui
-- native look
-- appdevelopment
-- code
-- app
-- apps
-- crossplatform
+- webdesign
 ---
 
 Hoi, ik heb pas een app gemaakt. Hij heet DGAW. Dat staat voor De Geheim Agenten Web-app. Want dat is het, een web-app. Hij past zich automatisch aan aan het platform (IOS of Android), zodat ie er toch uitziet als een native app. De layout is gemaakt met [Onsen UI](https://onsen.io/). Als je hem aan je beginscherm vastmaakt, ziet het eruit als een systeemeigen app, omdat hij in een eigen venster wordt geopend, zonder browsercontrolls. Dat komt opdat ik een [Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/) heb toegevoegd. Je kan er openbare berichten in plaatsen, met Nindo. Ook kan je privé berichten versturen en chatten. Hieronder zie je een paar screenshots:  

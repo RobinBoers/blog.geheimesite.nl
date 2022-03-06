@@ -4,14 +4,9 @@ date: 2021-02-03T03:05:00.007-08:00
 draft: false
 url: /2021/02/thinkchat-mijn-nieuwe-chatapp.html
 tags: 
-- chatten
-- website
 - ios
 - pwa
-- app
-- android
 - github
-- thinkchat
 ---
 
 [![](https://1.bp.blogspot.com/-lYM1ULJfRBY/YBKkqsR0ViI/AAAAAAAAKG8/-5BkmMPy370YMEDcTvGUVvnzEHaF1P9ZACLcBGAsYHQ/w200-h200/icon.png)](https://1.bp.blogspot.com/-lYM1ULJfRBY/YBKkqsR0ViI/AAAAAAAAKG8/-5BkmMPy370YMEDcTvGUVvnzEHaF1P9ZACLcBGAsYHQ/s720/icon.png)

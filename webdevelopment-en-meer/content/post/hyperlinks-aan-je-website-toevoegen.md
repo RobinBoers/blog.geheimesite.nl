@@ -4,11 +4,7 @@ date: 2020-02-29T04:01:00.000-08:00
 draft: false
 url: /2020/02/hyperlinks-aan-je-website-toevoegen.html
 tags: 
-- website-maken
 - webdesign
-- coderen
-- webdevelopment
-- programmeren
 ---
 
 **Een tutorial over het bouwen van je eerste website**  

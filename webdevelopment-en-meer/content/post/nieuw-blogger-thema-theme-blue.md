@@ -4,9 +4,7 @@ date: 2020-06-23T11:32:00.000-07:00
 draft: false
 url: /2020/06/nieuw-blogger-thema-theme-blue.html
 tags: 
-- coderen
-- themedevelopment
-- programmeren
+- blogger
 ---
 
 Een van de eerste posts op dit blog ging over een blogger thema wat ik had gemaakt: Theme Orange.

@@ -4,15 +4,8 @@ date: 2020-06-22T06:10:00.004-07:00
 draft: false
 url: /2020/06/dualboot-een-raspberry-pi-met-retropie.html
 tags: 
-- kodi
-- retropie
-- raspbian
-- booting
-- multiboot
-- retrogaming
 - diy
-- dualboot
-- raspberry pi
+- rpi
 ---
 
 Ik ben bezig om een Raspberry Pi Powerd tablet / Nintendo Switch te maken. Toen ik aan de software kant bezig was, had ik er in eerste instantie voor gekozen om meerdere keren Raspbian te installeren met BerryBoot, en dan op een van die versies Kodi te installeren, op een andere RetroPie, en op de laatste niks.

@@ -4,13 +4,9 @@ date: 2021-07-26T11:46:00.001-07:00
 draft: false
 url: /2021/07/aur-packages-publiceren.html
 tags: 
-- cutie-tanks
-- linux
 - aur
 - phaser
-- open-source
-- gamedevelopment
-- archlinux
+- linux
 ---
 
 Zoals ik misschien al eerder heb verteld werkt Linux met package managers en repositories. Om even te herhalen:

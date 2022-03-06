@@ -4,7 +4,6 @@ date: 2020-06-29T05:43:00.000-07:00
 draft: false
 url: /2020/06/minecraft-java-rescourcepacks-omzetten.html
 tags: 
-- rescourcepacks
 - minecraft
 ---
 

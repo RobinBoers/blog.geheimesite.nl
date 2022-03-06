@@ -4,9 +4,7 @@ date: 2020-05-10T05:51:00.000-07:00
 draft: false
 url: /2020/05/mijn-zusje-op-youtube.html
 tags: 
-- youtube
-- trots
-- zusje
+- video
 ---
 
 ![](https://1.bp.blogspot.com/-UE53igrqUx8/XrfAnPY76LI/AAAAAAAAHdg/SwW7yYizeNYrbzmLv6mBg6zD16z2hv29ACK4BGAsYHg/w200-h150/IMG_1577.JPG)

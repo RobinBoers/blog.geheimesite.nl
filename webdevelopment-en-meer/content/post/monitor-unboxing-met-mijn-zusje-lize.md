@@ -4,9 +4,7 @@ date: 2020-03-18T11:52:00.001-07:00
 draft: false
 url: /2020/03/monitor-unboxing-met-mijn-zusje-lize.html
 tags: 
-- monitor
-- youtube
-- unboxing
+- video
 ---
 
   

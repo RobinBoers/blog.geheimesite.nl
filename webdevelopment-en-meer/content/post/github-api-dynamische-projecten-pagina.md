@@ -4,9 +4,8 @@ date: 2021-08-26T07:10:00.001-07:00
 draft: false
 url: /2021/08/github-api-dynamische-projecten-pagina.html
 tags: 
-- website
-- javascript
 - webdesign
+- javascript
 - api
 - github
 ---

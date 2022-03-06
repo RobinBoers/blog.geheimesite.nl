@@ -4,17 +4,7 @@ date: 2021-08-20T11:34:00.002-07:00
 draft: false
 url: /2021/08/skylight-v004-beta-update.html
 tags: 
-- css
 - SkyLight
-- code
-- html5
-- coderen
-- css3
-- html
-- programma
-- w3.css
-- php
-- programmeren
 ---
 
 Ik heb twee weken geleden een update voor SkyLight gepubliceerd. In deze versie worden comments en RSS feeds toegevoegd en heb ik de UI van het admin panel herschreven. Daarnaast zouden logo's nu moeten werken in de standaard themes. Je kan de zoals altijd de update downloaden en installeren vanaf het About tab in je admin panel.

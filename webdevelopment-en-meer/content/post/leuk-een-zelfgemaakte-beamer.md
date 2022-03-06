@@ -4,7 +4,6 @@ date: 2020-03-02T06:13:00.002-08:00
 draft: false
 url: /2020/03/leuk-een-zelfgemaakte-beamer.html
 tags: 
-- cool
 - diy
 ---
 

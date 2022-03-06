@@ -4,7 +4,6 @@ date: 2020-06-21T03:23:00.000-07:00
 draft: false
 url: /2020/06/minecraft-pe-hacken-custom-capes.html
 tags: 
-- capes
 - minecraft
 - hacken
 ---

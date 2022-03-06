@@ -4,15 +4,8 @@ date: 2021-02-23T02:42:00.000-08:00
 draft: false
 url: /2021/02/mijn-eerste-goede-game.html
 tags: 
-- css
-- js
-- html5
+- webdesign
 - javascript
-- game
-- css3
-- games
-- html
-- gamedevelopment
 ---
 
 Ik heb de afgelopen weken erg hard gewerkt aan een game, en die is nu in een staat dat ik er tevreden mee ben. De game heet Sticks and Rocks en het is een 2d exploration game met een topdown camera. Dat betekent dat je het karakter van bovenaf ziet. Ook heeft de game random gegenereerd "destructible" terrein. Das eigenlijk gewoon een coole manier om te zeggen: je kan net als in het echt de wereld om je heen helemaal vernielen :)  

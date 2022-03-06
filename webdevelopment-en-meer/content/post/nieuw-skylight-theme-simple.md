@@ -5,8 +5,6 @@ draft: false
 url: /2021/09/nieuw-skylight-theme-simple.html
 tags: 
 - SkyLight
-- theme
-- themedevelopment
 ---
 
 Ik heb gister een nieuw default theme voor SkyLight gemaakt. SkyLight is mijn website bouwer. Het default theme was tot nu toe "Ugly Blue". Ugly Blue was een debugtheme om snel dingen te testen. Sinds de basis voor de editor nu af is vond ik het tijd de site die de bezoekers te zien krijgen een opfrissertje te geven.

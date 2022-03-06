@@ -5,17 +5,7 @@ draft: false
 url: /2021/01/dit-wil-ik-leren-in-2021.html
 tags: 
 - javascript
-- python
-- games
-- bash
-- react
-- LocalStorage
-- express
-- chatten
-- commandline
 - linux
-- socketio
-- multiplayer
 ---
 
 [![](https://1.bp.blogspot.com/-U2SAAPnhyb0/YA1LRpgPCaI/AAAAAAAAKE8/spplaDwmIdU23nLkGv9aDV54vNCGoUWaACLcBGAsYHQ/w200-h200/1%2BLjR0UrFB2a__5h1DWqzstA.png)](https://1.bp.blogspot.com/-U2SAAPnhyb0/YA1LRpgPCaI/AAAAAAAAKE8/spplaDwmIdU23nLkGv9aDV54vNCGoUWaACLcBGAsYHQ/s720/1%2BLjR0UrFB2a__5h1DWqzstA.png)

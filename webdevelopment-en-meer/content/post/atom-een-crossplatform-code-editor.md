@@ -4,10 +4,7 @@ date: 2021-02-19T11:07:00.000-08:00
 draft: false
 url: /2021/02/atom-een-crossplatform-code-editor.html
 tags: 
-- code
-- atom
-- code-editor
-- programmeren
+- tools
 ---
 
 Atom is een cross-platform code-editor gebouwd met Chromium en Node.js

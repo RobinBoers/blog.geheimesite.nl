@@ -5,10 +5,7 @@ draft: false
 url: /2020/02/zo-dualboot-je-een-ipad-123.html
 tags: 
 - ios
-- booting
-- ios9
 - jailbreak
-- hacken
-- ipad
 ---
 
+<https://www.youtube.com/watch?v=JBPA_u034-0>

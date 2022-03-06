@@ -4,18 +4,7 @@ date: 2020-11-06T08:18:00.006-08:00
 draft: false
 url: /2020/11/security-patch-v0021-beta-voor-skylight.html
 tags: 
-- css
-- coderen
-- html
-- webdevelopment
-- programmeren
-- js
-- code
-- webdesign
-- diy
-- w3.css
-- php
-- github
+- SkyLight
 ---
 
 [![](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/ra4e3GErKFM74JzORlXorxl-HxojIhDhwCPcBGAYYCw/w198-h104/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/ra4e3GErKFM74JzORlXorxl-HxojIhDhwCPcBGAYYCw/s1200/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)

@@ -4,16 +4,8 @@ date: 2021-03-06T01:41:00.003-08:00
 draft: false
 url: /2021/03/gamedevelopment-met-phaser-3.html
 tags: 
-- css
 - javascript
-- game
 - phaser
-- games
-- phaser3
-- html
-- gamedevelopment
-- webdevelopment
-- itch
 ---
 
 [![](https://1.bp.blogspot.com/-S92EtOLTpdQ/YENNylIZKvI/AAAAAAAAKkI/YcomGowVgRM3rvxgphYfO9fNbeoJbKpCQCLcBGAsYHQ/w200-h150/cover.png)](https://1.bp.blogspot.com/-S92EtOLTpdQ/YENNylIZKvI/AAAAAAAAKkI/YcomGowVgRM3rvxgphYfO9fNbeoJbKpCQCLcBGAsYHQ/s800/cover.png)

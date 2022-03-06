@@ -5,15 +5,7 @@ draft: false
 url: /2021/07/fallen-world-rpg-v21-grote-map-updates.html
 tags: 
 - datapacks
-- rescourcepacks
-- mc
-- game
-- rpg
-- gamedevelopment
 - minecraft
-- programmeren
-- commands
-- devlog
 ---
 
 Yo. In de vorige zomervakantie ben ik begonnen met Fallen World. Het plan was, en is, om een volledige Minecraft RPG te maken met alleen commands, datapacks en rescourcepacks.

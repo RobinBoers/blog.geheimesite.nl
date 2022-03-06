@@ -5,7 +5,6 @@ draft: false
 url: /2019/07/blogger-thema-theme-orange.html
 tags: 
 - blogger
-- themedevelopment
 ---
 
 Heyy, ik heb gister een nieuw blogger thema gemaakt. Het heet Theme Orange. Het is gemaakt voor sterrenkruid.nl. Het bevat een homepage, waarop kleine beschrijvingen van de blogposts staan, met een thumbnail. Er is een mooie zijbalk, en een grote footer. Ook staat er in de header een plaatje.  

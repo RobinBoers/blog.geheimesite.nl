@@ -4,19 +4,7 @@ date: 2020-05-27T12:30:00.001-07:00
 draft: false
 url: /2020/05/skylight-website-builder-v001-beta.html
 tags: 
-- css
-- coderen
-- html
-- webdevelopment
-- programmeren
-- scripten
-- js
-- code
-- webdesign
-- diy
-- w3.css
-- php
-- github
+- SkyLight
 ---
 
 Ik heb de laatste paar maanden hard gewerkt aan een nieuw project: een website bouwer. Ik heb al verschillende websitebouwers gemaakt, maar deze is anders. Ik heb de code nu ook ECHT netjes gemaakt, en gepubliceerd op GitHub. Verder heb ik dingen gemaakt als een theme interface, met een simpele API voor third-party developers. Ook heb ik betere code geschreven voor het aanmaken van pagina’s. 

@@ -4,13 +4,8 @@ date: 2019-11-26T07:08:00.002-08:00
 draft: false
 url: /2019/11/beginnen-met-python.html
 tags: 
-- code
-- coderen
 - python
 - brackets
-- cmd
-- programmeren
-- scripten
 ---
 
 [![](https://1.bp.blogspot.com/-EfXyKY9MH9M/Xd0_8wyq0uI/AAAAAAAABxE/WMFlvfNyEpkzIBvR2FqoQsmckApbsXDXgCLcBGAsYHQ/s320/python-logo%25402x.png)](https://1.bp.blogspot.com/-EfXyKY9MH9M/Xd0_8wyq0uI/AAAAAAAABxE/WMFlvfNyEpkzIBvR2FqoQsmckApbsXDXgCLcBGAsYHQ/s1600/python-logo%25402x.png)  

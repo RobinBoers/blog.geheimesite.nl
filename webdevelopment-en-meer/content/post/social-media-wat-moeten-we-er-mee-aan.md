@@ -4,14 +4,7 @@ date: 2021-12-05T10:09:00.003-08:00
 draft: false
 url: /2021/12/social-media-wat-moeten-we-er-mee-aan.html
 tags: 
-- social-media
-- snapchat
-- youtube
-- tiktok
-- google
 - social media
-- facebook
-- instagram
 ---
 
 Facebook, Google, Instagram, Snapchat, TikTok, YouTube. Wat zijn de overeenkomsten? Het zijn allemaal (onderdelen van) grote bedrijven. Ze zijn allemaal rijk groot geworden met computersoftware, en allemaal dankzij de groei van het internet. Maar vooral: ze hebben grote invloed op onze samenleving door middel van social media.

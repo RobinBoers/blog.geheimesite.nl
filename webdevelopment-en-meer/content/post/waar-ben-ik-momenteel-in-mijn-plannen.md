@@ -4,17 +4,8 @@ date: 2021-07-07T06:00:00.000-07:00
 draft: false
 url: /2021/07/waar-ben-ik-momenteel-in-mijn-plannen.html
 tags: 
-- threejs
-- chatten
-- commandline
-- nodejs
+- tools
 - javascript
-- python
-- backend
-- bash
-- react
-- LocalStorage
-- express
 ---
 
 In [deze blogpost](https://webdevelopment-en-meer.blogspot.com/2021/01/dit-wil-ik-leren-in-2021.html) praatte ik over mijn doelen voor dit jaar. We zitten nu op de helft van dit jaar, en het leek me een goed moment om te kijken waar ik momenteel sta.

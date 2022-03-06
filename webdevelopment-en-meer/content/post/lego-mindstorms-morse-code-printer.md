@@ -3,10 +3,7 @@ title: 'LEGO Mindstorms: Morse code Printer'
 date: 2019-08-13T01:45:00.004-07:00
 draft: false
 url: /2019/08/lego-mindstorms-morse-code-printer.html
-tags: 
-- mindstorms
-- printer
-- robot
+tags:
 - lego
 ---
 

@@ -4,9 +4,6 @@ date: 2021-01-10T12:24:00.000-08:00
 draft: false
 url: /2021/01/maak-een-inlogsysteem-met-database-in.html
 tags: 
-- youtube
-- inlogsysteem
-- webdevelopment
 - video
 - php
 ---

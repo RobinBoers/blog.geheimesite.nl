@@ -4,10 +4,7 @@ date: 2020-11-05T05:15:00.002-08:00
 draft: false
 url: /2020/11/ik-heb-een-kort-liedje-gemaakt-eranic.html
 tags: 
-- liedje
-- era
-- garageband
-- appleloops
+- music
 ---
 
 [![](https://1.bp.blogspot.com/-WmRUN4nPL30/X6P7a8XLYAI/AAAAAAAAJKQ/qfqSFtQ7aQ0e5sjy6eL8lvLYhDc9oy6wQCLcBGAsYHQ/w172-h172/iOS10-960x960_GarageBand-Icon_US-EN.png)](https://1.bp.blogspot.com/-WmRUN4nPL30/X6P7a8XLYAI/AAAAAAAAJKQ/qfqSFtQ7aQ0e5sjy6eL8lvLYhDc9oy6wQCLcBGAsYHQ/s960/iOS10-960x960_GarageBand-Icon_US-EN.png)

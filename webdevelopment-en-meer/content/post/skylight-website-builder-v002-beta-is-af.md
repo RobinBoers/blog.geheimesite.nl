@@ -4,18 +4,7 @@ date: 2020-06-21T03:52:00.002-07:00
 draft: false
 url: /2020/06/skylight-website-builder-v002-beta-is-af.html
 tags: 
-- css
-- coderen
-- html
-- webdevelopment
-- programmeren
-- js
-- code
-- webdesign
-- diy
-- w3.css
-- php
-- github
+- SkyLight
 ---
 
 Een tijdje geleden (ongeveer een maand) heb ik een blogje gepost over mijn website bouwer: SkyLight Website Builder. Ik had toen net de eerste beta versie (release) af, en nu (een maand later) heb ik de tweede beta versie af. Met deze versie heb ik veel dingen toegevoegd, zoals:

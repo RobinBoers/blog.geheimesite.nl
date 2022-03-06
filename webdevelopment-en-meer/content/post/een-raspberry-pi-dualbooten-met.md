@@ -4,13 +4,7 @@ date: 2020-05-27T12:04:00.001-07:00
 draft: false
 url: /2020/05/een-raspberry-pi-dualbooten-met.html
 tags: 
-- tech
-- booting
-- berryboot
-- multiboot
-- dualboot
-- rpi4
-- raspberry pi
+- rpi
 ---
 
 Met berryboot kan je een Raspberry Pi op een simpele manier dualbooten, of triplebooten of (hoe heet het als er 4 of 5 besturingssystemen op 1 systeem staan??)

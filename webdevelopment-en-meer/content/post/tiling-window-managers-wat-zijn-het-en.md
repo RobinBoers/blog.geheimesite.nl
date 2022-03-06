@@ -4,13 +4,7 @@ date: 2021-04-25T03:50:00.002-07:00
 draft: false
 url: /2021/04/tiling-window-managers-wat-zijn-het-en.html
 tags: 
-- widows
-- tiling
-- windowmanagers
 - linux
-- wm
-- twm
-- powertoys
 ---
 
 HAAAAALLLOOO! Hier ben ik weer. Vandaag ga ik jullie iets vertellen over tiling window managers.

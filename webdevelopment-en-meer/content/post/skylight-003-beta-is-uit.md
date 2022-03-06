@@ -3,6 +3,8 @@ title: 'SkyLight 0.03-beta is uit!'
 date: 2020-11-25T11:59:00.001-08:00
 draft: false
 url: /2020/11/skylight-003-beta-is-uit.html
+tags:
+- SkyLight
 ---
 
 Ik heb een tijdje geleden de 3rde grote update van SkyLight WB, mijn website bouwer, gepubliceerd. En het is een grote update. In deze update heb ik eindelijk het selectiescherm voor themes toegevoegd, en een online updater.

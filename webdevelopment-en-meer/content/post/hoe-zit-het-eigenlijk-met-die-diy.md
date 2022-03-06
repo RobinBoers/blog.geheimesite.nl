@@ -4,10 +4,7 @@ date: 2021-12-08T11:15:00.013-08:00
 draft: false
 url: /2021/12/hoe-zit-het-eigenlijk-met-die-diy.html
 tags: 
-- telefoon
 - diy
-- smartphone
-- besturingssysteem
 ---
 
 Een aantal maanden geleden heb ik heel enthousiast een post gepubliceerd over hoe ik een telefoon wilde maken. En ik wil nog steeds een telefoon maken. Maar mijn beeld van hoe moeilijk dat zal zijn is nu wel wat realistischer geworden. Want voor het bouwen van een telefoon heb je vrij veel kennis nodig ben ik nu achter.

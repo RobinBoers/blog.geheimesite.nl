@@ -3,13 +3,9 @@ title: 'js0.23-improved: Een verbeterde versie van classic.minecraft.net'
 date: 2021-01-27T04:53:00.001-08:00
 draft: false
 url: /2021/01/js023-improved-een-verbeterde-versie.html
-tags: 
-- js
+tags:
 - javascript
-- mc
-- electron
 - minecraft
-- classic
 ---
 
 [![](https://1.bp.blogspot.com/-0SoXwRgbr10/YA1hM_ym-pI/AAAAAAAAKFw/OaMwhSIuze82Q7oMDnYF34K8Tp2mhaTmQCLcBGAsYHQ/s0/icon.png)](https://1.bp.blogspot.com/-0SoXwRgbr10/YA1hM_ym-pI/AAAAAAAAKFw/OaMwhSIuze82Q7oMDnYF34K8Tp2mhaTmQCLcBGAsYHQ/s150/icon.png)
