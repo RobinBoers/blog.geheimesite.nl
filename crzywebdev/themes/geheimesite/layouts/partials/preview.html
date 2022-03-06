@@ -1,0 +1,43 @@
+<li class="feed__li h-entry">
+    <div class="feed__content"> 
+        <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
+
+        {{ partial "author" . }}
+    
+        {{ if in .Params.Categories "note" }}
+        <article class="md p-summary p-name e-content">
+            <div class="post mt-5">
+                {{ .Content }}
+            </div>
+            {{ else if in .Params.Categories "reply" }}
+            <article class="md p-summary e-content">
+            <h1 class="p-name reply-context">
+                {{ with .Params.Reply }}
+                <a class="u-in-reply-to h-cite" href="{{ . }}">{{ $.Title }}</a>
+                {{ else }}
+                {{ .Title }}
+                {{ end }}
+            </h1>
+            <div class="post mt-5">
+                {{ .Content }}
+            </div>
+            {{ else }}
+            <article class="md p-summary e-content">
+                <h1 class="p-name">
+                    <a class="no-underline hover:bg-vibrant" href="{{ .Permalink }}">
+                        {{ .Title }}
+                    </a>
+                </h1>
+                {{ .Summary | markdownify }}
+            {{ end }}
+                {{ $img := (.Resources.ByType "image").GetMatch "*" }}
+                {{ if .Truncated }}...
+                <div id="open">
+                <a href="{{ .Permalink }}" class="properties"><strong>[ read more ]</strong></a>
+                </div>
+                {{ end }}
+            </article>
+            {{ partial "properties" . }}
+        </div>
+    </div>
+  </li>

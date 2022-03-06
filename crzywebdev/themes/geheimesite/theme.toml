@@ -1,0 +1,18 @@
+name = "AquaSec"
+license = "MIT"
+licenselink = "https://github.com/RobinBoers/blog/blob/master/webdevelopment-en-meer/themes/geheimesite/LICENSE"
+description = "Simple neofeed-based theme for my blog."
+homepage = "https://blog.geheimesite.nl"
+tags = ["personal","timeline","feed","mobile","light","dark","dark mode","customizable","plausible"]
+features = ["timeline","neocities","custom css","rss","json"]
+min_version = "0.41"
+
+[author]
+  name = "Robin Boers"
+  homepage = "https://geheimesite.nl"
+
+# If porting an existing theme
+[original]
+  name = "Victoria Drake"
+  homepage = "https://victoria.dev/neofeed-theme"
+  repo = "https://github.com/victoriadrake/neofeed-theme"

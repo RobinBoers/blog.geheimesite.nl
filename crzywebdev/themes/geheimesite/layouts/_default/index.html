@@ -1,0 +1,18 @@
+{{ define "feed" }}
+<!-- home page -->
+<ul class="feed__ul h-feed">
+    {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ $paginator := .Paginate $pages }}
+    {{ range $paginator.Pages }}
+    {{ if .Content }}
+    {{ partial "preview" . }}
+    {{ end }}
+    {{ end }}
+</ul>
+{{ end }}
+
+{{ define "footer" }}
+<footer>
+    {{ partial "pagination" . }}
+</footer>
+{{ end }}
