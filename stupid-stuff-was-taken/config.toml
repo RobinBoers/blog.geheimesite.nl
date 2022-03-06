@@ -2,7 +2,7 @@ baseURL = "https://blog.geheimesite.nl/notes"
 languageCode = "en-us"
 title = "Stupid Codes"
 paginate = 16
-theme = "neofeed-theme"
+theme = "geheimesite"
 
 [taxonomies]
 tag = "tags"

@@ -3,7 +3,6 @@ title: 'Publish posts using Blogger API in PHP'
 date: 2021-08-09T10:41:00.034-07:00
 draft: false
 url: /2021/08/publish-posts-using-blogger-api-in-php.html
-categories: ["note"]
 tags: 
 - blogger
 - php

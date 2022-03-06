@@ -3,7 +3,6 @@ title: 'Alternative to Gala taskswitcher using Rofi'
 date: 2021-08-06T10:26:00.003-07:00
 draft: false
 url: /2021/08/alternative-to-gala-taskswitcher-using.html
-categories: ["note"]
 tags: 
 - linux
 - pantheon

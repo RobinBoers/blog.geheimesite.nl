@@ -3,7 +3,6 @@ title: 'Phoenix Framework doesn''t work on Arch Linux due to node-sass'
 date: 2021-08-05T11:05:00.001-07:00
 draft: false
 url: /2021/08/phoenix-framework-doesnt-work-on-arch.html
-categories: ["note"]
 tags: 
 - npm
 - phoenix-framework
