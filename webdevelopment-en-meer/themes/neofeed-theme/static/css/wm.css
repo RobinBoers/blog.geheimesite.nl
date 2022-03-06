@@ -2,10 +2,7 @@
     margin: var(--content-margin);
     font-size: 0.9rem;
     border-radius: calc(var(--border-radius)*2);
-    background-color: var(--accent);
-    color: var(--color-bg);
     padding: 0.25rem 0.5rem;
-    box-shadow: var(--shadow-shape) var(--color-shadow);
 }
 
 div#webmentions {

@@ -2,18 +2,17 @@ baseURL = "https://blog.geheimesite.nl/"
 languageCode = "nl-nl"
 title = "Webdevelopment-En-Meer"
 paginate = 16
-theme = "neofeed-theme"
-
-[taxonomies]
-tag = "tags"
+theme = "geheimesite"
 
 [author]
 name = "Robin Boers"
 image = "https://geheimesite.nl/images/me.jpeg"
 about = "Ik ben webdesigner, programmeur en nerd en ik woon in Maassluis. Ik ben 15 jaar oud en zit in de derde. Ik werk momenteel bij Qdentity."
 
+[taxonomies]
+  tag = "tags"
+
 [params]
-skin = "macintosh"
 
 # Totally optional cool stuff (see README for details)
 #
