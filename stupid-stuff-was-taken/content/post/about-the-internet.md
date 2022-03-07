@@ -1,7 +1,6 @@
 ---
-title: "About the Internet"
-date: 2022-02-13T16:17:38+01:00
-catagory: ["note"]
+date: 2022-03-07T19:12:19+01:00
+categories: ["note"]
 draft: false
 ---
 
