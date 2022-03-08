@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ if in .Params.Categories "note" }}
 <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
-    <article class="feed__li feed__content p-summary e-content">
+    <article class="feed__li feed__content h-entry">
         {{ partial "author" . }}
         {{ else if in .Params.Categories "reply" }}
         <article class="feed__li feed__content p-summary e-content"></article>
