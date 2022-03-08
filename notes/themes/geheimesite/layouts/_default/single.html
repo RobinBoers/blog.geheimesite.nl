@@ -4,7 +4,8 @@
     <article class="feed__li feed__content h-entry">
         {{ partial "author" . }}
         {{ else if in .Params.Categories "reply" }}
-        <article class="feed__li feed__content p-summary e-content"></article>
+        <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
+        <article class="feed__li feed__content h-entry"></article>
             {{ partial "author" . }}
             <h2 class="p-name reply-context">
             {{ with .Params.Reply }}
@@ -14,7 +15,7 @@
             {{ end }}
             </h2>
             {{ else }}
-            <article class="feed__li feed__content post mt-10">
+            <article class="feed__li feed__content h-entry post mt-10">
                 <div class="text-center my-7 max-w-xl mx-auto">
                     <time class="hidden dt-published">{{ .Date }}</time>
                 

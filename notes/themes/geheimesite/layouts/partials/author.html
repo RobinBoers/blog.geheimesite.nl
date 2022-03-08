@@ -16,6 +16,7 @@
                 {{ if isset .Params "date" }}
                 {{ .Date.Format (.Site.Params.dateFormat | default "02 January 2006") }}{{ end }}
             </p>
+        </div>
     </div>
     <div class="flex">
       {{ if in .Params.Categories "reply" }}
