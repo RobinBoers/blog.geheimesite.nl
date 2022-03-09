@@ -7,7 +7,7 @@ tags:
 - javascript
 ---
 
-Het afgelopen weekend heb ik een webapp gemaakt genaamd To-Boo. Het is een todo app die de issues van GitHub als todo lijstje gebruikt. De app maakt gebruik van dezelfde API die ik in mijn [vorige post](https://webdevelopment-en-meer.blogspot.com/2021/08/github-api-dynamische-projecten-pagina.html) beschreef. Verder is deze app niet in Javascript gemaakt maar, huh? Svelte?! Je ging toch React leren Robin?
+Het afgelopen weekend heb ik een webapp gemaakt genaamd To-Boo. Het is een todo app die de issues van GitHub als todo lijstje gebruikt. De app maakt gebruik van dezelfde API die ik in mijn [vorige post](https://blog.geheimesite.nl/2021/08/github-api-dynamische-projecten-pagina.html) beschreef. Verder is deze app niet in Javascript gemaakt maar, huh? Svelte?! Je ging toch React leren Robin?
 
   
 

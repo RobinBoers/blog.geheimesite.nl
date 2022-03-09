@@ -35,25 +35,18 @@ Je kan bijvoorbeeld:
 
 Er is een enorme community rondom jailbreaken die bestaat uit ervaren ontwikkelaars, hackers, YouTubers, en gebruikers die hun kennis uitwisselen op onder andere r/jailbreak.
 
-  
-
 Maar hoe werkt het?
 
 Dat hangt af van de iOS versie die je hebt. Voor elke iOS versie is een andere jailbreak. Na even googelen vind je vanzelf de goede jailbreak. Er zijn verschillende typen: tethered, untethered en semi-untethered. Bij tethered moet je je iDevice elke keer dat ie opnieuw opstart aan je computer verbinden, om opnieuw te jailbreaken. Bij semi-untethered moet dat ook, maar heb je een app op je apparaat, in plaats van dat je hem aan je computer hangt. Bij untethered download je 1 keer een app, of hang je hem 1 keer aan je computer, en blijft de jailbreak, ook al herstart je je apparaat.
-
-  
 
 Wil je meer over jailbreaken weten? Deze site is een mooie bron:
 
 [https://cydia-app.com/](https://cydia-app.com/)
 
-  
-
 Hier zie je al mijn blogjes over jailbreaken:
 
-[https://webdevelopment-en-meer.blogspot.com/search/label/jailbreak](https://webdevelopment-en-meer.blogspot.com/search/label/jailbreak)
+<https://blog.geheimesite.nl/tag/jailbreak>
 
-  
 
 Dit was het weer,
 

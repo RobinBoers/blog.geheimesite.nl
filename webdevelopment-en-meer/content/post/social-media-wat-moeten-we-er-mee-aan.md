@@ -9,7 +9,7 @@ tags:
 
 Facebook, Google, Instagram, Snapchat, TikTok, YouTube. Wat zijn de overeenkomsten? Het zijn allemaal (onderdelen van) grote bedrijven. Ze zijn allemaal rijk groot geworden met computersoftware, en allemaal dankzij de groei van het internet. Maar vooral: ze hebben grote invloed op onze samenleving door middel van social media.
 
-Tien jaar geleden dachten we nog dat het een zegen was. Nu lijkt het meer op een vloek. We weten allemaal hoe verslavend het is, hoe het verdeeldheid en een verdraaid wereldbeeld veroorzaakt, hoe onze privacy wordt geschaad en hoe je in rabbitholes kan verdwijnen. Toch zitten de meesten van ons alsnog de halve dag aan hun schermpje vastgelijmd.
+Tien jaar geleden dachten we nog dat het een zegen was. Nu lijkt het meer op een vloek. We weten allemaal hoe verslavend het is, hoe het verdeeldheid en een verdraaid wereldbeeld veroorzaakt, hoe onze privacy wordt geschaad en hoe je in rabbitholes kan verdwijnen[^1]. Toch zitten de meesten van ons alsnog de halve dag aan hun schermpje vastgelijmd.
 
 Dat is niet zomaar. Deze techbedrijven gebruiken allemaal psychologische trucs om ons zo lang mogelijk op hun app te houden. Dát is namelijk hoe ze geld verdienen. Als je niet voor het product betaalt, bén je het product. Ze verkopen onze data en laten ons naar ads kijken. Er zijn momenteel een aantal problemen, die ik hiervoor al kort noemde:
 
@@ -31,4 +31,4 @@ Dus, hoe kunnen we dit oplossen? We zouden als eerste stap social media onder de
 
 Het is natuurlijk niet erg dat bedrijven geld willen verdienen. Maar ik vind wel dat diezelfde bedrijven dan ook verantwoordelijkheid moeten nemen voor de effecten daarvan.
 
-Voor geïnteresseerden, een iet wat dramatische video over social media en de impact ervan op ons leven: [https://www.youtube.com/watch?v=FZvee3-PEzo](https://www.youtube.com/watch?v=FZvee3-PEzo)
+[^1]: Voor geïnteresseerden, een iet wat dramatische video over social media en de impact ervan op ons leven: [https://www.youtube.com/watch?v=FZvee3-PEzo](https://www.youtube.com/watch?v=FZvee3-PEzo)

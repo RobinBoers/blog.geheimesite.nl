@@ -8,15 +8,16 @@ tags:
 - webdesign
 ---
 
-  
-  
 Hallo, ik ben Robin. In deze tutorial laat ik zien hoe je een simpel inlogsysteem maakt in PHP.  
-Voor deze video moet je wel de basisvaardigheden van PHP en HTML onder de knie hebben. Wil je leren hoe je je eerste HTML website maakt?  
-Houd dan dit blog in de gaten, want binnenkort plaats ik een beginners handleiding HTML.  
+
+<https://www.youtube.com/watch?v=Nqw5XAYdeMc>
+
+Voor deze video moet je wel de basisvaardigheden van PHP en HTML onder de knie hebben. Wil je leren hoe je je eerste HTML website maakt? Houd dan dit blog in de gaten, want binnenkort plaats ik een beginners handleiding HTML.  
   
 Kijk voor de broncode van dit project op mijn GitHub profiel: [https://github.com/RobinBoers/Inlogsysteem\_PHP](https://github.com/RobinBoers/Inlogsysteem_PHP)  
   
 Hier heb je nog een lijstje handige tools bij webdevelopment en PHP:  
+
 \- **xampp**: [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html)  
 \- **brackets**: [http://brackets.io/](http://brackets.io/)  
 \- **visual studio code**: [https://code.visualstudio.com/](https://code.visualstudio.com/)  

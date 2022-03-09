@@ -21,3 +21,7 @@ Maybe people will tell me that to use my laptop for school and work is cheating.
 Conclusion? It was certainly an informative experience. I don't know if I would recommend it, but if you feel inspired I would encourage you to try it.
 
 <!--But what do you guys think of this challenge? Would you try it yourself or would you regret it? Leave a comment down below. I'd love to chat about these topics!-->
+
+[^1]: You might be wondering: what about Snapchat, Instagram, Facebook, Twitter and all the other junk? Well, I didn't have that garbage on my phone in the first place. Read more about [my opinion on social media here](https://blog.geheimesite.nl/2021/12/social-media-wat-moeten-we-er-mee-aan.html).
+
+[^2]: I have to add that I did use my phone once to turn on 2FA for my job because otherwise I couldn't access my account, but I only opened the authenticator app and turned off my phone immideately when I was done.

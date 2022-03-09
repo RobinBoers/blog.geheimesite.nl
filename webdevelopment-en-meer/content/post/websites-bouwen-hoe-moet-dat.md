@@ -13,99 +13,60 @@ ontwerpprogramma's en die onzin, gewoon met code. Maar dat is helemaal toch niet
   
 In deze tutorial bouw je je eerste website, daarvoor gebruiken we de talen HTML (HyperText Markup Language), CSS (Cascading StyleSheets) en een beetje JS (JavaScript). Ik ga het proberen makkelijk te houden, maar ik zal er ook blauwe vakken in zetten, daarin ga ik verder op in de code en theorie.  
   
-_Ik verwacht dat je Brackets al hebt gedownload, en bestandnaamextensies aan staan. Is dat niet het geval, bekijk daar dan mijn tutorials over. Je vind ze hier: [Een ontwikkelomgeving opzetten](https://webdevelopment-en-meer.blogspot.com/search/label/ontwikkelomgeving_opzetten)_  
+_Ik verwacht dat je Brackets al hebt gedownload, en bestandnaamextensies aan staan. Is dat niet het geval, bekijk daar dan mijn tutorials over. Je vind ze hier: [Een ontwikkelomgeving opzetten](https://blog.geheimesite.nl/search/label/ontwikkelomgeving_opzetten)_  
   
 **Laten we beginnen!**  
 Ik zal dit onderwerp over meerdere blogposten verspreiden, we gaan hier leren hoe we een simpele homepage, en over-mij pagina gaan maken.  
   
 Open Brackets, en typ het volgende:  
   
-```
-  
+```html
 <!DOCTYPE html>  
 <html>  
     <head>
-``````
- <title>Coole website!</title>  
+        <title>Coole website!</title>  
     </head>  
   
     <body>  
         <h1>Mijn eerste website!</h1>  
-  
     </body>  
 </html>
 ```  
+
 Sla dit bestand op als `index.html`, en navigeer naar het bestand.  
 Het bestand zou een chrome, firefox of IE/Edge logo moeten hebben:  
   
-
 [![](https://1.bp.blogspot.com/-00Ro7bVwLzk/XfSrhjOYRBI/AAAAAAAAB00/ORB72UgpruQsEPXSKNNI_mp7M8To5bm5gCLcBGAsYHQ/s1600/Untitled.png)](https://1.bp.blogspot.com/-00Ro7bVwLzk/XfSrhjOYRBI/AAAAAAAAB00/ORB72UgpruQsEPXSKNNI_mp7M8To5bm5gCLcBGAsYHQ/s1600/Untitled.png)
 
-  
-  
-  
-  
-  
-  
-  
 Open het bestan door er dubbel op te klikken, en je zou dit moeten zien:  
-  
 
 [![](https://1.bp.blogspot.com/-sOZz53EtcLE/XfSsG4i2V_I/AAAAAAAAB08/K9hzyVWBGbgMKrbBq3_Z-iJnDz7m8r4lQCLcBGAsYHQ/s640/Untitled.png)](https://1.bp.blogspot.com/-sOZz53EtcLE/XfSsG4i2V_I/AAAAAAAAB08/K9hzyVWBGbgMKrbBq3_Z-iJnDz7m8r4lQCLcBGAsYHQ/s1600/Untitled.png)
-
   
 Dit is het begin, maar hoe werkt die code nou?  
 Kort gezegd werkt het zo:  
   
-1\. De webpagina die je zojuist hebt gemaakt bestaat uit blokken met een duidelijk begin en einde, waarvan het einde is gemarkeerd met een /  
-2\. De blokken staan onder elkaar, maar kunnen ook in elkaar staan. Als blokken in elkaar staan, heet dat nesten.  
-3\. In geneste blokken kunnen ook blokken onder elkaar staan, neem bijvoorbeeld <head>:  
-Staat in <html> (genest), maar ook op <body> (gestapeld)  
-4\. De blokken heten **Elementen**  
-5\. De tekst die het begin en eind van een element weergeven heten **tags**. Zo is <head> een **begintag** en </head> een **eindtag**.  
+1. De webpagina die je zojuist hebt gemaakt bestaat uit blokken met een duidelijk begin en einde, waarvan het einde is gemarkeerd met een `/`
+2. De blokken staan onder elkaar, maar kunnen ook in elkaar staan. Als blokken in elkaar staan, heet dat nesten.  
+3. In geneste blokken kunnen ook blokken onder elkaar staan, neem bijvoorbeeld `<head>`:  
+Staat in `<html>` (genest), maar ook op `<body>` (gestapeld)  
+4. De blokken heten **Elementen**  
+5. De tekst die het begin en eind van een element weergeven heten **tags**. Zo is `<head>` een **begintag** en `</head>` een **eindtag**.  
   
 Hieronder zie je wat de elementen doen:  
-  
 
 [![](https://1.bp.blogspot.com/-ObuqAv61jBI/XfSwYGfNxcI/AAAAAAAAB1I/JHiqDjLUXW8XYpwcFPuSKVAS-Tl3sEjzACLcBGAsYHQ/s640/werking.png)](https://1.bp.blogspot.com/-ObuqAv61jBI/XfSwYGfNxcI/AAAAAAAAB1I/JHiqDjLUXW8XYpwcFPuSKVAS-Tl3sEjzACLcBGAsYHQ/s1600/werking.png)
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 Laten we de webapgina eens invullen met wat nuttige informatie!  
 Ik maak in dit voorbeeld een website, voor een zogenaamd bedrijf, dat websites maakt.  
 Opeen Brackets weer, en typ het volgende: (Voel je vrij om je eigen inhoud toe te voegen)  
-```
-  
+
+```html
 <!DOCTYPE html>  
-  
 <html>
-``````
-  
     <head>  
         <title>Robin Boers | Web Design</title>  
     </head>
-``````
-<body>  
+    <body>  
         <header>  
             <h1>Robin Boers | Web Design</h1>  
         </header>  
@@ -113,41 +74,30 @@ Opeen Brackets weer, en typ het volgende: (Voel je vrij om je eigen inhoud toe t
         <h2>Welkom op mijn website!</h2>  
   
         <p>Hallo, ik ben Robin Boers, ik ben bijna 13, en ik maak websites.<br> 
-``````
- Wil je ook een website? Neem dan contact met me op via: robin@geheimesite.nl</p>  
+           Wil je ook een website? Neem dan contact met me op via: robin@geheimesite.nl</p>  
   
     </body>  
-  
 </html>
 ```  
+
 Open het bestand weer, of (als je de webbrowser nog open hebt staan) klik op CTRL+R (dat staat voor refresh)  
 Dit zou het volgende resultaat moeten geven:  
   
-
 [![](https://1.bp.blogspot.com/-f1GsoTvPSgM/XfSywX42N8I/AAAAAAAAB1U/e7FflpAcwA4JH_e-oXKZmSnoJD-U3HihwCLcBGAsYHQ/s640/Untitled.png)](https://1.bp.blogspot.com/-f1GsoTvPSgM/XfSywX42N8I/AAAAAAAAB1U/e7FflpAcwA4JH_e-oXKZmSnoJD-U3HihwCLcBGAsYHQ/s1600/Untitled.png)
 
 Allemaal wel leuk en aardig, maar hoe werkt dit nou weer??  
 Geen nood, hieronder staat weer een uitleg, met wat alle elementen doen.  
   
-
 [![](https://1.bp.blogspot.com/-2l8ZR2rTimU/XfS3lfKqHGI/AAAAAAAAB1o/2sSaCUinlm8Fe8ZQs5idrs_f7-rrOb7WwCLcBGAsYHQ/s640/werking.png)](https://1.bp.blogspot.com/-2l8ZR2rTimU/XfS3lfKqHGI/AAAAAAAAB1o/2sSaCUinlm8Fe8ZQs5idrs_f7-rrOb7WwCLcBGAsYHQ/s1600/werking.png)
-
-  
 
 Gefeliciteerd! Je hebt zojuist een webpagina gemaakt, en ingevuld met informatie!
 
-  
-
 Wil je meer informatie over het bouwen van websites? Bekijk dan dit boek eens: [Coderdojo Nano - Bouw je eigen website](http://www.nano-tips.com/). Met dit boek heb ik de eerste versie van mijn website gemaakt. Ook is het nuttig om [w3schools.com](https://w3schools.com/) eens te raadplegen. Het is een enorme site, met veel informatie. Er zit alleen 1 nadeel aan: het is Engels...
-
-  
 
 Dit was het voor deze tutorial.
 
 Ik hoop dat je hem nuttig vond.
 
 Blijf creatief,
-
-  
 
 Robin

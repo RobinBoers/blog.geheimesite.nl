@@ -13,10 +13,8 @@ Hallo, ik ben Robin. Ik ben 13 jaar, en toen ik 10 was, maakte ik mijn eerste we
   
 Blijf creatief,  
 Robin  
-  
-  
 
-*   [Websites bouwen, hoe moet dat?](https://webdevelopment-en-meer.blogspot.com/2020/02/websites-bouwen-hoe-moet-dat.html)
-*   [Hyperlinks aan je website toevoegen](https://webdevelopment-en-meer.blogspot.com/2020/02/hyperlinks-aan-je-website-toevoegen.html)
+*   [Websites bouwen, hoe moet dat?](https://blog.geheimesite.nl/2020/02/websites-bouwen-hoe-moet-dat.html)
+*   [Hyperlinks aan je website toevoegen](https://blog.geheimesite.nl/2020/02/hyperlinks-aan-je-website-toevoegen.html)
 
-*   [Alle blogjes](https://webdevelopment-en-meer.blogspot.com/search/label/website-maken)
+*   [Alle blogjes](https://blog.geheimesite.nl/search/label/website-maken)

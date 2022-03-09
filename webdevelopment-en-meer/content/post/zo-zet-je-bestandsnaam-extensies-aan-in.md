@@ -8,12 +8,12 @@ tags:
 ---
 
 Als je programmeert heb je vaak bestandsnaam extensies nodig. Daaraan kun je zien wat voor type een bestand is, en het bestandstype wijzigen. Hieronder zie je hoe je bestandsnaam extensies aanzet.  
+
 Klik in de Windows Verkenner op "Beeld" en dan op "Bestandsnaam extensies"  
-  
 
 [![](https://1.bp.blogspot.com/-MTbba20crAI/Xd1MiSYGE3I/AAAAAAAAByc/RhnwYHx5TIYdgFs5QFIaAmv-Uj6jZ8LhACLcBGAsYHQ/s640/we.png)](https://1.bp.blogspot.com/-MTbba20crAI/Xd1MiSYGE3I/AAAAAAAAByc/RhnwYHx5TIYdgFs5QFIaAmv-Uj6jZ8LhACLcBGAsYHQ/s1600/we.png)
-
   
 Zo simpel is het,  
+
 Veel codeer plezier,  
 Robin

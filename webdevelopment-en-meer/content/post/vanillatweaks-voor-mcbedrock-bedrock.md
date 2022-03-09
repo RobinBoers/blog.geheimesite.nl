@@ -14,12 +14,8 @@ tags:
 
 Nu speel ik ook Bedrock, en ik miste het daar een beetje. Dus na wat zoeken (Google is mijn beste vriend) kwam ik erachter dat er iemand is, die vrijwel het HELE VanillaTweaks rescourcepack voor Bedrock Edition heeft nagemaakt. Hij heet DrAv0011 en is zowel Add-on designer als speedrunner als Technical Minecrafter. (Wat kan die gast niet?)
 
-  
-
 Als je intresse hebt in dit rescourcepack kun je het hier vinden:
 
-[https://sites.google.com/view/avsites/bedrock-tweaks?authuser=0](https://sites.google.com/view/avsites/bedrock-tweaks?authuser=0)
-
-  
+[https://sites.google.com/view/avsites/bedrock-tweaks](https://sites.google.com/view/avsites/bedrock-tweaks)
 
 \- Robin

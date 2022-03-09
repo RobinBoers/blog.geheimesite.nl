@@ -9,7 +9,7 @@ tags:
 
 Een aantal maanden geleden heb ik heel enthousiast een post gepubliceerd over hoe ik een telefoon wilde maken. En ik wil nog steeds een telefoon maken. Maar mijn beeld van hoe moeilijk dat zal zijn is nu wel wat realistischer geworden. Want voor het bouwen van een telefoon heb je vrij veel kennis nodig ben ik nu achter.
 
-Sommigen van jullie zullen misschien het [Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)[1](#1) kennen. Voor de lezers die het niet kennen: het betekent eigenlijk gewoon dat hoe meer je weet, hoe beter je je realiseert dat je vrij weinig weet (en hoeveel meer er dus te leren valt). De grafiek hieronder laat het mooi zien:
+Sommigen van jullie zullen misschien het [Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)[^1] kennen. Voor de lezers die het niet kennen: het betekent eigenlijk gewoon dat hoe meer je weet, hoe beter je je realiseert dat je vrij weinig weet (en hoeveel meer er dus te leren valt). De grafiek hieronder laat het mooi zien:
 
 [![](https://blogger.googleusercontent.com/img/a/AVvXsEiQtWButbc0kiJ1y-PpysnaOP2mK5rAEenoT3sOFOi8DKvLPNhR6OIH-IChr9HYNEsI-amz8jErYGMxQWH1e2o6v31xEZ9t47FzzRkoVLsFxEa0FSn72npI9JyK_puQTuPgcUyumXPJfwnGzc7-mjzhJDfHlJkAQ2y1MjD7XugCrhOpgvxnZCbbY-Cvzw=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiQtWButbc0kiJ1y-PpysnaOP2mK5rAEenoT3sOFOi8DKvLPNhR6OIH-IChr9HYNEsI-amz8jErYGMxQWH1e2o6v31xEZ9t47FzzRkoVLsFxEa0FSn72npI9JyK_puQTuPgcUyumXPJfwnGzc7-mjzhJDfHlJkAQ2y1MjD7XugCrhOpgvxnZCbbY-Cvzw=s800)
 
@@ -19,4 +19,4 @@ Ik heb nog steeds alle intenties om met dit project verder te gaan, maar in een 
 
 \- Robin
 
-1 Een mooi artikel over het Dunning-Kruger effect: [https://ardalis.com/the-more-you-know-the-more-you-realize-you-dont-know](https://ardalis.com/the-more-you-know-the-more-you-realize-you-dont-know/) [↩](#top1)
+[^1]: Een mooi artikel over het Dunning-Kruger effect: [https://ardalis.com/the-more-you-know-the-more-you-realize-you-dont-know](https://ardalis.com/the-more-you-know-the-more-you-realize-you-dont-know/)

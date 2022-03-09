@@ -13,10 +13,10 @@ ontwerpprogramma's en die onzin, gewoon met code. Maar dat is helemaal toch niet
   
 In deze tutorial bouw je je eerste website, daarvoor gebruiken we de talen HTML (HyperText Markup Language), CSS (Cascading StyleSheets) en een beetje JS (JavaScript). Ik ga het proberen makkelijk te houden, maar ik zal er ook blauwe vakken in zetten, daarin ga ik verder op in de code en theorie.  
   
-_Ik verwacht dat je Brackets al hebt gedownload, en bestandnaamextensies aan staan. Is dat niet het geval, bekijk daar dan mijn tutorials over. Je vind ze hier: [Een ontwikkelomgeving opzetten](https://webdevelopment-en-meer.blogspot.com/search/label/ontwikkelomgeving_opzetten)_  
+_Ik verwacht dat je Brackets al hebt gedownload, en bestandnaamextensies aan staan. Is dat niet het geval, bekijk daar dan mijn tutorials over. Je vind ze hier: [Een ontwikkelomgeving opzetten](https://blog.geheimesite.nl/search/label/ontwikkelomgeving_opzetten)_  
   
 **Hyperlinks**  
-In deel 1 van deze tutorial heb ik je laten zien hoe je de homepage van je website kan bouwen. (Heb je dat nog niet gedaan? Check dan eerst deze post uit: [Websites bouwen, hoe moet dat?](https://webdevelopment-en-meer.blogspot.com/2020/02/websites-bouwen-hoe-moet-dat.html)) Maar, een website bestaat niet uit 1 pagina. Ik wil ook nog een over-mij pagina, en een pagina waarop mijn projecten staan.  
+In deel 1 van deze tutorial heb ik je laten zien hoe je de homepage van je website kan bouwen. (Heb je dat nog niet gedaan? Check dan eerst deze post uit: [Websites bouwen, hoe moet dat?](https://blog.geheimesite.nl/2020/02/websites-bouwen-hoe-moet-dat.html)) Maar, een website bestaat niet uit 1 pagina. Ik wil ook nog een over-mij pagina, en een pagina waarop mijn projecten staan.  
 [![Afbeeldingsresultaat voor hyperlink"](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Hyperlink-Wikipedia.svg/1200px-Hyperlink-Wikipedia.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Hyperlink-Wikipedia.svg/1200px-Hyperlink-Wikipedia.svg.png)Dit is waar **hyperlinks** tevoorschijn komen.  
 Hyperlinks zijn die blauwe klikbare dingen, die je op websites ziet, die je van website naar website brengen. Hyperlinks zijn het hart van het internet. Zonder hyperlinks kun je er niks mee.  
   

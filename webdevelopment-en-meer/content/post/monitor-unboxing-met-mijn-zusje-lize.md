@@ -7,12 +7,6 @@ tags:
 - video
 ---
 
-  
-  
-Ik heb laatst een monitor besteld, en ik had besloten hem vandaag voor jullie te unboxen. Wat is een techkanaal namelijk zonder unboxings?  
-  
-Wil je meer van mijn projecten zien?  
-Neem eens een kijkje op mijn website:  
-[www.geheimesite.nl](http://www.geheimesite.nl/)  
-  
-En vergeet niet op die abonneer knop te klikken, zodat je nooit meer een nieuwe video mist.
+Ik heb laatst een monitor besteld, en ik had besloten hem vandaag voor jullie te unboxen. Wat is een techkanaal namelijk zonder unboxings?
+
+<https://www.youtube.com/watch?v=DbL1n7I5qb4>
