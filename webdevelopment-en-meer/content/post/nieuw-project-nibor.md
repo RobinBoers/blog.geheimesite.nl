@@ -12,7 +12,7 @@ Hoi, ik ben een tijdje geleden aan een nieuw project begonnen, en het is nu in d
 
 [![](https://code.geheimesite.nl/beta/nibor/logo.png)](https://code.geheimesite.nl/beta/nibor/logo.png)
 
-Nibor is een klein programma dat de [speech-recognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)[ API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) gebruikt. Je kunt hem simpele opdrachten geven, zoals:
+Nibor is een klein programma dat de [speech-recognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) gebruikt. Je kunt hem simpele opdrachten geven, zoals:
 
 *   Vertel een grap.
 *   Welke dag is het?
