@@ -1,11 +1,16 @@
 {{ define "main" }}
-{{ if in .Params.Categories "note" }}
-<div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
-    <article class="feed__li feed__content h-entry">
+<article class="feed__li feed__content h-entry post mt-10">
+    {{ if in .Params.Categories "note" }}
+    <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
         {{ partial "author" . }}
+        {{ with .Title }}
+        <p class="font-bold">{{ . }}</p>{{ end }}
+        <div class="post mt-2">
+            {{ .Content }}
+        </div>
+        {{ partial "properties" . }}
         {{ else if in .Params.Categories "reply" }}
         <div class="rounded-md p-6 bg-vibrant/20 dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto">
-        <article class="feed__li feed__content h-entry"></article>
             {{ partial "author" . }}
             <h2 class="p-name reply-context">
             {{ with .Params.Reply }}
@@ -14,35 +19,38 @@
             {{ .Title }}
             {{ end }}
             </h2>
+            <div class="post mt-2">
+                {{ .Content }}
+            </div>
             {{ else }}
-            <article class="feed__li feed__content h-entry post mt-10">
                 <div class="text-center my-7 max-w-xl mx-auto">
                     <time class="hidden dt-published">{{ .Date }}</time>
                 
-                    <h1 class="p-name mb-0 text-4xl">{{ .Title }}</h1>
+                    {{ with .Title }}
+                    <h1 class="p-name mb-0 text-4xl">{{ . }}</h1>{{ end }}
+
                     <p class="my-5 bold">
                         {{ if isset .Params "date" }}
                         {{ .Date.Format (.Site.Params.dateFormat | default "02 January 2006") }}{{ end }}
                     </p>
                 </div>
-                {{ end }}
                 <section class="p-summary e-content mt-2">
                     {{.Content }}
                 </section>
+                {{ end }}
                 <!-- Bridgy -->
                 <a class="hidden" href="https://brid.gy/publish/mastodon"></a>
                 <a class="hidden" href="https://brid.gy/publish/twitter"></a>
                 <a class="hidden" href="https://fed.brid.gy/"></a>
-                <data class="p-bridgy-omit-link" value="false"></data>
-
-                <section>
-                    <p>{{ partial "webmentions" . }}</p>
-                    <div id="webmentions"></div>
-                </section>
-            </article>
+                <data class="p-bridgy-omit-link" value="false"></data>                
             <!-- <div class="my-7 max-w-xl mx-auto" style="min-width: 960px;">
                 {{ partial "author" . }}
             </div> -->
-</div>
+    </div>
+    <section>
+        <p class="m-0">{{ partial "webmentions" . }}</p>
+        <div id="webmentions"></div>
+    </section>
+</article>
 <hr class="my-7 border-none">
 {{ end }}

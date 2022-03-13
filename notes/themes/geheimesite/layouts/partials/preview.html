@@ -6,8 +6,9 @@
     
         {{ if in .Params.Categories "note" }}
         <article class="md p-summary e-content">
-            <p class="font-bold">{{ .Title }}</p>
-            <div class="post mt-5">
+            {{ with .Title }}
+            <p class="font-bold">{{ . }}</p>{{ end }}
+            <div class="post mt-2">
                 {{ .Content }}
             </div>
             {{ else if in .Params.Categories "reply" }}
@@ -19,7 +20,7 @@
                 {{ .Title }}
                 {{ end }}
             </h1>
-            <div class="post mt-5">
+            <div class="post mt-2">
                 {{ .Content }}
             </div>
             {{ else }}
