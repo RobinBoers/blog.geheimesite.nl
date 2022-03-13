@@ -1,5 +1,6 @@
 ---
 date: 2022-03-13T15:39:06+01:00
+categories: ["note"]
 draft: false
 ---
 
