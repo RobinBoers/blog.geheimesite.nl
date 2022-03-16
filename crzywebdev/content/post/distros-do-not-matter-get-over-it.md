@@ -1,7 +1,7 @@
 ---
 title: "Distros DO NOT matter. Get over it."
 date: 2022-01-16T12:09:42+01:00
-draft: true
+draft: false
 ---
 
 I have been asked many times "what is the best distro for gamers" or "which linux distro should I pick". There is this huge misconception in people's minds that some Linux distros are better than others, that they have to pick the right one. The truth is, all distros are fundamentally the same. There is no such thing as 'the best Linux distro'.
