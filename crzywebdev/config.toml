@@ -28,7 +28,6 @@ pingbackUrl = "https://webmention.io/geheimesite.nl/xmlrpc"
 
 # For IndieAuth and the author card
 githubuser = "Robin Boers"
-microblog = "Robijntje"
 
 [permalinks]
 feed = "/:title/"
