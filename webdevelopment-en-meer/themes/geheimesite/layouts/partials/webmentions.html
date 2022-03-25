@@ -18,9 +18,25 @@
     </svg>
 </a>
 
+<span class="views">
+    ?? Views
+</span>
+
 {{ if .Site.IsServer }}
 <script src="{{ print .Site.BaseURL }}/js/webmention.js" data-page-url="{{ print .Site.Author.domain .RelPermalink }}" data-wordcount="100"
     async></script>
+
+<script defer>
+    fetch(`https://geheimesite.nl/api/views/get.php?url={{ .Permalink }}`)
+            .then(response => response.json())
+            .then(json => document.querySelector(".views").innerText = `${json.views + 1} Views`);
+
+    // Update viewcount
+    fetch(url, {
+        method: 'POST',
+        body: "url={{ .Permalink }}"
+    });
+</script>
 {{ else }}
 <script src="/js/webmention.min.js" data-wordcount="100" async></script>
 {{ end }}
