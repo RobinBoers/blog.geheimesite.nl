@@ -36,8 +36,5 @@
             .then(json => document.querySelector(".views").innerText = `${json.views + 1} views`);
 
     // Update viewcount
-    fetch("https://geheimesite.nl/api/views/new.php", {
-        method: 'POST',
-        body: "url={{(urlquery .Permalink) | safeURL}}"
-    });
+    fetch("https://geheimesite.nl/api/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
 </script>
