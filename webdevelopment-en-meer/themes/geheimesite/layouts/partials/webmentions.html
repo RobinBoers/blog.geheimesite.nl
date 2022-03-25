@@ -33,7 +33,7 @@
 <script defer>
     fetch("https://geheimesite.nl/api/views/get.php?url={{(urlquery .Permalink) | safeURL}}")
             .then(response => response.json())
-            .then(json => document.querySelector(".views").innerText = `${json.views + 1} views`);
+            .then(json => document.querySelector(".views").innerText = `${parseInt(json.views) + 1} views`);
 
     // Update viewcount
     fetch("https://geheimesite.nl/api/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
