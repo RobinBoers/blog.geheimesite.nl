@@ -18,8 +18,8 @@
     </svg>
 </a>
 
-<span class="views">
-    ?? Views
+<span class="ml-2 bold views">
+    ?? views
 </span>
 
 {{ if .Site.IsServer }}
@@ -31,13 +31,13 @@
 
 <!-- View count -->
 <script defer>
-    fetch(`https://geheimesite.nl/api/views/get.php?url={{ .Permalink }}`)
+    fetch("https://geheimesite.nl/api/views/get.php?url={{(urlquery .Permalink) | safeURL}}")
             .then(response => response.json())
-            .then(json => document.querySelector(".views").innerText = `${json.views + 1} Views`);
+            .then(json => document.querySelector(".views").innerText = `${json.views + 1} views`);
 
     // Update viewcount
-    fetch(url, {
+    fetch("https://geheimesite.nl/api/views/new.php", {
         method: 'POST',
-        body: "url={{ .Permalink }}"
+        body: "url={{(urlquery .Permalink) | safeURL}}"
     });
 </script>
