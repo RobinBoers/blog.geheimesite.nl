@@ -25,7 +25,11 @@
 {{ if .Site.IsServer }}
 <script src="{{ print .Site.BaseURL }}/js/webmention.js" data-page-url="{{ print .Site.Author.domain .RelPermalink }}" data-wordcount="100"
     async></script>
+{{ else }}
+<script src="/js/webmention.min.js" data-wordcount="100" async></script>
+{{ end }}
 
+<!-- View count -->
 <script defer>
     fetch(`https://geheimesite.nl/api/views/get.php?url={{ .Permalink }}`)
             .then(response => response.json())
@@ -37,6 +41,3 @@
         body: "url={{ .Permalink }}"
     });
 </script>
-{{ else }}
-<script src="/js/webmention.min.js" data-wordcount="100" async></script>
-{{ end }}
