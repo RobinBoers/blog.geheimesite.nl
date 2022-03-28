@@ -34,7 +34,12 @@
             .then(response => response.json())
             .then(json => document.querySelector(".views").innerText = `${parseInt(json.views) + 1} views`);
 
-    // Update viewcount
-    fetch("https://geheimesite.nl/api/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
+    let isCrawler = /bot|google|baidu|bing|msn|teoma|slurp|yandex/i
+        .test(navigator.userAgent)
+
+    if (!isCrawler) {
+        // Update viewcount
+        fetch("https://geheimesite.nl/api/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
+    }
 </script>
 {{ end }}
