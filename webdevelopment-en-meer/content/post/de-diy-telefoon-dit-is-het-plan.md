@@ -1,7 +1,7 @@
 ---
 title: "De DIY telefoon: dit is het plan."
 date: 2022-03-27T21:33:58+02:00
-draft: true
+draft: false
 tags: 
 - diy
 - rpi
