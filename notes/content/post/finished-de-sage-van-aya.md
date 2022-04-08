@@ -4,4 +4,4 @@ categories: ["note"]
 draft: false
 ---
 
-Just finished [De Sage van Aya: Regentes](https://www.boekscout.nl/shop2/boek.php?bid=12926). It's a great book, I can't wait for part two! 📚
+Just finished [De Sage van Aya: Regentes](https://micro.blog/books/9789464502893). It's a great book, I can't wait for part two! 📚
