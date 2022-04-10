@@ -18,7 +18,7 @@
                     <time class="hidden dt-published">{{ .Date }}</time>
                 
                     <h1 class="p-name mb-0 text-4xl">{{ .Title }}</h1>
-                    <p class="my-5 bold">
+                    <p class="my-5 bold text-black dark:text-white">
                         {{ if isset .Params "date" }}
                         {{ .Date.Format (.Site.Params.dateFormat | default "02 January 2006") }}{{ end }}
                     </p>
