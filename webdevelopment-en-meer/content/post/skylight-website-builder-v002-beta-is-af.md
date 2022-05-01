@@ -11,8 +11,6 @@ Een tijdje geleden (ongeveer een maand) heb ik een blogje gepost over mijn websi
 
 [![](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/d42MGv5_RwYE80enG-gnadWg80ANbbbkgCK4BGAsYHg/s320/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/d42MGv5_RwYE80enG-gnadWg80ANbbbkgCK4BGAsYHg/s1200/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)
 
-  
-
 *   Het importeren zelf gemaakte van thema's
 *   Een tweede standaard thema (beschikbaar op GitHub)
 *   Menu's
@@ -22,10 +20,6 @@ Een tijdje geleden (ongeveer een maand) heb ik een blogje gepost over mijn websi
 
 Je kan versie twee downloaden op mijn [GitHub profiel](https://github.com/RobinBoers). Wees je wel bewust dat het testversies zijn, en er dus nog bugs in zitten, en ze soms niet helemaal stabiel zijn.
 
-  
-
 Wil je meer van dit project weten? Neem eens een kijkje op mijn GitHub: [GitHub.com/RobinBoers](https://github.com/RobinBoers)
-
-  
 
 \- Robin

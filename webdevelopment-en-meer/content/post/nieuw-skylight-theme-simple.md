@@ -15,4 +15,4 @@ Het nieuwe theme is gebaseerd op een Blogger theme dat ik voor mijn tweede blog 
 
 Het nieuwe theme zal default zijn in de volgende SkyLight release. Je kan het ook alvast downloaden via de theme picker: [https://robinboers.github.io/SkyLight-themelibrary](https://robinboers.github.io/SkyLight-themelibrary)
 
- - Robin
+\- Robin

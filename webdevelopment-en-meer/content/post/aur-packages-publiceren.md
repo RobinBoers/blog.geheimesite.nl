@@ -25,28 +25,31 @@ Maak dan een SSH keypair aan. Met een SSH keypair kan je met een server verbinde
 
 Je kan dan via SSH een git repo clonen en daar je PKGBUILD in toevoegen. Dat kan je met het volgende command doen: (vervang package\_name natuurlijk met de naam van je package)  
 
+```bash
 git clone ssh://aur@aur.archlinux.org/_package\_name_.git
+```
 
 Je PKGBUILD is een bestand waarin precies staat hoe de software geinstalleerd moet worden. DistroTube heeft een hele goede video gemaakt in samenwerking met BigPod over hoe je zo'n PKGBUILD maakt. Zie die hieronder:  
 
-  
-  
-
 Je moet daarna een .SRCINFO bestand maken. Hier staat allemaal informatie over jouw package in. Je kan deze heel makkelijk genereren met het volgende command:
 
+```bash
 makepkg --printsrcinfo > .SRCINFO
+```
 
 Lees nu eerst de guidelines en kijk of je package daar aan voldoet. Je kan de guidelines voor de AUR hier vinden: [https://wiki.archlinux.org/title/AUR\_submission\_guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines) Als je al de nodige bestanden hebt toegevoegd en de guidelines hebt gelezen kan je je package publiceren met de volgende commands:
 
+```bash
 git add .
-
 git commit -m "initial commit"
-
 git push
+```
 
 Als het goed is zou je package nu gepubliceerd moeten worden. Anderen kunnen nu je package installeren met een AUR helper zoals yay of paru. Je kan bijvoorbeeld mijn game installeren met het volgende command:
 
+```bash
 yay -S cutie-tanks
+```
 
 Doei,
 

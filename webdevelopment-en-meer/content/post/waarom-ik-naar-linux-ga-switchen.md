@@ -19,7 +19,7 @@ Een andere reden is privacy. Linux trackt je niet. Linux verzamelt je data niet,
 
 Als je Linux download is het vanaf dat moment van jouw. Je hebt de rechten voor de software. Dat is omdat Linux open-source is. Je kan de software aanpassen en distribueren. In Windows mag dat niet. Microsoft is nog steeds eigenaar van de software, ook al draait het op **jouw** computer. Je mag Windows niet aanpassen, en je hebt geen volledige toegang tot je systeem.
 
-Een ander enorm pluspunt aan Linux zijn de package managers. In Windows moet je, als je een programma wil installeren, naar de website van de fabrikant, een installer downloaden en draaien. En dan hopen dat je niet de verkeerde link in Google had genomen, of op een advertentie had geklikt. 
+Een ander enorm pluspunt aan Linux zijn de package managers. In Windows moet je, als je een programma wil installeren, naar de website van de fabrikant, een installer downloaden en draaien. En dan hopen dat je niet de verkeerde link in Google had genomen, of op een advertentie had geklikt.
 
 In Linux is dat veel simpeler. Linux werkt namelijk met package managers. Dat zijn een soort programma's die automatisch de software voor jouw downloaden en installeren. Dit gaat met zogenaamde repo's. Repo's zijn collecties software samengesteld door de makers van je distro. De software in een officiële repo is meestal gecontroleerd en veilig. Het enige wat je als gebruiker dus nog hoeft te doen is de computer te vertellen wat je wil installeren. Als ik bijvoorbeeld Firefox wil installeren, hoe ik alleen maar mijn package manager (in dit geval **apt**) te vertellen wat ik wil installeren door dit in mn commandline te typen:
 

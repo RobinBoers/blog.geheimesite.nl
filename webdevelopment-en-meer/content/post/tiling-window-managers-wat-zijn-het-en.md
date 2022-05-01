@@ -21,7 +21,7 @@ Het voordeel hiervan is dat je altijd overzicht hebt. Je kan altijd je apps zien
 
 Misschien vraag je je af: wat als ik verschillende apps fullscreen wil hebben, maar toch tegelijk open moet hebben? Daarvoor gebruik je workspaces of virtual desktops. Dit is net alsof je meerdere monitoren hebt, maar dan met 1 scherm. Je kan van workspace switchen en zo toch meerdere dingen tegelijk doen, terwijl je het overzicht behoud.
 
-Als je een tiling window manager in linux wil gebruiken kan je deze gewoon downloaden vanuit de repos en dan vanaf je login scherm/display manager starten. 
+Als je een tiling window manager in linux wil gebruiken kan je deze gewoon downloaden vanuit de repos en dan vanaf je login scherm/display manager starten.
 
 In Windows kan je via WSL (Windows Subsystem for Linux) een tiling window manager starten, maar let erop dat je performance problemen kan krijgen omdat je hem binnen Windows draait. Voor Windows is er ook nog een ander alternatief: PowerToys. Daarin zit een tool waarover ik al eerder een blogje heb geschreven. Dit is ook psuedo-tiling, maar je kan in ieder geval je eigen layouts maken.
 

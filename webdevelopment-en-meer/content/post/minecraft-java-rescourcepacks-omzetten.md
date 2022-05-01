@@ -13,22 +13,14 @@ Zoals ik al eerder heb gepost ben ik samen met een vriend (Sean) een rescourcepa
 
 [https://ozelot379.github.io/ConvertJavaTextureToBedrock/](https://ozelot379.github.io/ConvertJavaTextureToBedrock/)
 
-  
-
-De app is grotendeels geschreven in Javascript, en ondersteund de volgende Minecraft versies: 
+De app is grotendeels geschreven in Javascript, en ondersteund de volgende Minecraft versies:
 
 MCPE 1.14 en MCJava 1.13 t/m 1.15
 
-  
-
 Je kunt blocks, items, entities, paintings, particles, map icons, mob effects en hotbar textures overzetten. Ook zijn er experimentele functies zoals: buttons, tabs, dialogs, crafting screen, inventory en recipebook
 
-Om de webapp te kunnen gebruiken heb je Chrome, Firefox of Safari nodig. 
-
-  
+Om de webapp te kunnen gebruiken heb je Chrome, Firefox of Safari nodig.
 
 Als je dit handig lijkt, neem eens een kijkje. Het is een heel mooi project, en ik hoop dat de maker het blijft updaten.
-
-  
 
 \- Robin

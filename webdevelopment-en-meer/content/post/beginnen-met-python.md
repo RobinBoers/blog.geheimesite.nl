@@ -9,6 +9,7 @@ tags:
 ---
 
 [![](https://1.bp.blogspot.com/-EfXyKY9MH9M/Xd0_8wyq0uI/AAAAAAAABxE/WMFlvfNyEpkzIBvR2FqoQsmckApbsXDXgCLcBGAsYHQ/s320/python-logo%25402x.png)](https://1.bp.blogspot.com/-EfXyKY9MH9M/Xd0_8wyq0uI/AAAAAAAABxE/WMFlvfNyEpkzIBvR2FqoQsmckApbsXDXgCLcBGAsYHQ/s1600/python-logo%25402x.png)  
+
 **Een tutorial over het installeren van Python, en het opzetten van een programmeeromgeving**  
 In mijn klas zitten een paar kinderen die willen leren hoe Python werkt. Daarom maak ik een tutorial over hoe je Python installeert, gebruikt, en activeert. Eerst vertel ik wat achtergrond informatie over Python.  
   

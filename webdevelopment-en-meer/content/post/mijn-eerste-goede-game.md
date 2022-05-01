@@ -10,7 +10,7 @@ tags:
 
 Ik heb de afgelopen weken erg hard gewerkt aan een game, en die is nu in een staat dat ik er tevreden mee ben. De game heet Sticks and Rocks en het is een 2d exploration game met een topdown camera. Dat betekent dat je het karakter van bovenaf ziet. Ook heeft de game random gegenereerd "destructible" terrein. Das eigenlijk gewoon een coole manier om te zeggen: je kan net als in het echt de wereld om je heen helemaal vernielen :)  
 
-De game is gemaakt met Javascript, HTML en CSS. Dat zijn de talen waarmee ik ook websites maak. Je vraagt je misschien af: hoe kan je met webdevelopment games maken? Vrij simpel. Voor de player movement en camera gebruik ik een set css regels. Daarmee verschuif ik de map op basis van de coords van de player met css achter de player langs. Verder gebruik ik JS als basis. Daarin is de gameloop geschreven en worden input, geluid en menu's geregeld. 
+De game is gemaakt met Javascript, HTML en CSS. Dat zijn de talen waarmee ik ook websites maak. Je vraagt je misschien af: hoe kan je met webdevelopment games maken? Vrij simpel. Voor de player movement en camera gebruik ik een set css regels. Daarmee verschuif ik de map op basis van de coords van de player met css achter de player langs. Verder gebruik ik JS als basis. Daarin is de gameloop geschreven en worden input, geluid en menu's geregeld.
 
 Als je hier meer over wil zien raad ik je aan naar de [singleplayer branch van NinjaDO](https://github.com/RobinBoers/NinjaDO/tree/singleplayer) (een andere game die ik heb gemaakt) te kijken. Dat is een heel simpele versie van NinjaDO waarin ik ook css, html en javascript gebruik.  
 
@@ -33,7 +33,5 @@ Dus dat is de staat van de game momenteel, en mijn plannen voor het spel. Je kan
 Laat dan gelijk even in de comments (hier of op itch.io) weten wat je er van vond.
 
 \- Robin
-
-  
 
 PS: voordat ik de vraag krijg waarom ik op itch.io de username Robijntje heb, dat mijn bijnaam die mijn vrienden met hebben gegeven. Ik gebruik die bijnaam wel op meer plekken (zoals reddit bijvoorbeeld)

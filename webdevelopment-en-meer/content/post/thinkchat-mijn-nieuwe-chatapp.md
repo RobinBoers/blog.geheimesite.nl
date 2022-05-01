@@ -21,4 +21,4 @@ Dus hoe werkt het? Als je de app opent moet je eerst verbinden met een server (a
 
 Je kan het project hier vinden: [https://chat.geheimesite.nl/](https://chat.geheimesite.nl/)
 
- - Robin
+\- Robin

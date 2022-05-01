@@ -19,7 +19,7 @@ Het idee is dat als de gebruiker op het 'Mijn Computer' icoontje op zijn bureaub
 
 Maak een bestand aan in brackets, met de volgende inhoud:  
   
-```
+```vsb
 X=MsgBox("Error while opening Computer. Do you want to Fix this Error?",4+64,"Computer")  
 X=MsgBox("Unable to Fix this Error. Do you want to scan this Computer",3+48,"Computer")  
 X=MsgBox("Alert ! Virus Detected. Delete Virus? ",3+16,"Alert!")  
@@ -62,7 +62,7 @@ Als het goed is zou je nu dit moeten zien:
 
 [![](https://1.bp.blogspot.com/-FwNDx-4eDus/XfOoDAaO0oI/AAAAAAAAB0o/7hqZsfZfhpQN4QIOptukLWHlAqL36HE_wCLcBGAsYHQ/s1600/Capture.PNG)](https://1.bp.blogspot.com/-FwNDx-4eDus/XfOoDAaO0oI/AAAAAAAAB0o/7hqZsfZfhpQN4QIOptukLWHlAqL36HE_wCLcBGAsYHQ/s1600/Capture.PNG)
 
-Goed gedaan! 
+Goed gedaan!
 
 Je hebt nu je tweede virus af!  
 

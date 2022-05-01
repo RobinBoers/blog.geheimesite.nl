@@ -17,10 +17,6 @@ Mijn zusje vond dat interresant en het inspireerde haar om haar eigen kanaal aan
 
 Ga zo door Lize!
 
-  
-
 \- Robin
-
-  
 
 Lize's kanaal: [https://www.youtube.com/channel/UCHd5tXYe31EQvtLF8rSniRw](https://www.youtube.com/channel/UCHd5tXYe31EQvtLF8rSniRw)

@@ -16,5 +16,4 @@ Robin
 
 *   [Websites bouwen, hoe moet dat?](https://blog.geheimesite.nl/2020/02/websites-bouwen-hoe-moet-dat.html)
 *   [Hyperlinks aan je website toevoegen](https://blog.geheimesite.nl/2020/02/hyperlinks-aan-je-website-toevoegen.html)
-
 *   [Alle blogjes](https://blog.geheimesite.nl/search/label/website-maken)

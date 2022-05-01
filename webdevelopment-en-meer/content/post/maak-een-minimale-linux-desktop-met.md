@@ -73,7 +73,7 @@ TEST, TEST, TEST!
   
 We kunnen het nu testen. Herstart je computer, en log opnieuw in. Als je een display manager hebt geinstalleerd, wordt openbox vanzelf geladen, ander typ je dit:  
 
-```bash 
+```bash
 startx
 ```
 

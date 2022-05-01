@@ -12,6 +12,7 @@ Hallo allemaal,
 Ik ben pas jarig geweest, en ik heb een oude iPad 2 gekregen, om te jailbreaken. Ik wilde dat al heel lang doen, en nu kan dat. In dit blogje ga ik jullie laten zien hoe ik dat doe.  
   
 ## Check of je apparaat ondersteund wordt
+
 Alleen 32 bit apparaten zijn ondersteund. Dit houd in:  
 
 *   iPhone 4
@@ -61,11 +62,11 @@ Als je de app probeert te openen, krijg je als het goed is zo'n soort error:
 
 [![](https://1.bp.blogspot.com/-rCsywp18UMY/XjsMVerSnnI/AAAAAAAAB3Y/jG_uX-u9li8fZgdhBFpDSmapUT9z8Z34QCLcBGAsYHQ/s320/Untitled.png)](https://1.bp.blogspot.com/-rCsywp18UMY/XjsMVerSnnI/AAAAAAAAB3Y/jG_uX-u9li8fZgdhBFpDSmapUT9z8Z34QCLcBGAsYHQ/s1600/Untitled.png)
 
-Om dit op te lossen, volg je deze tutorial: <https://testersupport.usertesting.com/hc/en-us/articles/115003712912-How-to-Trust-an-Unreleased-iOS-App> 
+Om dit op te lossen, volg je deze tutorial: <https://testersupport.usertesting.com/hc/en-us/articles/115003712912-How-to-Trust-an-Unreleased-iOS-App>
   
 Als het goed is kun je nu de app wel openen.  
   
-## Jailbreak je apparaat 
+## Jailbreak je apparaat
   
 Klik op de knop: "Prepare for jailbreak"  
   

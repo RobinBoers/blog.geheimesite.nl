@@ -22,20 +22,24 @@ Dus, wat gaan we precies doen? Stap 1 is het openen van de game. Ik leg hierbove
 
 Als je de game hebt geopend, moet je ergens op de pagina rechts klikken en op "Inspecteren" klikken. Je kan ook de sneltoets CTRL + SHIFT + I gebruiken.Je zou nu rechts of onder een vak moeten zien verschijnen met allemaal informatie. Dit is de HTML DOM code (Document Object Model), maar dat hebben we allemaal niet nodig. We hebben de Javascript console nodig, dus klikken we bovenaan op "Console". Je kan hier nu de volgende commando's typen:
 
+```javascript
 Runner.instance\_.gameOver = () => {console.log("Ik ben een vampier, ik ben onsterfelijk!")}
 
 Runner.instance\_.config.ACCELERATION = 100;  
+```
 
 De bovenstaande commando's doen het volgende:
 
 1.  Het eerste command overschrijft de functie die wordt afgespeelt als de dino dood gaat, en maakt er een praktisch lege functie van. Hierdoor kan de dino niet meer dood gaan.
 2.  Het 2e command stelt de snelheid van de dino in (of eigenlijk de versnelling). Ik heb hem hier op 100 gezet, maar ik denk dat je zo ver als het 32-bit integer limit kan (rond de 32K)
 
-Als het goed is vliegt de dino dus over het scherm en kan hij niet dood. Je wil nu nog wel je score kunnen opslaan. Dat doe je door dit command te typen: 
+Als het goed is vliegt de dino dus over het scherm en kan hij niet dood. Je wil nu nog wel je score kunnen opslaan. Dat doe je door dit command te typen:
 
+```javascript
 Runner.instance\_.saveHighScore(Runner.instance\_.distanceRan)
+```
 
-Hierdoor wordt de afstand die je momenteel gelopen hebt als highscore opgeslagen. Nu vraag je je af: Robin, kan ik niet ook zoiets als Runner.instance\_.saveHighScore(999999) doen?
+Hierdoor wordt de afstand die je momenteel gelopen hebt als highscore opgeslagen. Nu vraag je je af: Robin, kan ik niet ook zoiets als `Runner.instance\_.saveHighScore(999999)` doen?
 
 Jup, dat kan. "En waarom heb je dat dan niet gewoon gedaan?". Omdat dit veel cooler is natuurlijk!
 

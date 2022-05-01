@@ -17,7 +17,7 @@ Het is niet gevaarlijk, maar wel grappig.
 
 Wat ons virus gaat doen is een melding laten zien met de tekst: "Your computer has been hacked, press OK to accept!". Deze melding is niet weg te klikken, en heeft maar een knop: "OK"
 
-Voor deze tutorial, gebruiken we de taal VBScript.    
+Voor deze tutorial, gebruiken we de taal VBScript.
 Ik ga ervan uit dat je al een code-editor hebt, anders vind je [hier](https://blog.geheimesite.nl/2019/11/brackets-installeren.html) een tutorial over hoe je Brackets download. Ook ga ik ervan uit dat bestandsnaam extensies aanstaat, zo niet, kun je [hier](https://blog.geheimesite.nl/2019/11/zo-zet-je-bestandsnaam-extensies-aan-in.html) een tutorial vinden.  
   
 ## Stap 1: Script aanmaken
@@ -28,7 +28,7 @@ Open Brackets, en maak een nieuw bestand aan, geef het een leuke naam, maar zorg
 
 Nu is het zaak om het script te schrijven. Hieronder zie je de code, neem die over in Brackets, en sla het bestand op.  
 
-``` 
+```vsb
 do  
 x=msgbox("Your computer has been hacked, press OK to accept!",0+16,"Critical Message")  
 loop  
@@ -38,6 +38,7 @@ In dit script staat 0+16 voor het type melding (promt, ja/nee, cancel/Ok, OK) en
 De loop aan het einde zorgt ervoor dat de melding  box niet gesloten kan worden.  
   
 ## Stap 3: Testen
+
 Dubbel klik op het bestand om het te openen. Als het goed is zou je zoiets moeten zien:  
   
 [![](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzg/8xZo5Fampek22XHsF1CvyV6GQAg71gWhgCEwYBhgL/s640/popup.PNG)](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzg/8xZo5Fampek22XHsF1CvyV6GQAg71gWhgCEwYBhgL/s1600/popup.PNG)

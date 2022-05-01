@@ -14,7 +14,7 @@ Ik heb vandaag wat geëxperimenteerd met de [GitHub API](https://docs.github.com
 
 Als ik bijvoorbeeld data wil hebben over mijn eigen profiel, kan ik de GitHub API daarom vragen door een HTTP verzoek (request) naar deze URL te sturen:
 
-```
+```text
 https://api.github.com/users/RobinBoers
 ```
 

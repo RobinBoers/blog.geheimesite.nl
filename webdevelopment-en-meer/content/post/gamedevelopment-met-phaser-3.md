@@ -20,8 +20,7 @@ Als je de game start moet je op de start knop klikken om het player select scher
 
 [![](https://1.bp.blogspot.com/-kx-U0mcOlEs/YENNs1AHMvI/AAAAAAAAKkE/sUmqput6SykXXfkDQCwT4F6Mrti1M6NXACLcBGAsYHQ/w400-h200/forest.png)](https://1.bp.blogspot.com/-kx-U0mcOlEs/YENNs1AHMvI/AAAAAAAAKkE/sUmqput6SykXXfkDQCwT4F6Mrti1M6NXACLcBGAsYHQ/s1200/forest.png)  
   
-
-Het maken van een game in Phaser was erg leuk. Phaser is vrij makkelijk om te leren, en je kan er heel veel coole dingen mee doen. 
+Het maken van een game in Phaser was erg leuk. Phaser is vrij makkelijk om te leren, en je kan er heel veel coole dingen mee doen.
 
 Je kan de game proberen op [mijn itch.io profiel](https://robijntje.itch.io/cutie-tanks).
 

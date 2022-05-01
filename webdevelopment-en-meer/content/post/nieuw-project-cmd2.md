@@ -11,10 +11,6 @@ Ik heb een jaar geleden besloten het project niet meer up te daten, maar ik ben 
 
 [![](https://1.bp.blogspot.com/-JGniliS0aic/X8KkjU5nhrI/AAAAAAAAJYg/VvdxrdAkfyUIGhqqMgmImztBB08Nm06GACLcBGAsYHQ/s320/63257B07-1296-4840-A5BD-928A5CF502C3.png)](https://1.bp.blogspot.com/-JGniliS0aic/X8KkjU5nhrI/AAAAAAAAJYg/VvdxrdAkfyUIGhqqMgmImztBB08Nm06GACLcBGAsYHQ/s1920/63257B07-1296-4840-A5BD-928A5CF502C3.png)
 
-  
-
-  
-
 De nieuwe versie is te vinden op mijn beta domein: code.geheimesite.nl
 
 \- Robin
