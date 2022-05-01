@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head" . -}}
+<body>
+    {{- partial "header" . -}}
+    {{- block "main" . }}
+    <main aria-role="main">
+        {{- block "feed" . }}{{- end }}
+        {{- block "footer" . }}
+        {{- end }}
+    </main>
+    {{- end }}
+    {{- partial "footer" . -}}
+</body>
+</html>
