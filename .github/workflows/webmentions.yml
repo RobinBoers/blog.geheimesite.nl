@@ -1,4 +1,4 @@
-name: Send Webmentions
+name: Send webmentions
 
 on:
   workflow_run:
