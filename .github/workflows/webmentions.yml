@@ -5,36 +5,30 @@ on:
     workflows: [pages-build-deployment]
     types: [completed]
 
-jobs:
-  # send-nl:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.commits[0].message, '#nl') }}
-  #   steps:
+jobs:        
+  send-nl:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
     
-  #   - name: Send webmentions (dutch blog)
-  #     env:
-  #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       URL: "https://blog.geheimesite.nl/index.json"
-  #     run: |
-  #       NEW=$(curl --silent $URL | jq -r first.uri)
-  #       curl -X POST https://webmention.app/check?url="$NEW"
+    - name: Send webmentions (dutch blog)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        URL: "https://blog.geheimesite.nl/index.json"
+      run: |
+        NEW=$(curl --silent $URL | jq -r first.uri)
+
+        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- webdevelopment-en-meer/content || curl -X POST https://webmention.app/check?url="$NEW"
           
-  # send-en:
-  #   runs-on: ubuntu-latest
-  #   if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.commits[0].message, '#en') }}
-  #   steps:
+  send-en:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
     
-  #   - name: Send webmentions (english blog)
-  #     env:
-  #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       URL: "https://blog.geheimesite.nl/en/index.json"
-  #     run: |
-  #       NEW=$(curl --silent $URL | jq -r first.uri)
-  #       curl -X POST https://webmention.app/check?url="$NEW"
-  log-github-event-goodies:
-      name: "LOG Everything on GitHub Event"
-      runs-on: ubuntu-latest
-      steps:
-        - name: Logging
-          run: |
-            echo "${{toJSON(github.event)}}"
+    - name: Send webmentions (english blog)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        URL: "https://blog.geheimesite.nl/en/index.json"
+      run: |
+        NEW=$(curl --silent $URL | jq -r first.uri)
+        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- crzywebdev/content || curl -X POST https://webmention.app/check?url="$NEW"
