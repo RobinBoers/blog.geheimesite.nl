@@ -1,6 +1,6 @@
 ---
 title: "Going IndieWeb"
-date: 2022-05-03T13:06:11+02:00
+date: 2022-05-03T13:06:12+02:00
 draft: false
 ---
 
