@@ -8,7 +8,7 @@ on:
 jobs:
   send-nl:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.head_commit.message, '#nl') }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.commits[0].message, '#nl') }}
     steps:
     
     - name: Send webmentions (dutch blog)
@@ -21,7 +21,7 @@ jobs:
           
   send-en:
     runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.head_commit.message, '#en') }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.commits[0].message, '#en') }}
     steps:
     
     - name: Send webmentions (english blog)
