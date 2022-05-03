@@ -1,0 +1,33 @@
+name: Send Webmentions
+
+on:
+  workflow_run:
+    workflows: ["Build and deploy to GitHub pages"]
+    types: [completed]
+
+jobs:
+  send-nl:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.head_commit.message, '#nl') }}
+    steps:
+    
+    - name: Send Webmentions (dutch blog)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          URL: "https://blog.geheimesite.nl/index.json
+        run: |
+          NEW=$(curl --silent $URL | jq -r first.uri)
+          curl -X POST https://webmention.app/check?url="$NEW"
+          
+  send-en:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.head_commit.message, '#en') }}
+    steps:
+    
+    - name: Send Webmentions (english blog)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          URL: "https://blog.geheimesite.nl/en/index.json
+        run: |
+          NEW=$(curl --silent $URL | jq -r first.uri)
+          curl -X POST https://webmention.app/check?url="$NEW"
