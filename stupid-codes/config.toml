@@ -4,30 +4,23 @@ title = "Stupid Codes"
 paginate = 16
 theme = "geheimesite"
 
-[taxonomies]
-tag = "tags"
-
 [author]
 name = "Robin Boers"
 image = "https://geheimesite.nl/images/me.jpeg"
-about = "Ik ben webdesigner, programmeur en nerd en ik woon in Maassluis. Ik ben 15 jaar oud en zit in de derde. Ik werk momenteel bij Qdentity."
+about = "I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity."
+githubuser = "RobinBoers"
 
-# Totally optional cool stuff (see README for details)
-#
-# socialImage = "static/img/social.png" # site image for rich embeds
-# customCSS = "css/style.css" # relative to ./static/
-# plausible = true
-# paymentPointer = "$wallet.provider.com/myspecialid123"
+[params]
 webmentionUrl = "https://webmention.io/geheimesite.nl/webmention"
 pingbackUrl = "https://webmention.io/geheimesite.nl/xmlrpc"
-# micropubUrl = "https://example.com/.netlify/functions/micropub"
-# microsubUrl = "https://aperture.p3k.io/microsub/example"
-
-# For IndieAuth and the author card
-githubuser = "Robin Boers"
+micropubUrl = "https://micro.geheimesite.nl/endpoint"
+microsubUrl = "https://aperture.p3k.io/microsub/733"
 
 [permalinks]
 feed = "/:title/"
 
 [outputs]
-  home = ["HTML", "JSON", "RSS"]
+home = ["HTML", "JSON", "RSS"]
+
+[taxonomies]
+tag = "tags"

@@ -27,9 +27,7 @@
     <!-- IndieAuth -->
     <link rel="authorization_endpoint" href="https://indieauth.com/auth">
     <link rel="token_endpoint" href="https://tokens.indieauth.com/token"> {{ with .Site.Params.githubuser }}
-    <link rel="me" href="https://github.com/{{ . }}" />{{ end }} {{ with .Site.Params.twitteruser }}
-    <link rel="me" href="https://twitter.com/{{ . }}" />{{ end }} {{ with .Site.Params.mastodon }}
-    <link rel="me" href="{{ . }}" />{{ end }}
+    <link rel="me" href="https://github.com/{{ . }}" />{{ end }}
 
     <!-- Webmention -->
     {{ with .Site.Params.webmentionUrl }}
