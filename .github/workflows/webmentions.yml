@@ -19,10 +19,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         URL: "https://blog.geheimesite.nl/index.json"
+        TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
       run: |
         NEW=$(curl --silent $URL | jq -r first.uri)
 
-        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- webdevelopment-en-meer/content || curl -X POST https://webmention.app/check?url="$NEW"
+        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- webdevelopment-en-meer/content || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)" 
           
   send-en:
     name: English blog
@@ -37,6 +38,6 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         URL: "https://blog.geheimesite.nl/en/index.json"
+        TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
       run: |
-        NEW=$(curl --silent $URL | jq -r first.uri)
-        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- crzywebdev/content || curl -X POST https://webmention.app/check?url="$NEW"
+        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- crzywebdev/content || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)"
