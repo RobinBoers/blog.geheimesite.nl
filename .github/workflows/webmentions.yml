@@ -2,11 +2,11 @@ name: Send Webmentions
 
 on:
   workflow_run:
-    workflows: ["Build and deploy to GitHub pages"]
+    workflows: ["Build and deploy"]
     types: [completed]
 
 jobs:
-  send-nl:
+  nl:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.head_commit.message, '#nl') }}
     steps:
@@ -19,7 +19,7 @@ jobs:
         NEW=$(curl --silent $URL | jq -r first.uri)
         curl -X POST https://webmention.app/check?url="$NEW"
           
-  send-en:
+  en:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' && contains(github.event.head_commit.message, '#en') }}
     steps:

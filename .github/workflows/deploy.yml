@@ -1,10 +1,9 @@
-name: Build and deploy to GitHub pages
+name: Build and deploy
 
 on:
   push:
     branches:
       - master
-  pull_request:
 
 jobs:
   deploy:
