@@ -7,11 +7,15 @@ on:
 
 jobs:        
   send-nl:
+    name: Dutch blog
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-    
-    - name: Send webmentions (dutch blog)
+    - name: Checkout
+      uses: actions/checkout@v2.4.2
+      with:
+        ref: 'master'
+    - name: Send webmentions
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         URL: "https://blog.geheimesite.nl/index.json"
@@ -21,11 +25,15 @@ jobs:
         git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- webdevelopment-en-meer/content || curl -X POST https://webmention.app/check?url="$NEW"
           
   send-en:
+    name: English blog
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-    
-    - name: Send webmentions (english blog)
+    - name: Checkout
+      uses: actions/checkout@v2.4.2
+      with:
+        ref: 'master'
+    - name: Send webmentions
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         URL: "https://blog.geheimesite.nl/en/index.json"
