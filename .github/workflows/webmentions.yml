@@ -12,12 +12,12 @@ jobs:
     steps:
     
     - name: Send Webmentions (dutch blog)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          URL: "https://blog.geheimesite.nl/index.json
-        run: |
-          NEW=$(curl --silent $URL | jq -r first.uri)
-          curl -X POST https://webmention.app/check?url="$NEW"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        URL: "https://blog.geheimesite.nl/index.json"
+      run: |
+        NEW=$(curl --silent $URL | jq -r first.uri)
+        curl -X POST https://webmention.app/check?url="$NEW"
           
   send-en:
     runs-on: ubuntu-latest
@@ -25,9 +25,9 @@ jobs:
     steps:
     
     - name: Send Webmentions (english blog)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          URL: "https://blog.geheimesite.nl/en/index.json
-        run: |
-          NEW=$(curl --silent $URL | jq -r first.uri)
-          curl -X POST https://webmention.app/check?url="$NEW"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        URL: "https://blog.geheimesite.nl/en/index.json"
+      run: |
+        NEW=$(curl --silent $URL | jq -r first.uri)
+        curl -X POST https://webmention.app/check?url="$NEW"
