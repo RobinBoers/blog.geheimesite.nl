@@ -36,7 +36,7 @@ Als je dingen naar je eigen site post is dit probleem er niet. Met een eigen dom
 
 Hoe vaak ben je niet op een website gekomen die ongeveer zo in elkaar zat: logo en menu bovenin, grote slogan en dan een felgekleurde knop waar ze willen dat je op klikt.
 
-![Examples of the basic layout with CTA. It's overused to say the least.](basic-cta-webdesign-examples.jpg)
+![Examples of the basic layout with CTA. It's overused to say the least.](/images/basic-cta-webdesign-examples.jpg)
 
 _Voorbeelden van deze layout. Het is overused._
 
