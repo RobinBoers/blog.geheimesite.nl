@@ -1,6 +1,6 @@
 ---
 title: "Red het internet, bouw je eigen website."
-date: 2022-05-28T11:04:56+02:00
+date: 2022-05-30T17:27:56+02:00
 draft: false
 tags:
     - open-source
