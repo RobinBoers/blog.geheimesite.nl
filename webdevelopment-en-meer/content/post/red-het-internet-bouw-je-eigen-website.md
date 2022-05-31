@@ -52,8 +52,8 @@ Dit soort initiatieven zorgen ervoor dat het internet een betere plek wordt. In 
 
 Het probleem dat ik vooral heb met de huidige staat van het internet is dat het een totale rotzooi is, maar voor veel van ons is het wel een groot deel van onze identiteit. Er is een gebrek aan regulering. Internetbedrijven worden niet voldoende verantwoordelijk gesteld voor de schade die zij aanrichten aan onze samenleving. Ik heb al eerder posts geschreven over dit onderwerp:
 
--   [[Het belang van open standaarden]]
--   [[Social media, wat moeten we er mee aan?]]
+-   [Het belang van open standaarden](/post/belang-van-open-standaarden/)
+-   [Social media, wat moeten we er mee aan?](/2021/12/social-media-wat-moeten-we-er-mee-aan.html)
 
 Maar er is ook iets wat wij als consumenten kunnen doen. Zeg nee tegen deze platformen. Red het internet en bouw je eigen website.
 
