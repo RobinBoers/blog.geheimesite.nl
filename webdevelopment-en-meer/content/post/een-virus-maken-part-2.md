@@ -33,7 +33,7 @@ X=MsgBox("Your Computer is Hacked",0+64,"Alert")
 X=MsgBox("LOL+LOL=HIHI dit was een Prank",0+64,"Gepranked!")  
 ```
 
-[![](https://1.bp.blogspot.com/-DlH62zZmkSs/XfOlAMHOwXI/AAAAAAAAB0M/IdSxM9rhqtM7Ff_fywLJSJFw0BRm2GQfQCLcBGAsYHQ/s1600/Capture.PNG)](https://1.bp.blogspot.com/-DlH62zZmkSs/XfOlAMHOwXI/AAAAAAAAB0M/IdSxM9rhqtM7Ff_fywLJSJFw0BRm2GQfQCLcBGAsYHQ/s1600/Capture.PNG)  
+![Het bestand op mijn bureaublad](https://1.bp.blogspot.com/-DlH62zZmkSs/XfOlAMHOwXI/AAAAAAAAB0M/IdSxM9rhqtM7Ff_fywLJSJFw0BRm2GQfQCLcBGAsYHQ/s1600/Capture.PNG)
 
 Sla het op als _mijn computer.vbs_  
   
@@ -50,17 +50,17 @@ Verander de naam terug indien nodig.
 Klik met de rechtermuisknop op de snelkoppeling, en klik op "Eigenschappen"  
 Je zou dit venster moeten zien:  
 
-[![](https://1.bp.blogspot.com/-l2BpaMl3UUw/XfOmrwyS7iI/AAAAAAAAB0c/nv7acTReOIgvIypYMWOOhoOz1Wu0rWmSQCEwYBhgL/s640/Capture.PNG)](https://1.bp.blogspot.com/-l2BpaMl3UUw/XfOmrwyS7iI/AAAAAAAAB0c/nv7acTReOIgvIypYMWOOhoOz1Wu0rWmSQCEwYBhgL/s1600/Capture.PNG)  
+[![De eigenschappen van "Mijn Computer.vbs"](https://1.bp.blogspot.com/-l2BpaMl3UUw/XfOmrwyS7iI/AAAAAAAAB0c/nv7acTReOIgvIypYMWOOhoOz1Wu0rWmSQCEwYBhgL/s640/Capture.PNG)](https://1.bp.blogspot.com/-l2BpaMl3UUw/XfOmrwyS7iI/AAAAAAAAB0c/nv7acTReOIgvIypYMWOOhoOz1Wu0rWmSQCEwYBhgL/s1600/Capture.PNG)  
 
 Klik op "Change Icon..."  
   
-[![](https://1.bp.blogspot.com/-ZYaZTJf2Q-8/XfOnWiW3VjI/AAAAAAAAB0g/gKJFpL-PenI_A8DBgvx6yYLU_2nhfnenACLcBGAsYHQ/s640/Capture.PNG)](https://1.bp.blogspot.com/-ZYaZTJf2Q-8/XfOnWiW3VjI/AAAAAAAAB0g/gKJFpL-PenI_A8DBgvx6yYLU_2nhfnenACLcBGAsYHQ/s1600/Capture.PNG)
+[![Change icon knop](https://1.bp.blogspot.com/-ZYaZTJf2Q-8/XfOnWiW3VjI/AAAAAAAAB0g/gKJFpL-PenI_A8DBgvx6yYLU_2nhfnenACLcBGAsYHQ/s640/Capture.PNG)](https://1.bp.blogspot.com/-ZYaZTJf2Q-8/XfOnWiW3VjI/AAAAAAAAB0g/gKJFpL-PenI_A8DBgvx6yYLU_2nhfnenACLcBGAsYHQ/s1600/Capture.PNG)
 
 Kies het icoontje met de computer, en klik op OK, en dan op APPLY en OK.
 
 Als het goed is zou je nu dit moeten zien:
 
-[![](https://1.bp.blogspot.com/-FwNDx-4eDus/XfOoDAaO0oI/AAAAAAAAB0o/7hqZsfZfhpQN4QIOptukLWHlAqL36HE_wCLcBGAsYHQ/s1600/Capture.PNG)](https://1.bp.blogspot.com/-FwNDx-4eDus/XfOoDAaO0oI/AAAAAAAAB0o/7hqZsfZfhpQN4QIOptukLWHlAqL36HE_wCLcBGAsYHQ/s1600/Capture.PNG)
+[![Dit is beter: een shiny, en best realistisch nieuw icon](https://1.bp.blogspot.com/-FwNDx-4eDus/XfOoDAaO0oI/AAAAAAAAB0o/7hqZsfZfhpQN4QIOptukLWHlAqL36HE_wCLcBGAsYHQ/s1600/Capture.PNG)](https://1.bp.blogspot.com/-FwNDx-4eDus/XfOoDAaO0oI/AAAAAAAAB0o/7hqZsfZfhpQN4QIOptukLWHlAqL36HE_wCLcBGAsYHQ/s1600/Capture.PNG)
 
 Goed gedaan!
 

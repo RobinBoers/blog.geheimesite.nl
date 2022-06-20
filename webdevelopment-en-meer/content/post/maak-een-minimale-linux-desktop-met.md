@@ -13,7 +13,7 @@ Vandaag ga ik laten zien hoe je een minimale Linux desktop kan opzetten met alle
   
 Dus wat is het voordeel over het gebruiken van een standaard Desktop Environment (zoals GNOME of xfce4)? Je kan alle opties zelf kiezen, en je snapt dus hoe alles werkt. Ook installeer je alleen maar wat je ECHT nodig hebt. Hierdoor is je systeem een stuk sneller dan normaal.
 
-[![](https://1.bp.blogspot.com/-yGuA4fJJ4RA/X-DN7oIJfMI/AAAAAAAAJo8/tZu9fH3SM9EnbRN-Fq5Y3tA5387aG5drQCLcBGAsYHQ/s320/1200px-Tux.svg.png)](https://1.bp.blogspot.com/-yGuA4fJJ4RA/X-DN7oIJfMI/AAAAAAAAJo8/tZu9fH3SM9EnbRN-Fq5Y3tA5387aG5drQCLcBGAsYHQ/s1421/1200px-Tux.svg.png)
+![Linux tux](https://1.bp.blogspot.com/-yGuA4fJJ4RA/X-DN7oIJfMI/AAAAAAAAJo8/tZu9fH3SM9EnbRN-Fq5Y3tA5387aG5drQCLcBGAsYHQ/s320/1200px-Tux.svg.png)
 
 Dit zou moeten werken op alle linux distro's die op Debian gebaseerd zijn, Ubuntu en alles wat op Ubuntu gebaseerd is.  
   
@@ -33,13 +33,11 @@ Je kan als je dat wil ook een login manager, ookwel display manager installeren.
 sudo apt install lightdm  
 ```
 
-[![](https://1.bp.blogspot.com/-RI67gqvll-Y/X-DONGv_B1I/AAAAAAAAJpE/PzO3WZE748gn4BUUnqPQxeo8OnH4JGwowCLcBGAsYHQ/w640-h480/greybird-gtk31.png)](https://1.bp.blogspot.com/-RI67gqvll-Y/X-DONGv_B1I/AAAAAAAAJpE/PzO3WZE748gn4BUUnqPQxeo8OnH4JGwowCLcBGAsYHQ/s640/greybird-gtk31.png)
-
-_Lightdm login / display manager_
+{{< figure src="https://1.bp.blogspot.com/-RI67gqvll-Y/X-DONGv_B1I/AAAAAAAAJpE/PzO3WZE748gn4BUUnqPQxeo8OnH4JGwowCLcBGAsYHQ/s640/greybird-gtk31.png" alt="Het inlogscherm van lightdm" caption="Lightdm login / display manager" >}}
 
 ## Basis tools installeren
 
-[![](https://1.bp.blogspot.com/-Hs3uK8L5Npw/X-DOjr938OI/AAAAAAAAJpM/y6IrNa1akDo9JZsS3K5uvU9RYIp4hVLQQCLcBGAsYHQ/w200-h200/1200px-Geany_logo.svg.png)](https://1.bp.blogspot.com/-Hs3uK8L5Npw/X-DOjr938OI/AAAAAAAAJpM/y6IrNa1akDo9JZsS3K5uvU9RYIp4hVLQQCLcBGAsYHQ/s1200/1200px-Geany_logo.svg.png)
+![Geany icon](https://1.bp.blogspot.com/-Hs3uK8L5Npw/X-DOjr938OI/AAAAAAAAJpM/y6IrNa1akDo9JZsS3K5uvU9RYIp4hVLQQCLcBGAsYHQ/w200-h200/1200px-Geany_logo.svg.png)
 
 Je hebt natuurlijk een terminal emulator, een browser en een grafische tekst editor nodig om überhaupt een bruikbare desktop te hebben. Dus die gaan we installeren.  
   
@@ -65,9 +63,7 @@ sudo apt install firefox
 
 ## TESTEN en UI
 
-[![](https://1.bp.blogspot.com/-T6kWwFSyXlQ/X-DPF-9XYHI/AAAAAAAAJpU/cYzEmtBL0dQCSnuyBOhj9O74nqoqZ-AJwCLcBGAsYHQ/w144-h200/rclLP.png)](https://1.bp.blogspot.com/-T6kWwFSyXlQ/X-DPF-9XYHI/AAAAAAAAJpU/cYzEmtBL0dQCSnuyBOhj9O74nqoqZ-AJwCLcBGAsYHQ/s457/rclLP.png)
-
-_Openbox menu_
+{{< figure src="https://1.bp.blogspot.com/-T6kWwFSyXlQ/X-DPF-9XYHI/AAAAAAAAJpU/cYzEmtBL0dQCSnuyBOhj9O74nqoqZ-AJwCLcBGAsYHQ/s457/rclLP.png" alt="Een screenshot van een desktop met een blauwe wallpaper en het openbox menu open" caption="Openbox menu" >}}
 
 TEST, TEST, TEST!  
   
@@ -95,11 +91,9 @@ Je kan plank zo installeren:
 sudo apt install plank  
 ```
 
-Als je nu plank & intypt kan je plank starten. Als je instellingen wil veranderen kan je met rechts op de dock klikken terwijl je CTRL indrukt. Kies daarna Preferences, en je zou een venstertje met instellingen moeten zien.
+Als je nu `plank &` intypt kan je plank starten. Als je instellingen wil veranderen kan je met rechts op de dock klikken terwijl je {{< kbd CTRL >}} indrukt. Kies daarna Preferences, en je zou een venstertje met instellingen moeten zien.
 
-[![](https://1.bp.blogspot.com/-bBOgNrnI0KM/X-DPxHxL8uI/AAAAAAAAJpc/dJoJmu04ofA73I05I6ZIeIOJ7L_sFcZGACLcBGAsYHQ/w640-h274/plank-featured-new.jpg)](https://1.bp.blogspot.com/-bBOgNrnI0KM/X-DPxHxL8uI/AAAAAAAAJpc/dJoJmu04ofA73I05I6ZIeIOJ7L_sFcZGACLcBGAsYHQ/s800/plank-featured-new.jpg)
-
-_Plank dock_
+{{< figure src="https://1.bp.blogspot.com/-bBOgNrnI0KM/X-DPxHxL8uI/AAAAAAAAJpc/dJoJmu04ofA73I05I6ZIeIOJ7L_sFcZGACLcBGAsYHQ/s800/plank-featured-new.jpg" alt="Een screenshot van de planck dock met een oranje wallpaper" caption="Plank dock" >}}
 
 Het rechtklik menu van openbox is nu ook nog niet echt handig. Het zou veel fijner zijn als je je eigen favoriete apps in het menu kon zetten. Nou, dat kan! Open de terminal, en typ:
 
@@ -109,9 +103,7 @@ obmenu
 
 Als het goed is zou je nu een grafische interface moeten hebben om het menu mee aan te passen.
 
-[![](https://1.bp.blogspot.com/-qbrCT_-6inE/X-DQF5cAYmI/AAAAAAAAJpk/DDZEUV_YFcMaaMseWCdBLSiapRAslpOnwCLcBGAsYHQ/s320/add_item.png)](https://1.bp.blogspot.com/-qbrCT_-6inE/X-DQF5cAYmI/AAAAAAAAJpk/DDZEUV_YFcMaaMseWCdBLSiapRAslpOnwCLcBGAsYHQ/s526/add_item.png)
-
-_Obmenu_
+{{< figure src="https://1.bp.blogspot.com/-qbrCT_-6inE/X-DQF5cAYmI/AAAAAAAAJpk/DDZEUV_YFcMaaMseWCdBLSiapRAslpOnwCLcBGAsYHQ/s526/add_item.png" class="max-w-text" alt="Een screenshot van de instellingen van Obmenu" caption="Obmenu" >}}
 
 We hebben ook een compositer nodig. Dat is een programma dat transparatie en schaduwen regelt. Goede compositers zijn bijvoorbeeld picom of xcompmgr. Ik gebruikt graag xcompmgr. Je installeert het zo:  
   
@@ -122,18 +114,22 @@ sudo apt install xcompmgr
 ## Autostart
 
 We willen natuurlijk wel dat onze dock en de achtergrond automatisch worden opgestart als je openbox start. Om dit te doen moet je een terminal opstarten, en hetvolgende typen:  
-  
+
+```bash
 cd .config  
 mkdir openbox  
 sudo nano autostart.sh  
+```
   
 Als het goed is zou [Nano](https://en.wikipedia.org/wiki/GNU_nano) moeten starten. Typ het volgende:  
-  
+
+```bash
 xcompmgr &  
 nitrogen --restore &  
 plank &  
+```
   
-Klik nu op CTRL+X om uit Nano te gaan, klik op y om te saven, en klik op ENTER om goed te keuren. Je kan nu herstarten om te kijken of het werkt.
+Klik nu op {{< kbd CTRL >}} + {{< kbd x >}} om uit Nano te gaan, klik op y om te saven, en klik op ENTER om goed te keuren. Je kan nu herstarten om te kijken of het werkt.
 
 ## Themes
 
@@ -145,9 +141,7 @@ sudo apt install lxappearance lxappearance-obconf
 
 Je kan `lxappearance` starten door in de terminal `lxappearance` te typen. Je kan `lxappearance` nu sluiten, want we gaan eerst wat leuke themes installeren. Ik vind Arc-Dark een mooi openbox theme. Je kan het downloaden vanaf GitHub. Dit is de repo: <https://github.com/dglava/arc-openbox>. Je download gewoon het _arc-dark.obt_ bestand, en dat importeer je met `lxappearance` (onder Window Border)
 
-[![](https://1.bp.blogspot.com/-hyf1pqkwZJw/X-DQa4mFA6I/AAAAAAAAJps/W--aCuhEEf47K6Rh_Yxay1nrJjmLSDR4gCLcBGAsYHQ/w400-h319/lxappearance2_misc.jpg)](https://1.bp.blogspot.com/-hyf1pqkwZJw/X-DQa4mFA6I/AAAAAAAAJps/W--aCuhEEf47K6Rh_Yxay1nrJjmLSDR4gCLcBGAsYHQ/s583/lxappearance2_misc.jpg)
-
-_lxappearance (met obconf addon)_
+{{< figure src="https://1.bp.blogspot.com/-hyf1pqkwZJw/X-DQa4mFA6I/AAAAAAAAJps/W--aCuhEEf47K6Rh_Yxay1nrJjmLSDR4gCLcBGAsYHQ/s583/lxappearance2_misc.jpg" alt="Een screenshot van lxappearance met de obconf addon op het 'Window Border' tab." class="max-w-text" caption="lxappearance (met obconf addon)" >}}
 
 Nu we een mooier Openbox theme hebben, is het tijd voor een icon theme. Ik vind het Papirus icon theme erg mooi, dus installeer ik dat:
 
@@ -157,7 +151,7 @@ sudo apt-get update
 sudo apt-get install papirus-icon-theme
 ```
 
-[![](https://1.bp.blogspot.com/-OPXSZGmp7wQ/X-DQrOhqPUI/AAAAAAAAJp0/fJTEc5naT_InbpWMFlANcvoiGhN-TTupwCLcBGAsYHQ/w640-h440/preview.png)](https://1.bp.blogspot.com/-OPXSZGmp7wQ/X-DQrOhqPUI/AAAAAAAAJp0/fJTEc5naT_InbpWMFlANcvoiGhN-TTupwCLcBGAsYHQ/s640/preview.png)
+{{< figure src="https://1.bp.blogspot.com/-OPXSZGmp7wQ/X-DQrOhqPUI/AAAAAAAAJp0/fJTEc5naT_InbpWMFlANcvoiGhN-TTupwCLcBGAsYHQ/s640/preview.png" alt="Een preview van het Papirus icon theme" >}}
 
 Je kan dit theme nu selecteren in `lxappearance` onder Icons. We missen nog 1 ding: een gtk theme. Ik houd erg van het standaard Adwaita-Dark theme. Het zou als het goed is al geinstalleerd moeten zijn.
 

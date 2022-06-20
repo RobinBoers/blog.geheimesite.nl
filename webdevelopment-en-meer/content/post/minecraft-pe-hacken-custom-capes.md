@@ -10,7 +10,7 @@ tags:
 
 Bij Minecon LIVE 2019 is als promotie van de nieuwe Character Creator een cape beschikbaar gesteld in de Minecraft PE marketplace. Dit is natuurlijk heel cool, maar wat nou als je je eigen cape wil?
 
-[![](https://1.bp.blogspot.com/-UsP72SthiDk/Xu802zKaAiI/AAAAAAAAHoI/iG1CTOBPTc8St9yfytV8g5HhkmbbIoCBACK4BGAsYHg/s320/body.png)](https://1.bp.blogspot.com/-UsP72SthiDk/Xu802zKaAiI/AAAAAAAAHoI/iG1CTOBPTc8St9yfytV8g5HhkmbbIoCBACK4BGAsYHg/s560/body.png)
+![Minecraft cape](https://1.bp.blogspot.com/-UsP72SthiDk/Xu802zKaAiI/AAAAAAAAHoI/iG1CTOBPTc8St9yfytV8g5HhkmbbIoCBACK4BGAsYHg/s320/body.png)
 
 Minecraft laat normaal 4D skinpacks, en skinpacks met capes niet toe als je ze importeert. Maar het standaard skinpack in minecraft (die met steve en alex) zit geen controle op. Het eerste wat je moet doen is de oude skinkiezer terughalen. Je kan er niet meer bij via de minecraft menu's, maar hij is nog aanwezig. Door [dit rescourcepack](https://mcpedl.com/skins-ui-changer/) te downloaden en importeren, krijg je er een extra knopje bij, waarmee je de oude UI terugkrijgt.
 

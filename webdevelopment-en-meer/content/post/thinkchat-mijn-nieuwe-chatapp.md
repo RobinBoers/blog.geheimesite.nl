@@ -9,7 +9,7 @@ tags:
 - github
 ---
 
-[![](https://1.bp.blogspot.com/-lYM1ULJfRBY/YBKkqsR0ViI/AAAAAAAAKG8/-5BkmMPy370YMEDcTvGUVvnzEHaF1P9ZACLcBGAsYHQ/w200-h200/icon.png)](https://1.bp.blogspot.com/-lYM1ULJfRBY/YBKkqsR0ViI/AAAAAAAAKG8/-5BkmMPy370YMEDcTvGUVvnzEHaF1P9ZACLcBGAsYHQ/s720/icon.png)
+![ThinkChat logo](https://1.bp.blogspot.com/-lYM1ULJfRBY/YBKkqsR0ViI/AAAAAAAAKG8/-5BkmMPy370YMEDcTvGUVvnzEHaF1P9ZACLcBGAsYHQ/w200-h200/icon.png)
 
 Ik heb de laatste paar dagen erg hard gewerkt aan een nieuw project: ThinkChat
 

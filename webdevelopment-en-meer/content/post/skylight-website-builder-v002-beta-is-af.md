@@ -9,7 +9,7 @@ tags:
 
 Een tijdje geleden (ongeveer een maand) heb ik een blogje gepost over mijn website bouwer: SkyLight Website Builder. Ik had toen net de eerste beta versie (release) af, en nu (een maand later) heb ik de tweede beta versie af. Met deze versie heb ik veel dingen toegevoegd, zoals:
 
-[![](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/d42MGv5_RwYE80enG-gnadWg80ANbbbkgCK4BGAsYHg/s320/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/d42MGv5_RwYE80enG-gnadWg80ANbbbkgCK4BGAsYHg/s1200/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)
+![GitHub logo](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiU/d42MGv5_RwYE80enG-gnadWg80ANbbbkgCK4BGAsYHg/s320/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)
 
 *   Het importeren zelf gemaakte van thema's
 *   Een tweede standaard thema (beschikbaar op GitHub)

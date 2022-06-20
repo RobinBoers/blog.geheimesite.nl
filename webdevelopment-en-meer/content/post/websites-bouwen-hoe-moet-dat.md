@@ -7,7 +7,10 @@ tags:
 - webdesign
 ---
 
-[![](https://1.bp.blogspot.com/-8BVsGTCTpJA/XfSzOqIHv3I/AAAAAAAAB1c/onYrjjqMvvAr-hi77NCpvBJzAi2JzCUNgCLcBGAsYHQ/s200/Untitled.png)](https://1.bp.blogspot.com/-8BVsGTCTpJA/XfSzOqIHv3I/AAAAAAAAB1c/onYrjjqMvvAr-hi77NCpvBJzAi2JzCUNgCLcBGAsYHQ/s1600/Untitled.png)**Een tutorial over het bouwen van je eerste website**  
+![HTML icon](https://1.bp.blogspot.com/-8BVsGTCTpJA/XfSzOqIHv3I/AAAAAAAAB1c/onYrjjqMvvAr-hi77NCpvBJzAi2JzCUNgCLcBGAsYHQ/s200/Untitled.png)
+
+**Een tutorial over het bouwen van je eerste website**  
+
 Veel mensen vinden het knap als je zegt dat je een website hebt gemaakt, zonder  
 ontwerpprogramma's en die onzin, gewoon met code. Maar dat is helemaal toch niet zo lastig?  
   
@@ -36,11 +39,11 @@ Open Brackets, en typ het volgende:
 Sla dit bestand op als `index.html`, en navigeer naar het bestand.  
 Het bestand zou een chrome, firefox of IE/Edge logo moeten hebben:  
   
-[![](https://1.bp.blogspot.com/-00Ro7bVwLzk/XfSrhjOYRBI/AAAAAAAAB00/ORB72UgpruQsEPXSKNNI_mp7M8To5bm5gCLcBGAsYHQ/s1600/Untitled.png)](https://1.bp.blogspot.com/-00Ro7bVwLzk/XfSrhjOYRBI/AAAAAAAAB00/ORB72UgpruQsEPXSKNNI_mp7M8To5bm5gCLcBGAsYHQ/s1600/Untitled.png)
+![Bestanden met verschillende browsericoontjes op mijn bureaublad](https://1.bp.blogspot.com/-00Ro7bVwLzk/XfSrhjOYRBI/AAAAAAAAB00/ORB72UgpruQsEPXSKNNI_mp7M8To5bm5gCLcBGAsYHQ/s1600/Untitled.png)
 
-Open het bestan door er dubbel op te klikken, en je zou dit moeten zien:  
+Open het bestand door er dubbel op te klikken, en je zou dit moeten zien:  
 
-[![](https://1.bp.blogspot.com/-sOZz53EtcLE/XfSsG4i2V_I/AAAAAAAAB08/K9hzyVWBGbgMKrbBq3_Z-iJnDz7m8r4lQCLcBGAsYHQ/s640/Untitled.png)](https://1.bp.blogspot.com/-sOZz53EtcLE/XfSsG4i2V_I/AAAAAAAAB08/K9hzyVWBGbgMKrbBq3_Z-iJnDz7m8r4lQCLcBGAsYHQ/s1600/Untitled.png)
+{{< figure src="https://1.bp.blogspot.com/-sOZz53EtcLE/XfSsG4i2V_I/AAAAAAAAB08/K9hzyVWBGbgMKrbBq3_Z-iJnDz7m8r4lQCLcBGAsYHQ/s1600/Untitled.png" alt="Je eerste website!" >}}
   
 Dit is het begin, maar hoe werkt die code nou?  
 Kort gezegd werkt het zo:  
@@ -54,7 +57,7 @@ Staat in `<html>` (genest), maar ook op `<body>` (gestapeld)
   
 Hieronder zie je wat de elementen doen:  
 
-[![](https://1.bp.blogspot.com/-ObuqAv61jBI/XfSwYGfNxcI/AAAAAAAAB1I/JHiqDjLUXW8XYpwcFPuSKVAS-Tl3sEjzACLcBGAsYHQ/s640/werking.png)](https://1.bp.blogspot.com/-ObuqAv61jBI/XfSwYGfNxcI/AAAAAAAAB1I/JHiqDjLUXW8XYpwcFPuSKVAS-Tl3sEjzACLcBGAsYHQ/s1600/werking.png)
+{{< figure src="https://1.bp.blogspot.com/-ObuqAv61jBI/XfSwYGfNxcI/AAAAAAAAB1I/JHiqDjLUXW8XYpwcFPuSKVAS-Tl3sEjzACLcBGAsYHQ/s1600/werking.png" alt="De werking van de elementen" >}}
 
 Laten we de webapgina eens invullen met wat nuttige informatie!  
 Ik maak in dit voorbeeld een website, voor een zogenaamd bedrijf, dat websites maakt.  
@@ -80,15 +83,15 @@ Opeen Brackets weer, en typ het volgende: (Voel je vrij om je eigen inhoud toe t
 </html>
 ```  
 
-Open het bestand weer, of (als je de webbrowser nog open hebt staan) klik op CTRL+R (dat staat voor refresh)  
+Open het bestand weer, of (als je de webbrowser nog open hebt staan) klik op {{< kbd CTRL >}} + {{< kbd r >}} (dat staat voor refresh)  
 Dit zou het volgende resultaat moeten geven:  
-  
-[![](https://1.bp.blogspot.com/-f1GsoTvPSgM/XfSywX42N8I/AAAAAAAAB1U/e7FflpAcwA4JH_e-oXKZmSnoJD-U3HihwCLcBGAsYHQ/s640/Untitled.png)](https://1.bp.blogspot.com/-f1GsoTvPSgM/XfSywX42N8I/AAAAAAAAB1U/e7FflpAcwA4JH_e-oXKZmSnoJD-U3HihwCLcBGAsYHQ/s1600/Untitled.png)
+
+{{< figure src="https://1.bp.blogspot.com/-f1GsoTvPSgM/XfSywX42N8I/AAAAAAAAB1U/e7FflpAcwA4JH_e-oXKZmSnoJD-U3HihwCLcBGAsYHQ/s1600/Untitled.png" alt="Het resultaat van ons harde werk" >}}
 
 Allemaal wel leuk en aardig, maar hoe werkt dit nou weer??  
 Geen nood, hieronder staat weer een uitleg, met wat alle elementen doen.  
   
-[![](https://1.bp.blogspot.com/-2l8ZR2rTimU/XfS3lfKqHGI/AAAAAAAAB1o/2sSaCUinlm8Fe8ZQs5idrs_f7-rrOb7WwCLcBGAsYHQ/s640/werking.png)](https://1.bp.blogspot.com/-2l8ZR2rTimU/XfS3lfKqHGI/AAAAAAAAB1o/2sSaCUinlm8Fe8ZQs5idrs_f7-rrOb7WwCLcBGAsYHQ/s1600/werking.png)
+{{< figure src="https://1.bp.blogspot.com/-2l8ZR2rTimU/XfS3lfKqHGI/AAAAAAAAB1o/2sSaCUinlm8Fe8ZQs5idrs_f7-rrOb7WwCLcBGAsYHQ/s1600/werking.png" alt="De werking van de code van net" >}}
 
 Gefeliciteerd! Je hebt zojuist een webpagina gemaakt, en ingevuld met informatie!
 

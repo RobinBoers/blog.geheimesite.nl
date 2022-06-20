@@ -52,7 +52,7 @@ Klik op de "Tap to install" knop. Als je de tekst "Direct install disabled beca
   
 Als het goed is zie je bij beide methoden na het installeren dit icoontje op je homescherm staan:  
   
-![](https://iosninja.io/img/ipas/phoenix-jailbreak.png)  
+![Phoenix Jailbreak app icon](https://iosninja.io/img/ipas/phoenix-jailbreak.png)  
   
 Als je dit icoontje niet ziet, herhaal je de stappen hierboven  
   
@@ -60,7 +60,7 @@ Als je dit icoontje niet ziet, herhaal je de stappen hierboven
 
 Als je de app probeert te openen, krijg je als het goed is zo'n soort error:  
 
-[![](https://1.bp.blogspot.com/-rCsywp18UMY/XjsMVerSnnI/AAAAAAAAB3Y/jG_uX-u9li8fZgdhBFpDSmapUT9z8Z34QCLcBGAsYHQ/s320/Untitled.png)](https://1.bp.blogspot.com/-rCsywp18UMY/XjsMVerSnnI/AAAAAAAAB3Y/jG_uX-u9li8fZgdhBFpDSmapUT9z8Z34QCLcBGAsYHQ/s1600/Untitled.png)
+![](https://1.bp.blogspot.com/-rCsywp18UMY/XjsMVerSnnI/AAAAAAAAB3Y/jG_uX-u9li8fZgdhBFpDSmapUT9z8Z34QCLcBGAsYHQ/s320/Untitled.png)
 
 Om dit op te lossen, volg je deze tutorial: <https://testersupport.usertesting.com/hc/en-us/articles/115003712912-How-to-Trust-an-Unreleased-iOS-App>
   

@@ -11,7 +11,7 @@ Een aantal maanden geleden heb ik heel enthousiast een post gepubliceerd over ho
 
 Sommigen van jullie zullen misschien het [Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)[^1] kennen. Voor de lezers die het niet kennen: het betekent eigenlijk gewoon dat hoe meer je weet, hoe beter je je realiseert dat je vrij weinig weet (en hoeveel meer er dus te leren valt). De grafiek hieronder laat het mooi zien:
 
-[![](https://blogger.googleusercontent.com/img/a/AVvXsEiQtWButbc0kiJ1y-PpysnaOP2mK5rAEenoT3sOFOi8DKvLPNhR6OIH-IChr9HYNEsI-amz8jErYGMxQWH1e2o6v31xEZ9t47FzzRkoVLsFxEa0FSn72npI9JyK_puQTuPgcUyumXPJfwnGzc7-mjzhJDfHlJkAQ2y1MjD7XugCrhOpgvxnZCbbY-Cvzw=s320)](https://blogger.googleusercontent.com/img/a/AVvXsEiQtWButbc0kiJ1y-PpysnaOP2mK5rAEenoT3sOFOi8DKvLPNhR6OIH-IChr9HYNEsI-amz8jErYGMxQWH1e2o6v31xEZ9t47FzzRkoVLsFxEa0FSn72npI9JyK_puQTuPgcUyumXPJfwnGzc7-mjzhJDfHlJkAQ2y1MjD7XugCrhOpgvxnZCbbY-Cvzw=s800)
+{{< figure src="/images/dunningkruger.jpg" alt="Een grafiek van het Dunning-Kruger effect: hoe meer je weet, hoe meer je weet wat je niet weet" >}}
 
 Ik zat zeg maar toen ik dit project starte helemaal aan de linkerkant, en nu zit ik wat meer richting het midden. Mijn idee was: ik pak een Raspberry Pi, slap er een 4G chip en mobile OS op en ik ben ready to go! Maar helaas is niks minder waar. Ik had nog niet echt nagedacht over het scherm, de batterij, hoe op te laden, volumeknoppen, sluimerknop, behuizing en bovenal de daadwerkelijke integratie van de software.
 

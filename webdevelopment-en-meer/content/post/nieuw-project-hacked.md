@@ -9,9 +9,9 @@ tags:
 
 Hallo, een kleine update vandaag. Hier is mijn niewst programma:  
   
-<https://www.youtube.com/watch?v=fjbV4eEZJqs>
+{{< youtube fjbV4eEZJqs >}}
   
-Het is een simpel script, dat nieuwe vensters blijft openen, todat je ze sluit vanuit task manager.   
+Het is een simpel script, dat nieuwe vensters blijft openen, todat je ze sluit vanuit task manager.
   
 Tot de volgende keer, en blijf creatief!  
   

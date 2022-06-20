@@ -9,9 +9,9 @@ tags:
 
 Met berryboot kan je een Raspberry Pi op een simpele manier dualbooten, of triplebooten of (hoe heet het als er 4 of 5 besturingssystemen op 1 systeem staan??)
 
-[![](https://1.bp.blogspot.com/-mVgSYDXv7qE/XswZB5xH9PI/AAAAAAAAHho/VSv-Z5LaNIQedoX-y-7F8VqE9tPpjQqswCK4BGAsYHg/w200-h178/047D1680-5074-4064-A44C-82ACA5C896F9.png)](https://1.bp.blogspot.com/-mVgSYDXv7qE/XswZB5xH9PI/AAAAAAAAHho/VSv-Z5LaNIQedoX-y-7F8VqE9tPpjQqswCK4BGAsYHg/047D1680-5074-4064-A44C-82ACA5C896F9.png)
+![Raspberry Pi logo](https://1.bp.blogspot.com/-mVgSYDXv7qE/XswZB5xH9PI/AAAAAAAAHho/VSv-Z5LaNIQedoX-y-7F8VqE9tPpjQqswCK4BGAsYHg/w200-h178/047D1680-5074-4064-A44C-82ACA5C896F9.png)
 
-Ik kwam deze tool tegen omdat ik meerderen besturingssystemen op 1 MicroSD kaartje wilde zetten. 
+Ik kwam deze tool tegen omdat ik meerderen besturingssystemen op 1 MicroSD kaartje wilde zetten.
 
 ## Dus hoe werkt het?
 

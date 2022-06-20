@@ -10,7 +10,7 @@ tags:
 
 Hoi, ik ben een tijdje geleden aan een nieuw project begonnen, en het is nu in de fase waarin het redelijk werkt. Het is een virtuele assistent genaamd Nibor Virtual Assistant, of gewoon kort: Nibor.
 
-[![](https://code.geheimesite.nl/beta/nibor/logo.png)](https://code.geheimesite.nl/beta/nibor/logo.png)
+![Nibor logo](https://code.geheimesite.nl/beta/nibor/logo.png)
 
 Nibor is een klein programma dat de [speech-recognition API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) gebruikt. Je kunt hem simpele opdrachten geven, zoals:
 
@@ -25,7 +25,7 @@ Hij is nog niet erg slim, omdat ik nog geen goede manier heb gevonden om command
 
 Ik maak ook gebruik van de Spotify Web Playback API. Daarmee kan je je Spotify Account koppelen aan Nibor, en kan je simpele opdrachten geven zoals:
 
-[![](https://1.bp.blogspot.com/-Glgt1VYSbBQ/Xx6CMZvRaJI/AAAAAAAAIMo/pSUzaWHq_nEfKuVA7PP2xuewPoHN8guEgCLcBGAsYHQ/w256-h226/Annotation%2B2020-07-27%2B092633.png)](https://1.bp.blogspot.com/-Glgt1VYSbBQ/Xx6CMZvRaJI/AAAAAAAAIMo/pSUzaWHq_nEfKuVA7PP2xuewPoHN8guEgCLcBGAsYHQ/s511/Annotation%2B2020-07-27%2B092633.png)
+{{< figure src="https://1.bp.blogspot.com/-Glgt1VYSbBQ/Xx6CMZvRaJI/AAAAAAAAIMo/pSUzaWHq_nEfKuVA7PP2xuewPoHN8guEgCLcBGAsYHQ/s511/Annotation%2B2020-07-27%2B092633.png" class="max-w-text" alt="Verbinden met Spotify" >}}
 
 *   Skip dit nummer
 *   Speel een muziekje af.

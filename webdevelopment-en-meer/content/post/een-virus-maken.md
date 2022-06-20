@@ -7,7 +7,7 @@ tags:
 - windows
 ---
 
-[![](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzc/1z4gvn2ZljI_Pk5x6U7WLDuqc0kaacBMQCLcBGAsYHQ/s320/popup.PNG)](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzc/1z4gvn2ZljI_Pk5x6U7WLDuqc0kaacBMQCLcBGAsYHQ/s1600/popup.PNG)
+{{< figure src="https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzc/1z4gvn2ZljI_Pk5x6U7WLDuqc0kaacBMQCLcBGAsYHQ/s1600/popup.PNG" alt="Your computer has been hacked, press OK to accept! Only option: OK" >}}
 
 ## Een simpel VBScript maken
 
@@ -41,7 +41,7 @@ De loop aan het einde zorgt ervoor dat de melding  box niet gesloten kan worden
 
 Dubbel klik op het bestand om het te openen. Als het goed is zou je zoiets moeten zien:  
   
-[![](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzg/8xZo5Fampek22XHsF1CvyV6GQAg71gWhgCEwYBhgL/s640/popup.PNG)](https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzg/8xZo5Fampek22XHsF1CvyV6GQAg71gWhgCEwYBhgL/s1600/popup.PNG)
+{{< figure src="https://1.bp.blogspot.com/-P--PzZVNvQI/Xd6TwbTyF1I/AAAAAAAABzc/1z4gvn2ZljI_Pk5x6U7WLDuqc0kaacBMQCLcBGAsYHQ/s1600/popup.PNG" alt="Your computer has been hacked, press OK to accept! Only option: OK" >}}
 
 ## Stap 4: Iemand pranken!
 
@@ -49,10 +49,10 @@ Laat iemand schrikken door het bestand stiekem op zijn computer te zetten als hi
   
 ## Het virus uitschakelen
 
-Open taak beheer door op CTRL+ALT+DEL te klikken, en klik op "Microsoft @ Windows Based Script" klik nu op de knop "End Task" rechtsonder.  
+Open taak beheer door op {{< kbd CTRL >}} + {{< kbd ALT >}} + {{< kbd DEL >}} te klikken, en klik op "Microsoft @ Windows Based Script" klik nu op de knop "End Task" rechtsonder.  
 
-[![](https://1.bp.blogspot.com/-d6NoeqS2I4I/Xd6Z8jfaIQI/AAAAAAAABzo/syQL7MzDC_Y1okmTHoq93VYAkKCRbGBdQCLcBGAsYHQ/s640/taakbeheer.png)](https://1.bp.blogspot.com/-d6NoeqS2I4I/Xd6Z8jfaIQI/AAAAAAAABzo/syQL7MzDC_Y1okmTHoq93VYAkKCRbGBdQCLcBGAsYHQ/s1600/taakbeheer.png)
-  
+{{< figure src="https://1.bp.blogspot.com/-d6NoeqS2I4I/Xd6Z8jfaIQI/AAAAAAAABzo/syQL7MzDC_Y1okmTHoq93VYAkKCRbGBdQCLcBGAsYHQ/s1600/taakbeheer.png" alt="Je kan je virus uitzetten door in taakbeheer op 'Beëindigen' te klikken" >}}
+
 Ik hoop dat dit leer vol was,  
 Veel codeer plezier,  
 Robin

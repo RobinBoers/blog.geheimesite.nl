@@ -23,7 +23,9 @@ Een ander enorm pluspunt aan Linux zijn de package managers. In Windows moet je,
 
 In Linux is dat veel simpeler. Linux werkt namelijk met package managers. Dat zijn een soort programma's die automatisch de software voor jouw downloaden en installeren. Dit gaat met zogenaamde repo's. Repo's zijn collecties software samengesteld door de makers van je distro. De software in een officiële repo is meestal gecontroleerd en veilig. Het enige wat je als gebruiker dus nog hoeft te doen is de computer te vertellen wat je wil installeren. Als ik bijvoorbeeld Firefox wil installeren, hoe ik alleen maar mijn package manager (in dit geval **apt**) te vertellen wat ik wil installeren door dit in mn commandline te typen:
 
+```bash
 sudo apt install firefox
+```
 
 En voilla, 30 seconden later heb ik Firefox geïnstalleerd.
 

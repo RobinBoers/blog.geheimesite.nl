@@ -18,9 +18,7 @@ Dit zijn tot nu toe de meest belovende opties:
 
 Ubuntu Touch is een versie van Ubuntu die origineel is gemaakt door Canonical (het bedrijf dat ook Ubuntu maakt) maar is later overgenomen door UBports. Het is een soort uitgepakte versie van Ubuntu die geschikt is voor touchscreens en ARM apparaten. Ubuntu Touch gebruikt Lomiri, de opvolger van Unity8, als desktop environment. Het is ook mogelijk om Lomiri in postmarketOS (pmOS) te gebruiken. Ik heb Ubuntu Touch op de Raspberry Pi geprobeerd, maar het was vrij sloom.
 
-[![](https://1.bp.blogspot.com/-JaSfZsHiDto/YA1dT1C2ILI/AAAAAAAAKFM/iNYPRP66AMQcCKwBkt_7bqK-OKV0Vd4IgCLcBGAsYHQ/w640-h238/background_Ubuntu%2BTouch.jpg)](https://1.bp.blogspot.com/-JaSfZsHiDto/YA1dT1C2ILI/AAAAAAAAKFM/iNYPRP66AMQcCKwBkt_7bqK-OKV0Vd4IgCLcBGAsYHQ/s1600/background_Ubuntu%2BTouch.jpg)
-
-Lomiri op verschillende apparaten ([https://ubports.com/](https://ubports.com/))
+{{< figure src="https://1.bp.blogspot.com/-JaSfZsHiDto/YA1dT1C2ILI/AAAAAAAAKFM/iNYPRP66AMQcCKwBkt_7bqK-OKV0Vd4IgCLcBGAsYHQ/s1600/background_Ubuntu%2BTouch.jpg" alt="Lomiri promo banner" caption="Lomiri op verschillende apparaten ([https://ubports.com/](https://ubports.com/))" >}}
 
 ### KDE Plasma Mobile
 
@@ -28,9 +26,7 @@ Plasma Mobile is een mobiele versie van de populaire Plasma Desktop van KDE. Net
 
 Plasma Mobile heeft goede intergratie met de KDE Plasma desktop (mijn Desktop Environment) via KDE Connect. Plasma Mobile is nog onder ontwikkeling, en nog niet echt productie-ready.
 
-![](https://1.bp.blogspot.com/-CUTohcLYffQ/YJfaWdfA9JI/AAAAAAAAKyo/QGhG06jX6AUGMwgZqU2Fu7RpjGDi-WkBgCLcBGAsYHQ/w640-h416/2021-05-09-144907_691x449_scrot.png)
-
-KDE Plasma Shell en apps ([https://www.plasma-mobile.org/screenshots](https://www.plasma-mobile.org/screenshots))
+{{< figure src="https://1.bp.blogspot.com/-CUTohcLYffQ/YJfaWdfA9JI/AAAAAAAAKyo/QGhG06jX6AUGMwgZqU2Fu7RpjGDi-WkBgCLcBGAsYHQ/w640-h416/2021-05-09-144907_691x449_scrot.png" alt="Een aantal screenshots van de KDE website" caption="KDE Plasma Shell en apps ([https://www.plasma-mobile.org/screenshots](https://www.plasma-mobile.org/screenshots))" >}}
 
 ### Phosh
 
@@ -40,9 +36,7 @@ Phosh gebruikt libhandy om desktop apps goed te laten werken op een telefoonsche
 
 Aangezien Phosh op GNOME gebaseerd is kan het wel laggen. Zo ver ik kon vinden is het nog niet mogelijk om Phosh op een Raspberry Pi te krijgen.
 
-[![](https://1.bp.blogspot.com/-LDLGMIgGBi0/YA1drwxJBvI/AAAAAAAAKFY/BUh1PxoxEGEATiIumeAImpR_l7C6TgZFQCLcBGAsYHQ/w640-h424/phosh-1.png)](https://1.bp.blogspot.com/-LDLGMIgGBi0/YA1drwxJBvI/AAAAAAAAKFY/BUh1PxoxEGEATiIumeAImpR_l7C6TgZFQCLcBGAsYHQ/s972/phosh-1.png)
-
-Phosh Shell ([https://puri.sm/posts/phosh-overview](https://puri.sm/posts/phosh-overview))
+{{< figure src="https://1.bp.blogspot.com/-LDLGMIgGBi0/YA1drwxJBvI/AAAAAAAAKFY/BUh1PxoxEGEATiIumeAImpR_l7C6TgZFQCLcBGAsYHQ/s972/phosh-1.png" alt="Screenshots van Phosh shell" caption="Phosh Shell ([https://puri.sm/posts/phosh-overview](https://puri.sm/posts/phosh-overview))" >}}
 
 ### Android of ChromiumOS
 

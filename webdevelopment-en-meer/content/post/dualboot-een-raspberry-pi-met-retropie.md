@@ -12,7 +12,7 @@ Ik ben bezig om een Raspberry Pi Powerd tablet / Nintendo Switch te maken. Toen 
 
 Ik kwam er alleen vandaag achter dat je in RetroPie via het Setup menu Kodi, en de Pixel desktop kan installeren.
 
-[![](https://1.bp.blogspot.com/-5h9D9iFXFbw/XvJNeKoS2iI/AAAAAAAAHrA/fdKGTdKYWC4zO6Xfq8lV58nlXLVETWSEQCK4BGAsYHg/w400-h108/RetroPieWebsiteLogo.png)](https://1.bp.blogspot.com/-5h9D9iFXFbw/XvJNeKoS2iI/AAAAAAAAHrA/fdKGTdKYWC4zO6Xfq8lV58nlXLVETWSEQCK4BGAsYHg/s520/RetroPieWebsiteLogo.png)
+![](https://1.bp.blogspot.com/-5h9D9iFXFbw/XvJNeKoS2iI/AAAAAAAAHrA/fdKGTdKYWC4zO6Xfq8lV58nlXLVETWSEQCK4BGAsYHg/w400-h108/RetroPieWebsiteLogo.png)
 
 Vandaag ga ik je uitleggen hoe je Kodi en de Pixel desktop (de standaard Raspbian desktop) naast RetroPie kan installeren.
 

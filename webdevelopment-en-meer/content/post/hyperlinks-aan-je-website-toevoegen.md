@@ -87,26 +87,20 @@ Open hierna het bestand `over-mij.html`, en typ dit:
 Open nu het bestand `index.html` in de browser, en bekijk het resultaat.  
 Als het goed is zou je dit moeten zien:  
 
-[![](https://1.bp.blogspot.com/-e5Weh9v9tMo/Xlo6NEiqq-I/AAAAAAAAGZk/MpEwhpN6mU8cmx_-lyrghbR8WFEHIWUkQCLcBGAsYHQ/s640/Capture.PNG)](https://1.bp.blogspot.com/-e5Weh9v9tMo/Xlo6NEiqq-I/AAAAAAAAGZk/MpEwhpN6mU8cmx_-lyrghbR8WFEHIWUkQCLcBGAsYHQ/s1600/Capture.PNG)
-
-_De homepagina_
+{{< figure src="https://1.bp.blogspot.com/-e5Weh9v9tMo/Xlo6NEiqq-I/AAAAAAAAGZk/MpEwhpN6mU8cmx_-lyrghbR8WFEHIWUkQCLcBGAsYHQ/s1600/Capture.PNG" alt="Het resultaat van ons harde werk" caption="De homepagina" >}}
   
 Klik je dan op het linkje "Over mij", dan zie je dit:  
   
-[![](https://1.bp.blogspot.com/-Qrq6CG2H_5E/Xlo6NLEWFII/AAAAAAAAGZg/F4Yk8sdWawg84NBxb-1YwCD7qmYHLj85gCEwYBhgL/s640/Capture2.PNG)](https://1.bp.blogspot.com/-Qrq6CG2H_5E/Xlo6NLEWFII/AAAAAAAAGZg/F4Yk8sdWawg84NBxb-1YwCD7qmYHLj85gCEwYBhgL/s1600/Capture2.PNG)
-
-_De over-mij pagina_
+{{< figure src="https://1.bp.blogspot.com/-Qrq6CG2H_5E/Xlo6NLEWFII/AAAAAAAAGZg/F4Yk8sdWawg84NBxb-1YwCD7qmYHLj85gCEwYBhgL/s1600/Capture2.PNG" alt="De over-mij pagina" caption="De over-mij pagina" >}}
 
 Maar hoe werkt die code nou eigenlijk?  
 Het is best simpel: We maken een navigatievak met het element `<nav>`, daarna plaatsen we in dat vak een lijstje met `<ul>`. `<ul>` staat voor **U**nsorted **L**ist, een lijst zonder nummers. Daarna maken we **L**ist **I**tems met `<li>`. In de **L**ist **I**tems maken we hyperlinks met `<a>`.  
   
-[![](https://1.bp.blogspot.com/-rKkaPNOlhGU/XlpKDrEB12I/AAAAAAAAGZ0/MFTpm7niYRonjdYWgaulbK49jhss9It4QCLcBGAsYHQ/s640/Capture3.PNG)](https://1.bp.blogspot.com/-rKkaPNOlhGU/XlpKDrEB12I/AAAAAAAAGZ0/MFTpm7niYRonjdYWgaulbK49jhss9It4QCLcBGAsYHQ/s1600/Capture3.PNG)
-
-_De werking van het menu_
+{{< figure src="https://1.bp.blogspot.com/-rKkaPNOlhGU/XlpKDrEB12I/AAAAAAAAGZ0/MFTpm7niYRonjdYWgaulbK49jhss9It4QCLcBGAsYHQ/s1600/Capture3.PNG" alt="Uitleg bij de code: de nav is de navigatiebalk, de ul is een unsorted list, de li is een list item en de a is een anchor, oftwel hyperlink." caption="De werking van het menu" >}}
   
 Een hyperlink werkt zo:  
   
-[![](https://1.bp.blogspot.com/-eiri35QSMlQ/XlpPYZrkbXI/AAAAAAAAGaA/XHv3gGmTFoER8Azpmaf7xizN7GEJFmcqwCLcBGAsYHQ/s640/Capture4.PNG)](https://1.bp.blogspot.com/-eiri35QSMlQ/XlpPYZrkbXI/AAAAAAAAGaA/XHv3gGmTFoER8Azpmaf7xizN7GEJFmcqwCLcBGAsYHQ/s1600/Capture4.PNG)
+{{< figure src="https://1.bp.blogspot.com/-eiri35QSMlQ/XlpPYZrkbXI/AAAAAAAAGaA/XHv3gGmTFoER8Azpmaf7xizN7GEJFmcqwCLcBGAsYHQ/s1600/Capture4.PNG" alt="Een hyperlink bestaat uit een a element met een href attribuut en inhoud. De href zegt naar welke url de link wijst. De inhoud is wat je uiteindelijk ziet op het scherm." >}}
 
 Gefeliciteerd! Je hebt zojuist je eerste hyperlink gemaakt!  
 

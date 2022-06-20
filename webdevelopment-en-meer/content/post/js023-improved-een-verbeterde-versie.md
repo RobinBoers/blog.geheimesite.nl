@@ -8,7 +8,7 @@ tags:
 - minecraft
 ---
 
-[![](https://1.bp.blogspot.com/-0SoXwRgbr10/YA1hM_ym-pI/AAAAAAAAKFw/OaMwhSIuze82Q7oMDnYF34K8Tp2mhaTmQCLcBGAsYHQ/s0/icon.png)](https://1.bp.blogspot.com/-0SoXwRgbr10/YA1hM_ym-pI/AAAAAAAAKFw/OaMwhSIuze82Q7oMDnYF34K8Tp2mhaTmQCLcBGAsYHQ/s150/icon.png)
+![Minecraft logo](https://1.bp.blogspot.com/-0SoXwRgbr10/YA1hM_ym-pI/AAAAAAAAKFw/OaMwhSIuze82Q7oMDnYF34K8Tp2mhaTmQCLcBGAsYHQ/s0/icon.png)
 
 Ik ben de afgelopen 2 weken aan een verbeterde versie van classic.minecraft.net gewerkt. Minecraft Classic is de 2e grote versie van Minecraft en de eerste versie die het publiek kon spelen. Minecraft Classic is ook het moment dat multiplayer en survivalmode werden geïntroduceerd.
 

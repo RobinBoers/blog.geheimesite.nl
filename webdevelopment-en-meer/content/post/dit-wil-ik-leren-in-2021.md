@@ -8,7 +8,7 @@ tags:
 - linux
 ---
 
-[![](https://1.bp.blogspot.com/-U2SAAPnhyb0/YA1LRpgPCaI/AAAAAAAAKE8/spplaDwmIdU23nLkGv9aDV54vNCGoUWaACLcBGAsYHQ/w200-h200/1%2BLjR0UrFB2a__5h1DWqzstA.png)](https://1.bp.blogspot.com/-U2SAAPnhyb0/YA1LRpgPCaI/AAAAAAAAKE8/spplaDwmIdU23nLkGv9aDV54vNCGoUWaACLcBGAsYHQ/s720/1%2BLjR0UrFB2a__5h1DWqzstA.png)
+![JS logo](https://1.bp.blogspot.com/-U2SAAPnhyb0/YA1LRpgPCaI/AAAAAAAAKE8/spplaDwmIdU23nLkGv9aDV54vNCGoUWaACLcBGAsYHQ/w200-h200/1%2BLjR0UrFB2a__5h1DWqzstA.png)
 
 Misschien ben ik er een beetje laat mee omdat we al een maand in het nieuwe jaar zitten, maar dit zijn mijn doelen voor 2021. Dit zijn nieuwe dingen die ik graag wil leren of dingen waar ik me nog verder in wil verdiepen.  
 

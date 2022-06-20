@@ -8,7 +8,7 @@ tags:
 - minecraft
 ---
 
-[![](https://1.bp.blogspot.com/-Mkjc_WKny3g/X0pnei8Uu0I/AAAAAAAAITc/mf4QUbWMbEovU7eVq5GWCR2ABgtqws1GgCLcBGAsYHQ/s0/pack.png)](https://1.bp.blogspot.com/-Mkjc_WKny3g/X0pnei8Uu0I/AAAAAAAAITc/mf4QUbWMbEovU7eVq5GWCR2ABgtqws1GgCLcBGAsYHQ/s128/pack.png)
+![Mushroom Highlands pack icon](https://1.bp.blogspot.com/-Mkjc_WKny3g/X0pnei8Uu0I/AAAAAAAAITc/mf4QUbWMbEovU7eVq5GWCR2ABgtqws1GgCLcBGAsYHQ/s0/pack.png)
 
 Ik ben vorige week aan een nieuw project begonnen: een Minecraft Datapack maken, dat een hele DIMENSIE aan de game toevoegt. Nou zul je denken: "Maar er zijn toch al heel veel mods die dat doen?"
 
@@ -30,29 +30,13 @@ Je moet namelijk naar y270 vliegen om er te komen. Zodra je voorbij y270 vliegt,
 
 Hieronder zie je wat screenshots:
 
-[![](https://1.bp.blogspot.com/-oiNAb395o9Y/X0pqf7JHGKI/AAAAAAAAITs/d2ziMTA5uvE7LR7QSe4jtvT-7L643BRQACLcBGAsYHQ/s640/2020-08-29_16.39.38.png)](https://1.bp.blogspot.com/-oiNAb395o9Y/X0pqf7JHGKI/AAAAAAAAITs/d2ziMTA5uvE7LR7QSe4jtvT-7L643BRQACLcBGAsYHQ/s1920/2020-08-29_16.39.38.png)
+{{< figure src="https://1.bp.blogspot.com/-oiNAb395o9Y/X0pqf7JHGKI/AAAAAAAAITs/d2ziMTA5uvE7LR7QSe4jtvT-7L643BRQACLcBGAsYHQ/s1920/2020-08-29_16.39.38.png" alt="Een screenshot van een nieuwe biome: de Mushroom Plains" caption="Mushroom Plains" >}}
 
-_Mushroom Plains_
+{{< figure src="https://1.bp.blogspot.com/-XBau5ysEE5s/X0pqf2pii_I/AAAAAAAAITw/5gcQOaKTutwN_84oyC4Sflmr3XHwRLPegCLcBGAsYHQ/s1920/2020-08-29_16.41.53.png" alt="Een andere biome: het Mushroom Forest" caption="Mushroom Forest" >}}
 
-[](https://1.bp.blogspot.com/-XBau5ysEE5s/X0pqf2pii_I/AAAAAAAAITw/5gcQOaKTutwN_84oyC4Sflmr3XHwRLPegCLcBGAsYHQ/s1920/2020-08-29_16.41.53.png)
+{{< figure src="https://1.bp.blogspot.com/-gF78dh0FT-k/X0pqfhOgOAI/AAAAAAAAITo/aJFf-I1dVlYCga7CVFF4nWRnFP3Fe0i-ACLcBGAsYHQ/s1920/2020-08-29_16.42.27.png" alt="Een screenshot van een dungeon: Sky Temple" caption="Sky Temple (custom structure)" >}}
 
-![](https://1.bp.blogspot.com/-XBau5ysEE5s/X0pqf2pii_I/AAAAAAAAITw/5gcQOaKTutwN_84oyC4Sflmr3XHwRLPegCLcBGAsYHQ/s640/2020-08-29_16.41.53.png)
-
-_Mushroom Forest_
-
-[](https://1.bp.blogspot.com/-XBau5ysEE5s/X0pqf2pii_I/AAAAAAAAITw/5gcQOaKTutwN_84oyC4Sflmr3XHwRLPegCLcBGAsYHQ/s1920/2020-08-29_16.41.53.png)
-
-[![](https://1.bp.blogspot.com/-gF78dh0FT-k/X0pqfhOgOAI/AAAAAAAAITo/aJFf-I1dVlYCga7CVFF4nWRnFP3Fe0i-ACLcBGAsYHQ/s640/2020-08-29_16.42.27.png)](https://1.bp.blogspot.com/-gF78dh0FT-k/X0pqfhOgOAI/AAAAAAAAITo/aJFf-I1dVlYCga7CVFF4nWRnFP3Fe0i-ACLcBGAsYHQ/s1920/2020-08-29_16.42.27.png)
-
-_Sky Temple (custom structure)_
-  
-[](https://1.bp.blogspot.com/-68iI5OlSSQc/X0pqglsutcI/AAAAAAAAIT4/fYmv8o0wD28pxNn-QsfrlFCBAYLyfux5ACLcBGAsYHQ/s1920/2020-08-29_16.46.27.png)
-
-![](https://1.bp.blogspot.com/-68iI5OlSSQc/X0pqglsutcI/AAAAAAAAIT4/fYmv8o0wD28pxNn-QsfrlFCBAYLyfux5ACLcBGAsYHQ/s640/2020-08-29_16.46.27.png)
-
-_Nog een Mushroom Forest_
-
-[](https://1.bp.blogspot.com/-68iI5OlSSQc/X0pqglsutcI/AAAAAAAAIT4/fYmv8o0wD28pxNn-QsfrlFCBAYLyfux5ACLcBGAsYHQ/s1920/2020-08-29_16.46.27.png)
+{{< figure src="https://1.bp.blogspot.com/-68iI5OlSSQc/X0pqglsutcI/AAAAAAAAIT4/fYmv8o0wD28pxNn-QsfrlFCBAYLyfux5ACLcBGAsYHQ/s1600/2020-08-29_16.46.27.png" alt="Nog een screenshot van het Mushroom Forest" caption="Nog een Mushroom Forest" >}}
 
 Voor geintereseerde staat de code op GitHub: [https://github.com/RobinBoers/MushroomHighlands](https://github.com/RobinBoers/MushroomHighlands)
 

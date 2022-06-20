@@ -10,13 +10,11 @@ Kennen jullie Somtoday? Voor de mensen die het niet kennen: het is een leerlingv
 
 Som is noice. Je kan er je cijfers, huiswerk en leermiddelen zien. Maar ik zie ook een aantal verbeterpuntjes. Somtoday heeft voor de docenten een uitgebreid dashboard waarin ze het huiswerk kunnen inplannen, cijfers kunnen invoeren, absenties kunnen bijhouden etc.
 
-![Somtoday Docent](/images/somtoday-docent.png)
-_Somtoday Docent: dit is wat docenten zien_
+{{< figure src="/images/somtoday-docent.png" alt="Somtoday Docent: een mooie moderne Angular app" caption="Somtoday Docent: dit is wat docenten zien" >}}
 
 Maar leerlingen en ouders zien deze website uit het jaar 1900. Oke, dat is misschien een beetje overdreven, maar het doet me wel serieus denken aan websites uit 2000.
 
-![Somtoday voor leerlingen en ouders](https://user-images.githubusercontent.com/60298132/160108610-64e19e60-3be6-47ea-ba25-ae7918243f4d.png)
-_Somtoday voor leerlingen en ouders: een site die eruitziet alsof hij uit een tijdmachine komt_
+{{< figure src="https://user-images.githubusercontent.com/60298132/160108610-64e19e60-3be6-47ea-ba25-ae7918243f4d.png" alt="Somtoday voor leerlingen en ouders: een site die eruitziet alsof hij uit een tijdmachine komt" caption="Somtoday voor leerlingen en ouders: een site die eruitziet alsof hij uit een tijdmachine komt" >}}
 
 Er zijn heel veel dingen die me irriteren aan dit ontwerp. Om er een paar te noemen:
 
@@ -27,8 +25,7 @@ Er zijn heel veel dingen die me irriteren aan dit ontwerp. Om er een paar te noe
 
 Zoals mijn lezers waarschijnlijk weten ben ik een webdesign freak die weet hoe CSS werkt. Dus heb ik een userstyle geschreven die je kan installeren om het leerling/ouderpaneel iets beter te maken. Het is gebaseerd op de look van Somtoday Docent, en ziet er zo uit:
 
-![Verbeterde versie van Somtoday voor leerlingen en ouders](https://user-images.githubusercontent.com/60298132/160105979-bb93addb-e947-4378-9880-b304e708bee1.png)
-_Verbeterde versie van Somtoday voor leerlingen en ouders, gemaakt met wat simpele CSS regels_
+{{< figure src="https://user-images.githubusercontent.com/60298132/160105979-bb93addb-e947-4378-9880-b304e708bee1.png" alt="Verbeterde versie van Somtoday voor leerlingen en ouders" caption="Verbeterde versie van Somtoday voor leerlingen en ouders, gemaakt met wat simpele CSS regels" >}}
 
 Als je wil kan je mijn userstyle [op mijn GitHub account](https://gist.github.com/RobinBoers/c95ea8c4181bcfcd9957bf730effecbb) vinden.
 

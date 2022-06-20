@@ -18,7 +18,7 @@ Jaren later, in 2015 is de term PWA bedacht door Google ontwikkelaars. Wil je me
 
 [https://medium.com/progressivewebapps/history-of-progressive-web-apps-4c912533a531](https://medium.com/progressivewebapps/history-of-progressive-web-apps-4c912533a531)
 
-[![](https://1.bp.blogspot.com/-SjzXX_rPAXA/XvJByINq4-I/AAAAAAAAHos/16EL8l6rffIAqcb9QR-Vh922JXsKDlt0QCLcBGAsYHQ/s320/6FACF7F1-71CB-43A6-9077-976EED876C78.png)](https://1.bp.blogspot.com/-SjzXX_rPAXA/XvJByINq4-I/AAAAAAAAHos/16EL8l6rffIAqcb9QR-Vh922JXsKDlt0QCLcBGAsYHQ/s1600/6FACF7F1-71CB-43A6-9077-976EED876C78.png)
+![PWA logo](https://1.bp.blogspot.com/-SjzXX_rPAXA/XvJByINq4-I/AAAAAAAAHos/16EL8l6rffIAqcb9QR-Vh922JXsKDlt0QCLcBGAsYHQ/s320/6FACF7F1-71CB-43A6-9077-976EED876C78.png)
 
 Mijn tool werkt zo: ga op je mobiele apparaat naar [code.geheimesite.nl](http://code.geheimesite.nl/) en klik op Website-To-Webapp. Voer een webadres in en klik op Create. Volg nu de stappen op het scherm. Het is belangrijk dat je de tool zelf niet als PWA installeert, want dan werkt het niet meer.  
 

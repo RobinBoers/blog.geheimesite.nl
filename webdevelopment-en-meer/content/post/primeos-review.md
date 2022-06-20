@@ -14,7 +14,9 @@ In mijn zoektocht kwam ik [Android x86](https://www.android-x86.org/) tegen. Het
   
 Er zijn verschilldende andere projecten, die op Android x86 zijn gebaseerd. Een daarvan is [PrimeOS](http://primeos.in/).  
 
-[PrimeOS](http://primeos.in/) is een Android besturingssysteem, gebaseerd op [Android x86](https://www.android-x86.org/), bedoeld voor gamen. Ik heb het uitgetest, en ik vind het leuk er een review over te geven. [![](https://primeos.in/assets/logo.png)](https://primeos.in/assets/logo.png)
+[PrimeOS](http://primeos.in/) is een Android besturingssysteem, gebaseerd op [Android x86](https://www.android-x86.org/), bedoeld voor gamen. Ik heb het uitgetest, en ik vind het leuk er een review over te geven.
+
+![PrimeOS logo](https://www.primeos.in/wp-content/uploads/2021/10/Untitled.png.webp)
 
 ## Informatie
 

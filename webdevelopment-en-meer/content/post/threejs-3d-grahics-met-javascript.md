@@ -29,9 +29,7 @@ We hebben nu een scene met een object, maar het object is helemaal wit. Het prob
 *   [MeshPhongMaterial](https://threejs.org/docs/?q=material#api/en/materials/MeshPhongMaterial): voor glimmende objecten
 *   [MeshToonMaterial](https://threejs.org/docs/?q=material#api/en/materials/MeshToonMaterial): hierdoor lijkt alles alsof het uit een stripboek komt
 
-[![](https://1.bp.blogspot.com/-_8hxbezxXwU/YN8kHPOJ3BI/AAAAAAAAK6Q/akWuxrMsFoo0Znm9cRd0aLmbaAyixNBJQCLcBGAsYHQ/w640-h158/materials.png)](https://1.bp.blogspot.com/-_8hxbezxXwU/YN8kHPOJ3BI/AAAAAAAAK6Q/akWuxrMsFoo0Znm9cRd0aLmbaAyixNBJQCLcBGAsYHQ/s1393/materials.png)
-
-De materials die ik hierboven beschreef: Basic, Standard, Phong en Toon  
+{{< figure src="https://1.bp.blogspot.com/-_8hxbezxXwU/YN8kHPOJ3BI/AAAAAAAAK6Q/akWuxrMsFoo0Znm9cRd0aLmbaAyixNBJQCLcBGAsYHQ/w640-h158/materials.png" alt="De materials die ik hierboven beschreef: Basic, Standard, Phong en Toon" caption="De materials die ik hierboven beschreef: Basic, Standard, Phong en Toon" >}}
 
 Nu heb je een 3D object, maar het is nog helemaal donker. Dat komt omdat je nog geen lichten hebt toegevoegd. Je hebt veel verschillende soorten lichten. Een paar coole zijn:
 

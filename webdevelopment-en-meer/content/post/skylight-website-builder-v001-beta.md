@@ -9,7 +9,7 @@ tags:
 
 Ik heb de laatste paar maanden hard gewerkt aan een nieuw project: een website bouwer. Ik heb al verschillende websitebouwers gemaakt, maar deze is anders. Ik heb de code nu ook ECHT netjes gemaakt, en gepubliceerd op GitHub. Verder heb ik dingen gemaakt als een theme interface, met een simpele API voor third-party developers. Ook heb ik betere code geschreven voor het aanmaken van pagina’s.
 
-[![](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiM/fnTdMThdMfIbcttoNUlv5CN13bgGWazPACK4BGAsYHg/w200-h105/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiM/fnTdMThdMfIbcttoNUlv5CN13bgGWazPACK4BGAsYHg/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)  
+![GitHub logo](https://1.bp.blogspot.com/-AGKDCpdCNO8/Xs6_kyjly4I/AAAAAAAAHiM/fnTdMThdMfIbcttoNUlv5CN13bgGWazPACK4BGAsYHg/w200-h105/42A945F5-7EEC-4754-A9BA-3DAD9A8676E0.png)
 
 Ik vind het erg leuk om aan dit project te werken, en ik heb veel geleerd over PHP en GitHub. Ik heb gister de eerste versie (release) gepubliceerd met de naam v0.01-beta. Het is een testversie maar je kan er al een een kijkje in nemen.
 

@@ -11,7 +11,7 @@ Ik heb gister een nieuw default theme voor SkyLight gemaakt. SkyLight is mijn we
 
 Het nieuwe theme is gebaseerd op een Blogger theme dat ik voor mijn tweede blog ([Stupid Codes](https://stupidstuffwastaken.blogspot.com/)) heb gemaakt. Het is een simpel maar mooi theme.
 
-[![](https://1.bp.blogspot.com/-0ie2os7ZuAc/YTuzXT6blLI/AAAAAAAAK-U/RtVkCnKdN24mjFEdZUFudQ7Om5wTn-tVwCLcBGAsYHQ/w640-h325/2021-09-10-213156_1909x964_scrot.png)](https://1.bp.blogspot.com/-0ie2os7ZuAc/YTuzXT6blLI/AAAAAAAAK-U/RtVkCnKdN24mjFEdZUFudQ7Om5wTn-tVwCLcBGAsYHQ/s1909/2021-09-10-213156_1909x964_scrot.png)
+{{< figure src="https://1.bp.blogspot.com/-0ie2os7ZuAc/YTuzXT6blLI/AAAAAAAAK-U/RtVkCnKdN24mjFEdZUFudQ7Om5wTn-tVwCLcBGAsYHQ/s1909/2021-09-10-213156_1909x964_scrot.png" alt="Een simpel thema met grijze tinten" >}}
 
 Het nieuwe theme zal default zijn in de volgende SkyLight release. Je kan het ook alvast downloaden via de theme picker: [https://robinboers.github.io/SkyLight-themelibrary](https://robinboers.github.io/SkyLight-themelibrary)
 

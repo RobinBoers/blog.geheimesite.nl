@@ -14,13 +14,13 @@ Dus, hoe gaan we dat doen? Nou simpel: installeer Kali Linux, download hacking t
 
 Nee, tuurlijk niet, we houden het simpel! Het eerste wat je moet weten is dat de game is geschreven in Javascript. Dat is een programmeertaal waarmee websites interactief gemaakt kunnen worden. Javascript is client side. Dat betekent dat de code op jouw computer wordt uitgevoerd. Dat maakt het erg simpel om te hacken!
 
-[![](https://1.bp.blogspot.com/-NC27jatgu8c/X_8q1NlipjI/AAAAAAAAJ5o/ZrKi86sTDaMSg3QRB6mYLPgxc6F-Fp22QCLcBGAsYHQ/s320/unnamed.jpg)](https://1.bp.blogspot.com/-NC27jatgu8c/X_8q1NlipjI/AAAAAAAAJ5o/ZrKi86sTDaMSg3QRB6mYLPgxc6F-Fp22QCLcBGAsYHQ/s640/unnamed.jpg)
+![De Chrome dino](https://1.bp.blogspot.com/-NC27jatgu8c/X_8q1NlipjI/AAAAAAAAJ5o/ZrKi86sTDaMSg3QRB6mYLPgxc6F-Fp22QCLcBGAsYHQ/s320/unnamed.jpg)
 
 Wist je trouwens dat je de game ook kan spelen als je gewoon internet hebt? Als je in Chrome in de adressbalk [chrome://dino](chrome://dino) intypt, zou je een bekend scherm moeten zien
 
 Dus, wat gaan we precies doen? Stap 1 is het openen van de game. Ik leg hierboven uit hoe, maar je kan natuurlijk ook de kabel uit de router trekken :)
 
-Als je de game hebt geopend, moet je ergens op de pagina rechts klikken en op "Inspecteren" klikken. Je kan ook de sneltoets CTRL + SHIFT + I gebruiken.Je zou nu rechts of onder een vak moeten zien verschijnen met allemaal informatie. Dit is de HTML DOM code (Document Object Model), maar dat hebben we allemaal niet nodig. We hebben de Javascript console nodig, dus klikken we bovenaan op "Console". Je kan hier nu de volgende commando's typen:
+Als je de game hebt geopend, moet je ergens op de pagina rechts klikken en op "Inspecteren" klikken. Je kan ook de sneltoets {{< kbd CTRL >}} + {{< kbd SHIFT >}} + {{< kbd i >}} gebruiken.Je zou nu rechts of onder een vak moeten zien verschijnen met allemaal informatie. Dit is de HTML DOM code (Document Object Model), maar dat hebben we allemaal niet nodig. We hebben de Javascript console nodig, dus klikken we bovenaan op "Console". Je kan hier nu de volgende commando's typen:
 
 ```javascript
 Runner.instance\_.gameOver = () => {console.log("Ik ben een vampier, ik ben onsterfelijk!")}

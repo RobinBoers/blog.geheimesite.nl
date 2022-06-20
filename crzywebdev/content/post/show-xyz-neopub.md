@@ -27,8 +27,7 @@ At most I post once per two days, some weeks once a day. That means that in one 
 
 On the pages for tags or post types only posts from the current year are visible. I wanted older posts to be hidden by default. You can of course still access them via their permalink or using for example: <https://micro.geheimesite.nl/posts/2021>[^4].
 
-![Screenshot](https://raw.githubusercontent.com/RobinBoers/neopub/master/screenshot.png)
-_Screenshot of the homepage of my microblog running neopub_
+{{< figure src="https://indieweb.org/images/0/05/neopub-screenshot-1.png" alt="Screenshot of my microblog" caption="Screenshot of the homepage of my microblog running neopub" >}}
 
 That's about it. I'm planning on adding some more features, like:
 

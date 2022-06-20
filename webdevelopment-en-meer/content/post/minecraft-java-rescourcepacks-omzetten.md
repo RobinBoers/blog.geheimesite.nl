@@ -7,7 +7,7 @@ tags:
 - minecraft
 ---
 
-[![](https://1.bp.blogspot.com/-34jiGD0hayA/XvJR4IbK_ZI/AAAAAAAAHsk/AbYzqI6eeGQvevf0YALEvW4kdXh776UgACK4BGAsYHg/w162-h164/Annotation%2B2020-06-23%2B210236.png)](https://1.bp.blogspot.com/-34jiGD0hayA/XvJR4IbK_ZI/AAAAAAAAHsk/AbYzqI6eeGQvevf0YALEvW4kdXh776UgACK4BGAsYHg/s677/Annotation%2B2020-06-23%2B210236.png)
+![ConvertJavaTextureToBedrock favicon](https://1.bp.blogspot.com/-34jiGD0hayA/XvJR4IbK_ZI/AAAAAAAAHsk/AbYzqI6eeGQvevf0YALEvW4kdXh776UgACK4BGAsYHg/w162-h164/Annotation%2B2020-06-23%2B210236.png)
 
 Zoals ik al eerder heb gepost ben ik samen met een vriend (Sean) een rescourcepack aan het maken voor Minecraft Java. Nu speelt mijn zusje Minecraft Bedrock, en kon ze het rescourcepack dus niet downloaden. Dus ik was gaan zoeken op Google (mijn beste vriend) en ik vond deze supercoole webapp, die helemaal offline werkt, op je apparaat, je hoeft niks te uploaden, die Java rescourcepacks omzet in bedrock rescourcepacks. De app heeft ConvertJavaTextureToBedrock en is hier te vinden:
 
@@ -24,3 +24,5 @@ Om de webapp te kunnen gebruiken heb je Chrome, Firefox of Safari nodig.
 Als je dit handig lijkt, neem eens een kijkje. Het is een heel mooi project, en ik hoop dat de maker het blijft updaten.
 
 \- Robin
+
+Edit: de repo is op het moment van schrijven (zomer 2022) verwijderd. Er is hier een werkend archive: [7man7LMYT/ConvertJavaTextureToBedrock](https://github.com/7man7LMYT/ConvertJavaTextureToBedrock). Bedank deze fantastische mensen voor het archiven van dit project. Zonder hun hulp was het verloren gegaan.
