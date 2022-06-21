@@ -1,0 +1,44 @@
+{{ with $.Site.Params.webmentionUrl }}
+    <a class="button btn" href="{{ . }}" target="_blank">webmention this&nbsp;
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-external-link">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+    </a>
+{{ end }}
+
+<a class="button btn ml-2" href="https://quill.p3k.io?dontask=1&name=dontask&me=https%3A%2F%2Fcommentpara.de%2F&reply={{(urlquery .Permalink) | safeURL}}" target="_blank">leave a comment&nbsp;
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-external-link">
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+        <polyline points="15 3 21 3 21 9"></polyline>
+        <line x1="10" y1="14" x2="21" y2="3"></line>
+    </svg>
+</a>
+
+<span class="ml-2 bold text-black dark:text-white views">
+    ?? views
+</span>
+
+{{ if .Site.IsServer }}
+    <script src="{{ print .Site.BaseURL }}/js/webmention.js" data-page-url="{{ print .Site.Author.domain .RelPermalink }}" data-wordcount="100" async></script>
+{{ else }}
+    <script src="/js/webmention.min.js" data-wordcount="100" async></script>
+
+    <!-- View count -->
+    <script defer>
+        fetch("https://geheimesite.nl/api/views/get.php?url={{(urlquery .Permalink) | safeURL}}")
+                .then(response => response.json())
+                .then(json => document.querySelector(".views").innerText = `${parseInt(json.views) + 1} views`);
+
+        let isCrawler = /bot|google|baidu|bing|msn|teoma|slurp|yandex/i
+            .test(navigator.userAgent)
+
+        if (!isCrawler) {
+            // Update viewcount
+            fetch("https://geheimesite.nl/api/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
+        }
+    </script>
+{{ end }}

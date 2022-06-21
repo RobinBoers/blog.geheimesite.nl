@@ -1,0 +1,25 @@
+{{ define "feed" }}
+    <!-- home page -->
+    <h1 hidden>{{ .Site.Title }}</h1>
+
+    <ul class="h-feed">
+        {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+        
+        {{ $paginator := .Paginate $pages }}
+        {{ range $paginator.Pages }}
+            {{ if .Content }}
+                {{ partial "preview" . }}
+            {{ end }}
+        {{ end }}
+    </ul>
+{{ end }}
+
+{{ define "footer" }}
+    <aside>
+        {{ partial "pagination" . }}
+
+        <p class="follow-me">
+            <a href="https://follow.it/webdevelopment-en-meer?action=followPub">[ follow me ]</a>
+        </p>
+    </aside>
+{{ end }}
