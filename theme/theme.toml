@@ -1,6 +1,6 @@
 name = "geheimesite"
 license = "MIT"
-licenselink = "https://github.com/RobinBoers/blob/master/themes/geheimesite/LICENSE"
+licenselink = "https://github.com/RobinBoers/blob/master/theme/LICENSE"
 description = "Simple neofeed-based theme for my blog."
 homepage = "https://blog.geheimesite.nl"
 tags = ["personal","timeline","feed","mobile","light","dark","dark mode","customizable","plausible"]
