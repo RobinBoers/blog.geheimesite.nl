@@ -15,6 +15,13 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 50%;
+  max-width: 40px;
+}
+
+/* Remove list style from comments */
+
+.comments li {
+  list-style: none;
 }
 
 /* Remove dots from menu and feed */

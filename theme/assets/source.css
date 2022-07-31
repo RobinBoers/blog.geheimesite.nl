@@ -16,7 +16,7 @@
 
 /* Remove list style from comments */
 .comments li {
-    @apply list-style-none;
+    list-style: none;
 }
 
 /* Remove dots from menu and feed */
