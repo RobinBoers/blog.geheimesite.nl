@@ -11,6 +11,12 @@
 .webmention__author__img {
     object-fit: cover;
     border-radius: 50%;
+    max-width: 40px;
+}
+
+/* Remove list style from comments */
+.comments li {
+    @apply list-style-none;
 }
 
 /* Remove dots from menu and feed */
