@@ -1,0 +1,46 @@
+<article class="h-entry preview">
+    {{ partial "author" . }}
+
+    <h2 class="p-name h1">
+        <a href="{{ .Permalink }}">
+            {{ .Title }}
+        </a>
+    </h2>
+    {{ if .Date }}
+        <span class="dt-published" hidden>{{ .Date }}</span>
+    {{ end }}
+
+    <p class="p-summary e-content">
+        {{ .Summary | markdownify }}
+
+        {{ if .Truncated }}...
+            <span class="read-more">
+                <a href="{{ .Permalink }}">[ {{ i18n "read_more" }} ]</a>
+            </span>
+        {{ end }}
+    </p>
+
+    <p class="properties">
+        {{ if .Date }}
+            <a class="u-url" href="{{ .Permalink }}">
+                {{ $diff := div (sub now.Unix .Date.Unix) 86400 }}
+                {{ if eq $diff 0 }}earlier today
+                {{ else }}
+                {{ if eq $diff -1 }}a day from now
+                {{ else }}
+                {{ if lt $diff 0 }}{{ mul -1 $diff }} days in the future
+                {{ else }}
+                {{ if eq $diff 1 }}a day ago
+                {{ else }}
+                {{ $diff }} days ago
+                {{ end }}{{ end }}{{ end }}{{ end }}
+            </a>
+        {{ end }}
+
+        <span class="categories">
+            {{ range (.GetTerms "tags") }}
+                <a class="p-category" href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+            {{ end }}
+        </span>
+    </p>
+</article>

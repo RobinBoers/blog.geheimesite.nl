@@ -1,3 +1,9 @@
-public
-**/node_modules
-themes/geheimesite/assets/blog.css
+/dist/
+/src/resources/_gen/
+/src/assets/jsconfig.json
+hugo_stats.json
+/.hugo_build.lock
+
+/**/node_modules
+/src/assets/css/main.css
+.vscode

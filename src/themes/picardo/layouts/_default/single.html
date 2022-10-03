@@ -1,0 +1,49 @@
+{{ define "main" }}
+    <article class="h-entry post">
+        {{ with .Params.hideTitle }}
+            <section class="p-summary e-content">
+                {{ $.Content }}
+            </section>
+        {{ else }}
+            <div class="post-title-box">
+                <h1 class="post-title p-name">{{ $.Title }}</h1>
+                <time class="dt-published" hidden>{{ .Date }}</time>
+                
+                {{ if isset .Params "date" }}
+                    <p class="post-date">
+                        {{ .Date.Format "02 January 2006" }}
+                    </p>
+                {{ end }}
+            </div>
+            
+            <section class="p-summary e-content">
+                {{ $.Content }}
+
+                {{ partial "bridgy" . }}
+            </section>
+            
+            <section class="post-data">
+                {{ if isset .Params "date" }}
+                    {{ $date := .Date.Format "02 January 2006" }}
+                    {{ $lastmod := .Lastmod.Format "02 January 2006" }}
+                    <p class="post-date">
+                        {{ i18n "posted_on" }} {{ $date }}
+                    </p>
+                    {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+                        <p class="post-update-date">
+                            {{ i18n "last_updated" }} {{ .Lastmod.Format "02 January 2006" }}
+                        </p>
+                    {{ end }}
+                {{ end }}
+                
+                {{ partial "views" . }}
+            </section>
+        {{ end }}
+    </article>
+
+    <aside>
+        <section>
+            {{ partial "webmentions" . }}
+        </section>
+    </aside>
+{{ end }}

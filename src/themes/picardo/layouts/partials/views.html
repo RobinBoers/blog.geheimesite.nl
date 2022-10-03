@@ -1,0 +1,22 @@
+{{ if not .Site.IsServer }}
+    <p class="post-views"></p>
+        <span class="views">?? views</span>
+    </p>
+
+    <script defer>
+        fetch("https://api.geheimesite.nl/views/get.php?url={{(urlquery .Permalink) | safeURL}}")
+                .then(response => response.json())
+                .then(json => document.querySelector(".views").innerText = `${parseInt(json.views) + 1} views`);
+
+        let isCrawler = /bot|google|baidu|bing|msn|teoma|slurp|yandex/i
+            .test(navigator.userAgent)
+
+        let increaseViewCount = () => {
+            fetch("https://api.geheimesite.nl/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
+        }
+
+        if (!isCrawler) {
+            increaseViewCount();
+        }        
+    </script>
+{{ end }}

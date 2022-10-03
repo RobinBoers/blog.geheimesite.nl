@@ -1,0 +1,21 @@
+{{ define "main" }}
+	<div class="tag-title">
+        <h1>{{ .Title }}</h1>
+    </div>
+
+	{{ if .Content }}
+		<p>
+			{{ .Content }}
+		</p>
+	{{ end }}
+
+	<div class="h-feed">
+		{{ range .Pages }}
+			{{ if .Content }}
+				{{ partial "preview" . }}
+			{{ end }}
+		{{ end }}
+	</div>
+
+	{{ partial "pagination" . }}
+{{ end }}
