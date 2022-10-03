@@ -1,0 +1,37 @@
+{
+    "name": "blog.geheimesite.nl",
+    "version": "3.0.4",
+    "description": "My personal blog",
+    "author": "Robijntje",
+    "homepage": "https://blog.geheimesite.nl",
+    "license": "UNLICENSED",
+    "scripts": {
+        "start": "./server.sh",
+        "build": "./build.sh",
+        "check": "./validate.sh",
+        "format": "prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RobinBoers/blog.git"
+    },
+    "keywords": [
+        "blog",
+        "hugo",
+        "html",
+        "css",
+        "tailwindcss",
+        "indieweb",
+        "webmentions",
+        "personal"
+    ],
+    "bugs": {
+        "url": "https://github.com/RobinBoers/blog/issues"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "tailwindcss": "^3.0.22",
+        "tailwindcss-opentype": "^1.0.0",
+        "prettier": "^2.7.1"
+    }
+}

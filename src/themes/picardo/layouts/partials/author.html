@@ -1,0 +1,23 @@
+<div rel="author" class="author p-author h-card">
+    <img 
+        class="u-photo"
+        src="{{ with $.Site.Author.image }}
+                {{ . | absURL }}
+            {{ else }}
+                {{ with $.Site.Author.name }}https://avatars.dicebear.com/api/initials/{{ . }}.svg{{ end }}
+            {{ end }}"
+        alt="{{.Site.Author.name}}" />
+    <p>
+        <span rel="me" class="p-name">
+            {{ with .Params.author }}
+                {{ . }}
+            {{ else }}
+                {{ $.Site.Author.name }}
+            {{ end }}
+        </span>
+        <span>
+            {{ if isset .Params "date" }}
+            {{ .Date.Format (.Site.Params.dateFormat | default "02 January 2006") }}{{ end }}
+        </span>
+    </p>
+</div>

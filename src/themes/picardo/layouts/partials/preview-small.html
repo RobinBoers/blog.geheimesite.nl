@@ -1,0 +1,19 @@
+<li>
+    <article class="h-entry preview-small">
+        <h2 class="p-name h1">
+            <a href="{{ .Permalink }}">
+                {{ .Title }}
+            </a>
+        </h2>
+        {{ if isset .Params "date" }}
+        <p class="italic">
+            Geschreven door {{ .Site.Author.name }} op 
+            {{ dateFormat "2 January 2006" .Date }}
+        </p>
+        {{ end }}
+
+        <p class="p-summary e-content">
+            {{ .Summary }}
+        </p>
+    </article>
+</li>

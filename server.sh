@@ -1,10 +1,6 @@
 #!/bin/bash
+# This scripts opens a local webserver at localhost:4000
+# and starts tailwind in the background
 
-# Run local development server on
-# main site. Also launch tailwindcss 
-# in watch mode.
-
-cd theme
-npm run watch &
-
-cd ../webdevelopment-en-meer/ && hugo server -D -p 4000
+npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets/css/main.css -w &
+hugo server -D -p 4000

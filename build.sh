@@ -1,19 +1,18 @@
 #!/bin/bash
+# This script builds the site using tailwind and hugo, validates it and then formats all HTML & markdown.
 
-# Build all sites using hugo and move 
-# to correct places in /public.
+echo "Cleaning cache..."
+rm -rf dist
 
-# Remove public dir if it is already present
-rm -rf public
+echo "Building CSS..."
+npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets/css/main.css > /dev/null 2>&1
 
-# Build tailwindcss
-cd theme && npm run build
-cd ..
+echo "Building site..."
+hugo --quiet
 
-# Build sites
-cd webdevelopment-en-meer/ && hugo --minify
-cd ../stupid-codes/ && hugo --minify
-cd ../crzywebdev/ && hugo --minify
+echo "Cleaning up build artifacts..."
+rm -rf dist/categories
+rm -rf dist/en/categories
 
-# Move all sites to root dir public
-cd .. && mv -f webdevelopment-en-meer/public ./public && mv -f stupid-codes/public ./public/stupid-codes && mv -f crzywebdev/public ./public/en
+echo "Formatting HTML..."
+npx prettier --write . --loglevel silent

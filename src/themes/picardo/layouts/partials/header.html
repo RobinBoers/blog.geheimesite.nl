@@ -1,0 +1,22 @@
+<header>
+    <div class="flex flex-row justify-between items-center">
+        <div class="flex flex-row flex-grow">
+            <p class="title font-bold">
+                <a href="{{ .Site.BaseURL }}">
+                    {{ .Site.Title }}
+                </a>
+            </p>
+        </div>
+        <nav>
+            <ul>
+                {{ range .AlternativeOutputFormats -}}
+                    <li>
+                        <a href="{{ .Permalink }}">
+                            {{.Name | lower }}
+                        </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</header>

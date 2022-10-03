@@ -1,43 +1,36 @@
 name: Send webmentions
-
 on:
-  workflow_run:
-    workflows: [pages-build-deployment]
-    types: [completed]
+    workflow_run:
+        workflows: ["Build and deploy"]
+        types: [completed]
 
-jobs:        
-  send-nl:
-    name: Dutch blog
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2.4.2
-      with:
-        ref: 'master'
-    - name: Send webmentions
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        URL: "https://blog.geheimesite.nl/index.json"
-        TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
-      run: |
-        NEW=$(curl --silent $URL | jq -r first.uri)
+jobs:
+    send-webmentions:
+        name: Send webmentions
+        runs-on: ubuntu-latest
+        if: ${{ github.event.workflow_run.conclusion == 'success' }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2.4.2
+              with:
+                  ref: "master"
 
-        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- webdevelopment-en-meer/content || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)" 
-          
-  send-en:
-    name: English blog
-    runs-on: ubuntu-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2.4.2
-      with:
-        ref: 'master'
-    - name: Send webmentions
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        URL: "https://blog.geheimesite.nl/en/index.json"
-        TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
-      run: |
-        git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- crzywebdev/content || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)"
+            - name: Dutch blog
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  URL: "https://blog.geheimesite.nl/index.json"
+                  TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
+              run: |
+                  NEW=$(curl --silent $URL | jq -r first.uri)
+
+                  git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- content/nl || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)"
+
+            - name: English blog
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  URL: "https://blog.geheimesite.nl/en/index.json"
+                  TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
+              run: |
+                  git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- content/en/post || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)"
+
+            

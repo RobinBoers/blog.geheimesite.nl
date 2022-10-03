@@ -1,0 +1,60 @@
+baseURL: https://blog.geheimesite.nl/
+defaultContentLanguage: nl
+timeZone: Europe/Amsterdam
+paginate: 16
+enableEmoji: true
+theme: picardo
+
+author:
+    name: Robin Boers
+    image: https://geheimesite.nl/images/me_optimized.jpeg
+    about: I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
+
+archetypeDir: src/archetypes
+assetDir: src/assets
+layoutsDir: src/layouts
+dataDir: src/data
+themesDir: src/themes
+publishDir: dist
+
+minify:
+    disableHTML: true
+    minifyOutput: true
+
+params:
+    webmention_url: https://webmention.io/geheimesite.nl/webmention
+    pingback_url: https://webmention.io/geheimesite.nl/xmlrpc
+
+languages:
+    nl:
+        contentDir: content/nl
+        languageName: Nederlands
+        languageCode: nl
+        title: Webdevelopment-En-Meer
+        copyright: Webdesigner en Elixir programmeur sinds 2017.
+
+    en:
+        contentDir: content/en
+        languageName: English
+        languageCode: en
+        title: ThatCrazyWebdev
+        copyright: Webdesigner and Elixir programmer since 2017.
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+
+enableRobotsTXT: false
+disableHugoGeneratorInject: true
+
+enableGitInfo: true
+frontmatter:
+    lastmod:
+        - lastmod
+        - :git
+        - date
+        - publishDate
+
+outputs:
+    home: ["HTML", "JSON", "RSS"]

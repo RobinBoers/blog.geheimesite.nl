@@ -1,0 +1,11 @@
+{{ if not .IsPage }}
+    <aside>
+        <p class="follow-me">
+            <a href='{{ i18n "follow_url" }}'>[ {{ i18n "follow_me" }} ]</a>
+        </p>
+    </aside>
+{{ end }}
+
+<footer class="page-footer">
+    &copy; {{ now.Year }} {{ .Site.Author.name }}. {{ .Site.Copyright }}
+</footer>

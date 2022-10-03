@@ -1,0 +1,133 @@
+@import "https://geheimesite.nl/assets/css/main.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .profile-picture {
+        object-fit: cover;
+        border-radius: 100%;
+        aspect-ratio: 1/1;
+    }
+}
+
+@layer components {
+    .u-photo {
+        @apply profile-picture;
+        height: 80px;
+        width: auto;
+        object-position: top right;
+    }
+
+    .webmention__author__img {
+        @apply profile-picture;
+        max-width: 40px;
+    }
+
+    .h-entry.preview {
+        @apply rounded-md p-6 bg-[#ebf1fa] dark:bg-slate/70 shadow-md max-w-[52rem] my-5 mx-auto;
+    }
+    .h-entry.preview .p-summary,
+    .h-entry.preview .properties {
+        @apply mb-0;
+    }
+    .h-entry.preview .author {
+        @apply flex items-center gap-5;
+    }
+    .h-entry.preview .author p {
+        @apply m-0;
+    }
+    .h-entry.preview .author p span {
+        @apply block;
+    }
+    .h-entry.preview .author .p-name {
+        @apply font-bold;
+    }
+
+    .h-entry.preview-small h2 {
+        @apply m-0;
+    }
+
+    .h-entry.post {
+        @apply mt-10;
+    }
+    .h-entry .post-title-box {
+        @apply text-center my-7 max-w-xl mx-auto;
+    }
+    .h-entry .post-date {
+        @apply my-5 font-mono font-bold text-lg lowercase;
+    }
+    .h-entry .post-title {
+        @apply mb-0 text-4xl;
+    }
+    .h-entry .post-data {
+        font-size: 90%;
+        font-style: italic;
+    }
+    .h-entry .post-data p {
+        margin-bottom: 0;
+    }
+
+    .read-more {
+        display: block;
+        text-align: center;
+        margin-top: 25px;
+        text-transform: lowercase;
+        font-weight: bold;
+    }
+    .follow-me {
+        text-align: center;
+        @apply m-0;
+    }
+
+    .properties {
+        @apply flex flex-row justify-between items-center pt-3;
+    }
+    .properties a,
+    .properties a:hover,
+    .p-name a,
+    .p-name a:hover {
+        color: inherit !important;
+        background-color: inherit !important;
+        text-decoration: none !important;
+    }
+
+    .webmentions {
+        @apply print:hidden mt-20;
+    }
+
+    .tag-title {
+        @apply flex flex-row justify-end;
+    }
+    .tag-title h1 {
+        @apply pr-7;
+    }
+
+    nav ul {
+        @apply flex flex-row gap-10 m-0 p-0;
+    }
+}
+
+@layer base {
+    body > header {
+        display: flex;
+        justify-content: center;
+    }
+    body > header > div {
+        max-width: 960px;
+        flex-grow: 1;
+    }
+
+    .comments li {
+        list-style: none;
+    }
+
+    .h-feed,
+    nav ul li {
+        list-style: none;
+    }
+    .h-feed {
+        padding: 0;
+    }
+}
