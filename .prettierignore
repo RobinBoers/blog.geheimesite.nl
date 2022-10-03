@@ -3,7 +3,10 @@ dist/**/*.js
 
 content/**/*.md
 
+src/themes/picardo/layouts/_default/index.json
+src/themes/picardo/layouts/_default/index.xml
 src/themes/picardo/layouts/_default/index.html
+src/themes/picardo/layouts/_default/list.json.json
 src/themes/picardo/layouts/_default/list.html
 src/themes/picardo/layouts/_default/taxonomy.html
 src/themes/picardo/layouts/_default/single.html

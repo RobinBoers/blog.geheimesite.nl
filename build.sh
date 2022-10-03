@@ -15,4 +15,4 @@ rm -rf dist/categories
 rm -rf dist/en/categories
 
 echo "Formatting HTML..."
-npx prettier --write . --loglevel silent
+npx prettier --write . --loglevel error

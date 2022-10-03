@@ -32,5 +32,3 @@ jobs:
                   TOKEN: ${{ secrets.WEBMENTION_TOKEN }}
               run: |
                   git diff --quiet $(git log -n 1 --pretty=format:"%p" master) master -- content/en/post || curl -X POST https://webmention.app/check?token=$TOKEN&url="$(curl --silent $URL | jq -r first.uri)"
-
-            
