@@ -20,11 +20,6 @@
         object-position: top right;
     }
 
-    .webmention__author__img {
-        @apply profile-picture;
-        max-width: 40px;
-    }
-
     .h-entry.preview {
         @apply rounded-md p-6 bg-[#ebf1fa] dark:bg-slate/70 shadow-md max-w-[52rem] my-5 mx-auto;
     }
@@ -119,10 +114,6 @@
         flex-grow: 1;
     }
 
-    .comments li {
-        list-style: none;
-    }
-
     .h-feed,
     nav ul li {
         list-style: none;
@@ -130,4 +121,16 @@
     .h-feed {
         padding: 0;
     }
+}
+
+/* Normally not picked up by tailwind because the 
+comments are generated client-side using JS */
+
+.webmention__author__img {
+    @apply profile-picture;
+    max-width: 40px;
+}
+
+.comments li {
+    list-style: none;
 }
