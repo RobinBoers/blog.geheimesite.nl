@@ -12,7 +12,8 @@ module.exports = {
     content: [
         "src/**/*.html",
         "src/content/**/*.md",
-        "static/**/*.{php,html,js}",
+        "src/themes/picardo/layouts/**/*.html",
+        "src/assets/**/*.js",
     ],
     theme: {
         colors: {
