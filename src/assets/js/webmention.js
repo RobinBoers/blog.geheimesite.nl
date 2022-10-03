@@ -197,7 +197,7 @@ A more detailed example:
         let html = '<h2>Webmentions</h2><ul class="comments p-0">';
         comments.forEach(function (c) {
             html +=
-                '<li class="rounded-md p-6 list-style-none dark:bg-slate/70 shadow-md my-5 max-w-[52rem]"><div class="webmention">';
+                '<li class="rounded-md p-6 list-style-none bg-[#ebf1fa] dark:bg-slate/70 shadow-md my-5 max-w-[52rem]"><div class="webmention">';
 
             html +=
                 '<div class="webmention__meta flex flex-row justify-start items-center gap-5">';
@@ -257,7 +257,7 @@ A more detailed example:
 
         reacts.forEach(function (r) {
             html +=
-                '<li class="rounded-md p-6 list-style-none dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto"><div class="webmention">';
+                '<li class="rounded-md p-6 list-style-none bg-[#ebf1fa] dark:bg-slate/70 shadow-md my-5 max-w-[52rem] mx-auto"><div class="webmention">';
             html += reactImage(r);
         });
 
