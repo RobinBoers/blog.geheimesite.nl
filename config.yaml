@@ -59,8 +59,3 @@ frontmatter:
 outputs:
     page: ["HTML"]
     home: ["HTML", "JSON", "RSS"]
-
-taxonomies:
-    author: ""
-    category: categories
-    tag: tags

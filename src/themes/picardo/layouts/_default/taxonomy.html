@@ -1,18 +1,27 @@
 {{ define "main" }}
     <div class="tag-title">
-        <h1># {{ .Title }}</h1>
+        <h1>#{{ .Title }}</h1>
     </div>
 
-    <div class="h-feed">
+	{{ if .Content }}
+		<section class="section">
+			{{ .Content }}
+		</section>
+
+        <ul class="h-feed">
+    {{ else}}
+        <ul class="h-feed mt-0">
+	{{ end }}
+
         {{ $pages := .Pages }}
         {{ $paginator := .Paginate $pages }}
 
         {{ range $paginator.Pages }}
             {{ if .Content }}
-                {{ partial "preview" . }}
+                {{ partial "preview-small" . }}
             {{ end }}
         {{ end }}
-    </div>
+    </ul>
 
     {{ partial "pagination" . }}
 {{ end }}

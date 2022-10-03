@@ -44,13 +44,17 @@
         @apply font-bold;
     }
 
+    .h-entry.preview-small h2 {
+        @apply m-0;
+    }
+
     .h-entry.post {
         @apply mt-10;
     }
     .h-entry .post-title-box {
         @apply text-center my-7 max-w-xl mx-auto;
     }
-    .h-entry .post-title-box .post-date {
+    .h-entry .post-date {
         @apply my-5 font-mono font-bold text-lg lowercase;
     }
     .h-entry .post-title {
