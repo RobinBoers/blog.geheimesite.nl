@@ -64,6 +64,9 @@
         font-size: 90%;
         font-style: italic;
     }
+    .h-entry .post-data p {
+        margin-bottom: 0;
+    }
 
     .read-more {
         display: block;
@@ -127,5 +130,3 @@
         padding: 0;
     }
 }
-
-/* Make tag links look better */

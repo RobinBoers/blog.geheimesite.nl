@@ -1,6 +1,10 @@
 <li>
     <article class="h-entry preview-small">
-        <h2 class="p-name h1">{{ .Title }}</h2>
+        <h2 class="p-name h1">
+            <a href="{{ .Permalink }}">
+                {{ .Title }}
+            </a>
+        </h2>
         {{ if isset .Params "date" }}
         <p class="italic">
             Geschreven door {{ .Site.Author.name }} op 
