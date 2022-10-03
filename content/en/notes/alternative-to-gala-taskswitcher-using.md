@@ -28,4 +28,4 @@ sudo chmod +x ./alttab.sh
 Delete default Alt+Tab shortcut in Switchboard -> Keyboard -> Shortcuts -> Windows  
 Now link to the file you created earlier and assign it to Alt+Tab.
 
-This looks the best using this custom rofi theme I made: [https://github.com/RobinBoers/dotfiles/blob/master/.config/rofi/alttab.rasi](https://github.com/RobinBoers/dotfiles/blob/master/.config/rofi/alttab.rasi)
+This looks the best using this custom rofi theme I made: [https://github.com/RobinBoers/dotfiles-legacy/blob/master/.config/rofi/alttab.rasi](https://github.com/RobinBoers/dotfiles-legacy/blob/master/.config/rofi/alttab.rasi)

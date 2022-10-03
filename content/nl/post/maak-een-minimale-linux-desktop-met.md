@@ -155,6 +155,6 @@ sudo apt-get install papirus-icon-theme
 
 Je kan dit theme nu selecteren in `lxappearance` onder Icons. We missen nog 1 ding: een gtk theme. Ik houd erg van het standaard Adwaita-Dark theme. Het zou als het goed is al geinstalleerd moeten zijn.
 
-Dus. Dit was het. Ik hoop dat je er iets aan gehad hebt, of het gewoon leuk vond om te lezen! Je kan mijn config files vinden in deze GitHub repo: <https://github.com/RobinBoers/dotfiles>
+Dus. Dit was het. Ik hoop dat je er iets aan gehad hebt, of het gewoon leuk vond om te lezen! Je kan mijn config files vinden in deze GitHub repo: <https://github.com/RobinBoers/dotfiles-legacy>
 
 \- Robin

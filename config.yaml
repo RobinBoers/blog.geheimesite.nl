@@ -57,5 +57,4 @@ frontmatter:
         - publishDate
 
 outputs:
-    page: ["HTML"]
     home: ["HTML", "JSON", "RSS"]

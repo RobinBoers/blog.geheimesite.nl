@@ -25,7 +25,7 @@ Je kan als je bent ingelogd in vsce je extensions publiceren met het command
 vsce publish
 ```
 
-En dan zou je extension na een paar minuten live moeten zijn op: [https://marketplace.visualstudio.com/items?itemName=_Publisher_._extension-name_](https://marketplace.visualstudio.com/items?itemName=Publisher.extension-name)
+En dan zou je extension na een paar minuten live moeten zijn op: marketplace.visualstudio.com/items?itemName=_Publisher_._extension-name_
 
 Publiceren op Open-VSX is echter een ander verhaal. Je moet eerst een account aanmaken op [open-vsx.org](http://open-vsx.org). Als je dat gedaan hebt moet je een Eclipse account aanmaken, en inloggen met je Eclipse account in je Open-VSX account om de "Eclipse Foundation Open VSX Publisher Agreement" te accepteren. Mooi woord voor galgje :D
 
@@ -47,7 +47,7 @@ npx ovsx publish -p TOKEN_HERE
 
 Na het publiceren moet je dan een issue op de GitHub page van Open-VSX aanmaken om je namespace te claimen. Tot dat issue is goeggekeurd staat er een warning boven je extension.  
 
-Dus, dat duurde lang. Maar, als je intresse hebt kan je dus mijn extensions hier vinden:
+Dus, dat duurde lang. Maar, als je interesse hebt kan je dus mijn extensions hier vinden:
 
 [https://marketplace.visualstudio.com/items?itemName=RobinBoers.frontend-delight](https://marketplace.visualstudio.com/items?itemName=RobinBoers.frontend-delight)
 

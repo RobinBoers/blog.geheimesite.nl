@@ -14,10 +14,10 @@ Bij Minecon LIVE 2019 is als promotie van de nieuwe Character Creator een cape b
 
 Minecraft laat normaal 4D skinpacks, en skinpacks met capes niet toe als je ze importeert. Maar het standaard skinpack in minecraft (die met steve en alex) zit geen controle op. Het eerste wat je moet doen is de oude skinkiezer terughalen. Je kan er niet meer bij via de minecraft menu's, maar hij is nog aanwezig. Door [dit rescourcepack](https://mcpedl.com/skins-ui-changer/) te downloaden en importeren, krijg je er een extra knopje bij, waarmee je de oude UI terugkrijgt.
 
-Nadat je de oude skin UI weer terug hebt, moet je [dit rescourcepack](https://mcpedl.com/custom-cape-skin-pack/) downloaden (het zip bestand). Ga daarna naar deze map:
+Nadat je de oude skin UI weer terug hebt, moet je [dit rescourcepack](https://web.archive.org/web/20190329050649/http://mcpedl.com/custom-cape-skin-pack/) downloaden (het zip bestand). Ga daarna naar deze map:
 
 ```text
-C:\\Program Files\\WindowsApps\\Microsoft.MinecraftUWP\_1.14.6005.0\_x64\_\_8wekyb3d8bbwe\\data\\skin\_packs
+C:\Program Files\WindowsApps\Microsoft.MinecraftUWP\1.14.6005.0_x64__8wekyb3d8bbwe\data\skin_packs
 ```
 
 en klik op de map vanilla.

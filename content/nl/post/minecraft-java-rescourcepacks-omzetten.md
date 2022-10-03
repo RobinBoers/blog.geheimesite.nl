@@ -11,7 +11,7 @@ tags:
 
 Zoals ik al eerder heb gepost ben ik samen met een vriend (Sean) een rescourcepack aan het maken voor Minecraft Java. Nu speelt mijn zusje Minecraft Bedrock, en kon ze het rescourcepack dus niet downloaden. Dus ik was gaan zoeken op Google (mijn beste vriend) en ik vond deze supercoole webapp, die helemaal offline werkt, op je apparaat, je hoeft niks te uploaden, die Java rescourcepacks omzet in bedrock rescourcepacks. De app heeft ConvertJavaTextureToBedrock en is hier te vinden:
 
-[https://ozelot379.github.io/ConvertJavaTextureToBedrock/](https://ozelot379.github.io/ConvertJavaTextureToBedrock/)
+<https://7man7lmyt.github.io/ConvertJavaTextureToBedrock>
 
 De app is grotendeels geschreven in Javascript, en ondersteund de volgende Minecraft versies:
 

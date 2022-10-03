@@ -16,7 +16,7 @@ ontwerpprogramma's en die onzin, gewoon met code. Maar dat is helemaal toch niet
   
 In deze tutorial bouw je je eerste website, daarvoor gebruiken we de talen HTML (HyperText Markup Language), CSS (Cascading StyleSheets) en een beetje JS (JavaScript). Ik ga het proberen makkelijk te houden, maar ik zal er ook blauwe vakken in zetten, daarin ga ik verder op in de code en theorie.  
   
-_Ik verwacht dat je Brackets al hebt gedownload, en bestandnaamextensies aan staan. Is dat niet het geval, bekijk daar dan mijn tutorials over. Je vind ze hier: [Een ontwikkelomgeving opzetten](https://blog.geheimesite.nl/search/label/ontwikkelomgeving_opzetten)_  
+_Ik verwacht dat je [Brackets al hebt gedownload](/2019/11/brackets-installeren.html), en [bestandnaamextensies aan staan](/2019/11/zo-zet-je-bestandsnaam-extensies-aan-in.html). Is dat niet het geval, bekijk daar dan mijn tutorials over._
   
 **Laten we beginnen!**  
 Ik zal dit onderwerp over meerdere blogposten verspreiden, we gaan hier leren hoe we een simpele homepage, en over-mij pagina gaan maken.  

@@ -42,11 +42,11 @@ Dat hangt af van de iOS versie die je hebt. Voor elke iOS versie is een andere j
 
 Wil je meer over jailbreaken weten? Deze site is een mooie bron:
 
-[https://cydia-app.com/](https://cydia-app.com/)
+<https://cydia-app.com>
 
 Hier zie je al mijn blogjes over jailbreaken:
 
-<https://blog.geheimesite.nl/tag/jailbreak>
+<https://blog.geheimesite.nl/tags/jailbreak/>
 
 Dit was het weer,
 

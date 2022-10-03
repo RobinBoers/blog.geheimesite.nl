@@ -10,5 +10,9 @@ npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets
 echo "Building site..."
 hugo --quiet
 
+echo "Cleaning up build artifacts..."
+rm -rf dist/categories
+rm -rf dist/en/categories
+
 echo "Formatting HTML..."
 npx prettier --write . --loglevel silent
