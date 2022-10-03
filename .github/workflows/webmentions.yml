@@ -1,7 +1,7 @@
 name: Send webmentions
 on:
     workflow_run:
-        workflows: [pages-build-deployment]
+        workflows: ["Build and deploy"]
         types: [completed]
 
 jobs:
