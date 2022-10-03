@@ -26,9 +26,9 @@
     }
 
     .h-entry.preview {
-        @apply rounded-md px-6 dark:bg-slate/70 dark:shadow-md mb-20 max-w-[52rem] mx-auto;
+        @apply rounded-md p-6 bg-[#ebf1fa] dark:bg-slate/70 shadow-md max-w-[52rem] my-5 mx-auto;
     }
-    .h-entry.preview .p-summary {
+    .h-entry.preview .p-summary, .h-entry.preview .properties {
         @apply mb-0;
     }
     .h-entry.preview .author {
