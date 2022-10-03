@@ -12,7 +12,10 @@
             .test(navigator.userAgent)
 
         let increaseViewCount = () => {
-            fetch("https://api.geheimesite.nl/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
+            let plsDontTrack = localStorage.getItem("plsDontTrack");
+            if (!plsDontTrack) {
+                fetch("https://api.geheimesite.nl/views/new.php?url={{(urlquery .Permalink) | safeURL}}");
+            }
         }
 
         if (!isCrawler) {
