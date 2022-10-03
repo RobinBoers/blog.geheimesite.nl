@@ -7,11 +7,17 @@
         </a>
     </h2>
     {{ if .Date }}
-        <span class="dt-published" hidden>{{ .Date }}</span>
+        <time 
+            class="dt-published" 
+            datetime='{{ .Date.Format "2006-01-02T15:04:05" }}' 
+            hidden
+        >
+            {{ .Date }}
+        </time>
     {{ end }}
 
     <p class="p-summary e-content">
-        {{ .Summary | markdownify }}
+        {{ .Summary }}
 
         {{ if .Truncated }}...
             <span class="read-more">

@@ -7,9 +7,15 @@
         {{ else }}
             <div class="post-title-box">
                 <h1 class="post-title p-name">{{ $.Title }}</h1>
-                <time class="dt-published" hidden>{{ .Date }}</time>
-                
-                {{ if isset .Params "date" }}
+                {{ if .Date }}
+                    <time 
+                        class="dt-published" 
+                        datetime='{{ .Date.Format "2006-01-02T15:04:05" }}' 
+                        hidden
+                    >
+                        {{ .Date }}
+                    </time>
+
                     <p class="post-date">
                         {{ .Date.Format "02 January 2006" }}
                     </p>
@@ -23,7 +29,7 @@
             </section>
             
             <section class="post-data">
-                {{ if isset .Params "date" }}
+                {{ if .Date }}
                     {{ $date := .Date.Format "02 January 2006" }}
                     {{ $lastmod := .Lastmod.Format "02 January 2006" }}
                     <p>
