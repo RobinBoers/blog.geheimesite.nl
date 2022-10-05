@@ -40,6 +40,9 @@
         @apply font-bold;
     }
 
+    .h-entry.preview-small {
+        @apply mx-auto max-w-[45rem];
+    }
     .h-entry.preview-small h2 {
         @apply m-0;
     }
