@@ -1,5 +1,6 @@
 ---
 title: "Digital Garden"
+translationKey: digital-garden
 draft: false
 alias: /stupid-codes
 ---
