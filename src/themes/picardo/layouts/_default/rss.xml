@@ -19,7 +19,9 @@
     <link>{{ .Permalink }}</link>
     {{ with .Site.LanguageCode }}
     <language>{{.}}</language>
-    {{end}}{{ with .Site.Author.email }}
+    {{end}}
+    <description>{{- if .IsHome -}}{{- .Site.Params.description -}}{{- else -}}{{- with .Description -}}{{- . -}}{{- else -}}{{- if .IsPage -}}{{- .Summary -}}{{- else -}}{{- with .Site.Params.description -}}{{- . -}}{{- end -}}{{- end -}}{{- end -}}{{- end -}}</description>
+    {{ with .Site.Author.email }}
     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>
     {{end}}{{ with .Site.Author.email }}
     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>

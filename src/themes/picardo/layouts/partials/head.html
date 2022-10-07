@@ -10,6 +10,8 @@
 
     <title>{{ $title }}</title>
 
+    <meta name="description" content='{{- block "description" . -}}{{- if .IsHome -}}{{- .Site.Params.description -}}{{- else -}}{{- with .Description -}}{{- . -}}{{- else -}}{{- if .IsPage -}}{{- .Summary -}}{{- else -}}{{- with .Site.Params.description -}}{{- . -}}{{- end -}}{{- end -}}{{- end -}}{{- end -}}{{- end -}}'>
+
     <link rel="canonical" href="{{ .Permalink }}" />
 
     {{ $css := resources.Get "css/main.css" | resources.Minify |
