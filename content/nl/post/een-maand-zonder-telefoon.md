@@ -2,6 +2,7 @@
 title: 'Een maand zonder telefoon.'
 date: 2022-03-04T00:19:00.002-08:00
 draft: false
+translationKey: maand-zonder-telefoon
 url: /2022/03/een-maand-zonder-telefoon.html
 tags: 
 - challenge

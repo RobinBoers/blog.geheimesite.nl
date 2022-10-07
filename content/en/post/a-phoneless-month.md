@@ -2,6 +2,7 @@
 title: "A phoneless month."
 date: 2022-03-05T12:54:39+01:00
 draft: false
+translationKey: maand-zonder-telefoon
 ---
 
 February was a special month for me. I had challenged myself to put away my phone for an entire month. In this post, I'd like to share my experience.
