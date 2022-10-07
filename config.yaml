@@ -22,6 +22,7 @@ minify:
     minifyOutput: true
 
 params:
+    github_repo: RobinBoers/blog
     webmention_url: https://webmention.io/geheimesite.nl/webmention
     pingback_url: https://webmention.io/geheimesite.nl/xmlrpc
 

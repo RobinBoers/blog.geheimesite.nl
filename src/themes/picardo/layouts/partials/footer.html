@@ -1,11 +1,22 @@
-{{ if not .IsPage }}
-    <aside>
-        <p class="follow-me">
-            <a href='{{ i18n "follow_url" }}'>[ {{ i18n "follow_me" }} ]</a>
-        </p>
-    </aside>
-{{ end }}
-
 <footer class="page-footer">
-    &copy; {{ now.Year }} {{ .Site.Author.name }}. {{ .Site.Copyright }}
+    <p>&copy; {{ now.Year }} {{ .Site.Author.name }}. {{ .Site.Copyright }}</p>
+
+    <aside class="text-xs">
+        Built with <a href="https://gohugo.io">Hugo {{ hugo.Version }}</a> •
+        {{ if .IsPage}} 
+            {{ if .File.Path }}
+                {{ $.Scratch.Set "FilePath" .File.Path }}
+            {{ end }}
+            {{ with .Site.Params.github_repo}}
+                <a href='https://github.com/{{ . }}/edit/master/content/{{ $.Site.LanguageCode }}/{{ $.Scratch.Get "FilePath" }}'>Edit this page on GitHub</a> •
+            {{ end }}
+        {{ end }}
+
+        <a href='{{ i18n "follow_url" }}'>{{ i18n "follow_me" }}</a>
+        {{ range .AlternativeOutputFormats -}}
+            • <a href="{{ .Permalink }}">
+                {{ .Name | upper }} feed
+            </a>
+        {{ end }}
+    </aside>
 </footer>
