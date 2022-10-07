@@ -11,7 +11,7 @@ npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets
 
 if ! $VALIDATE; then
     echo "Building site..."
-    HUGO_UGLYURLS=true hugo --quiet
+    hugo --quiet
 else
     echo "Building site in validate mode..."
     HUGO_UGLYURLS=true HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true hugo --quiet
