@@ -1,15 +1,19 @@
 {{ define "main" }}
-    <div class="tag-title">
-        <h1>#{{ .Title }}</h1>
-    </div>
-
 	{{ if .Content }}
+        <div class="tag-title mb-10">
+            <h1>{{ .Title }}</h1>
+        </div>
+
 		<section class="section">
 			{{ .Content }}
 		</section>
 
         <ul class="h-feed">
     {{ else}}
+        <div class="tag-title">
+            <h1>#{{ .Title }}</h1>
+        </div>
+
         <ul class="h-feed mt-0">
 	{{ end }}
 

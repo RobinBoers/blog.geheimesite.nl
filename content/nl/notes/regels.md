@@ -1,5 +1,5 @@
 ---
-title: "Regels"
+title: "Regels & regelzucht"
 date: 2022-10-07T21:44:28+02:00
 draft: false
 ---
