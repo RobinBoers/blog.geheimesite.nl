@@ -1,5 +1,5 @@
 ---
-title: 'Add Qtile icon in LightDM slick-greeter'
+title: 'Qtile icon in LightDM slick-greeter'
 date: 2021-08-03T07:11:00.008-07:00
 draft: false
 url: /2021/08/add-qtile-icon-in-lightdm-slick-greeter.html

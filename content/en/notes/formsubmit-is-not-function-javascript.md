@@ -1,5 +1,5 @@
 ---
-title: 'form.submit() is not a function (JavaScript)'
+title: 'form.submit() is not a function'
 date: 2021-08-13T12:42:00.001-07:00
 draft: false
 url: /2021/08/formsubmit-is-not-function-javascript.html

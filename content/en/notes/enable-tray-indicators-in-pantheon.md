@@ -1,5 +1,5 @@
 ---
-title: 'Enable tray indicators in Pantheon'
+title: 'Tray indicators in Pantheon'
 date: 2021-08-03T07:26:00.004-07:00
 draft: false
 url: /2021/08/enable-tray-indicators-in-pantheon.html

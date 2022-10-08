@@ -1,5 +1,5 @@
 ---
-title: 'Minecraft Void World on 1.18.1 server'
+title: 'Minecraft Void-world on 1.18.1 server'
 date: 2022-01-21T07:21:00.003-08:00
 draft: false
 url: /2022/01/minecraft-void-world-on-1181-server.html

@@ -1,5 +1,5 @@
 ---
-title: 'Display Blogger feed on HTML site using RSS'
+title: 'Blogger posts on static sites using RSS'
 date: 2022-02-13T10:48:00.001-08:00
 draft: false
 url: /2022/02/display-blogger-feed-on-html-site-using.html
