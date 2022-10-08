@@ -25,6 +25,7 @@ params:
     github_repo: RobinBoers/blog
     webmention_url: https://webmention.io/geheimesite.nl/webmention
     pingback_url: https://webmention.io/geheimesite.nl/xmlrpc
+    main_sections: posts
 
 languages:
     nl:

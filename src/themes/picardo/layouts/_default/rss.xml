@@ -2,7 +2,7 @@
 {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 {{- $pages := slice -}}
 {{- if $.IsHome -}}
-{{- $pages = where $pctx.RegularPages "Type" "in" "posts" -}}
+{{- $pages = where $pctx.RegularPages "Type" "in" site.Params.main_sections -}}
 {{- else if $.IsSection -}}
 {{- $pages = $pctx.RegularPages -}}
 {{- else -}}

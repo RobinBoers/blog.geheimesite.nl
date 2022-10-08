@@ -1,5 +1,5 @@
 {{- $.Scratch.Add "index" slice -}}
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- $pages := where site.RegularPages "Type" "in" site.Params.main_sections -}}
 {{- range $pages -}}
 {{- $.Scratch.Add "index" (dict "uri" .Permalink "author" .Site.Author "site" .Site.BaseURL "title" .Title "date" .Date "content" .Plain "tags" .Params.tags "categories" .Params.tags) -}}
 {{- end -}}

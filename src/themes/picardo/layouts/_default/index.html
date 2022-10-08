@@ -2,7 +2,7 @@
     <h1 hidden>{{ .Site.Title }}</h1>
 
     <div class="h-feed">
-        {{ $pages := where site.RegularPages "Type" "in" "posts" }}
+        {{ $pages := where site.RegularPages "Type" "in" site.Params.main_sections }}
         {{ $paginator := .Paginate $pages }}
         
         {{ range $paginator.Pages }}
