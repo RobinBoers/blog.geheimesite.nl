@@ -2,7 +2,7 @@
     <p>&copy; {{ now.Year }} {{ .Site.Author.name }}. {{ .Site.Copyright }}</p>
 
     <aside class="text-xs">
-        {{ i18n "built_with" }} <a href="https://gohugo.io">Hugo {{ hugo.Version }}</a> •
+        {{ i18n "built_with" }} <a href="https://gohugo.io">Hugo v{{ hugo.Version }}</a> •
         {{ if .IsPage}} 
             {{ if .File.Path }}
                 {{ $.Scratch.Set "FilePath" .File.Path }}
