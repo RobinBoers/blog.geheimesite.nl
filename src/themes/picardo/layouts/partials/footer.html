@@ -23,6 +23,6 @@
     </aside>
 </footer>
 <script>
-    let pageWeight = document.body.innerHTML.length;
-    document.querySelector('.page-size').innerText = `${pageWeight} kB`
+    let pageWeight = document.body.innerHTML.length / 1000;
+    document.querySelector('.page-size').innerText = `${pageWeight.toFixed(1)} kB`
 </script>
