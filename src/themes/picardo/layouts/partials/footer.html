@@ -18,5 +18,11 @@
                 {{ .Name | upper }} feed
             </a>
         {{ end }}
+
+        • <span class="page-size">??? kB</span>
     </aside>
 </footer>
+<script>
+    let pageWeight = document.body.innerHTML.length;
+    document.querySelector('.page-size').innerText = `${pageWeight} kB`
+</script>
