@@ -41,6 +41,9 @@
                         </p>
                     {{ end }}
                 {{ end }}
+                <p class="post-wordcount">
+                    {{ .Content | countwords }} {{ i18n "words" }}
+                </p>
                 
                 {{ partial "views" . }}
             </section>
