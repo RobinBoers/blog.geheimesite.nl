@@ -6,7 +6,7 @@
             href="{{ $pag.Prev.URL }}"
             class="leading-[revert]"
             aria-label="Previous">
-            ← newer
+            ← {{ i18n "newer" }}
         </a>
         {{ end }}
     </li>
@@ -16,7 +16,7 @@
             href="{{ $pag.Next.URL }}"
             class="leading-[revert]"
             aria-label="Next">
-            older →
+            {{ i18n "older" }} →
         </a>
         {{ end }}
     </li>

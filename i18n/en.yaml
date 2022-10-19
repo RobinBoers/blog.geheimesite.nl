@@ -27,3 +27,23 @@ built_with:
 
 words:
     other: words long
+
+written_by: 
+    other: Written by
+
+older:
+    other: older
+
+newer:
+    other: newer
+
+earlier_today:
+    other: earlier today
+
+days_ago:
+    one: a day ago
+    other: '{{ . }} days ago'
+
+days_from_now: 
+    one: a day from now
+    other: '{{ . }} days in the future'

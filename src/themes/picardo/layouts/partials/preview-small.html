@@ -7,7 +7,7 @@
         </h2>
         {{ if isset .Params "date" }}
         <p class="italic">
-            Geschreven door {{ .Site.Author.name }} op 
+            {{ i18n "written_by" }} {{ .Site.Author.name }} op 
             {{ dateFormat "2 January 2006" .Date }}
         </p>
         {{ end }}

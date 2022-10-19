@@ -27,3 +27,23 @@ built_with:
 
 words:
     other: woorden lang
+
+written_by: 
+    other: Geschreven door
+
+older:
+    other: ouder
+
+newer:
+    other: nieuwer
+
+earlier_today:
+    other: eerder vandaag
+
+days_ago:
+    one: een dag geleden
+    other: '{{ . }} dagen geleden'
+
+days_from_now: 
+    one: over een dag
+    other: 'over {{ . }} dagen'
