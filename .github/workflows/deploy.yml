@@ -2,6 +2,8 @@ name: Build and deploy
 on:
     push:
         branches: ["master"]
+    schedule: 
+    - cron: 10 0 * * *
     workflow_dispatch:
 
 permissions:
