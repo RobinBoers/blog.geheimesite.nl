@@ -28,7 +28,7 @@ built_with:
 words:
     other: words long
 
-written_by: 
+written_by:
     other: Written by
 
 older:
@@ -42,8 +42,8 @@ earlier_today:
 
 days_ago:
     one: a day ago
-    other: '{{ . }} days ago'
+    other: "{{ . }} days ago"
 
-days_from_now: 
+days_from_now:
     one: a day from now
-    other: '{{ . }} days in the future'
+    other: "{{ . }} days in the future"
