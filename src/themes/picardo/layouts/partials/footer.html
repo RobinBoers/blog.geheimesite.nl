@@ -7,7 +7,7 @@
             {{ if .File.Path }}
                 {{ $.Scratch.Set "FilePath" .File.Path }}
             {{ end }}
-            {{ with .Site.Params.github_repo}}
+            {{ with .Site.Params.github_repo }}
                 <a href='https://github.com/{{ . }}/edit/master/content/{{ $.Site.LanguageCode }}/{{ $.Scratch.Get "FilePath" }}'>{{ i18n "edit_on_gh" }}</a> •
             {{ end }}
         {{ end }}

@@ -66,7 +66,14 @@
     .h-entry .post-data p {
         margin-bottom: 0;
     }
+    .h-entry .post-data p:last-child {
+        margin-bottom: .7em;
+    }
 
+    .h-entry .post-data-extra {
+        font-size: 80%;
+        font-style: italic;
+    }
     .read-more {
         display: block;
         text-align: center;

@@ -28,25 +28,33 @@
                 {{ partial "bridgy" . }}
             </section>
             
-            <section class="post-data">
-                {{ if .Date }}
-                    {{ $date := dateFormat "2 January 2006" .Date }}
-                    {{ $lastmod := dateFormat "2 January 2006" .Lastmod }}
-                    <p>
-                        {{ i18n "posted_on" }} {{ $date }}
-                    </p>
-                    {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
-                        <p class="post-update-date">
-                            {{ i18n "last_updated" }} {{ $lastmod }}
+            <footer class="post-footer">
+                <section class="post-data">
+                    {{ if .Date }}
+                        
+                        {{ $date := dateFormat "2 January 2006" .Date }}
+                        {{ $lastmod := dateFormat "2 January 2006" .Lastmod }}
+                        <p>
+                            {{ i18n "posted_on" }} {{ $date }}
                         </p>
-                    {{ end }}
-                {{ end }}
-                <p class="post-wordcount">
-                    {{ .Content | countwords }} {{ i18n "words" }}
-                </p>
-                
-                {{ partial "views" . }}
-            </section>
+                        {{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+                            <p class="post-update-date">
+                                {{ i18n "last_updated" }} {{ $lastmod }}
+                            </p>
+                        {{ end }}
+                    {{ end }}                
+                </section>
+    
+                <section class="post-data post-data-extra">
+                    {{ partial "latest_commit" . }}
+    
+                    <p class="post-wordcount">
+                        {{ .Content | countwords }} {{ i18n "words" }}
+                    </p>
+                    
+                    {{ partial "views" . }}
+                </section>
+            </footer>
         {{ end }}
     </article>
 

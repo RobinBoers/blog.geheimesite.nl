@@ -1,0 +1,10 @@
+{{ with .Site.Params.github_repo }}
+    {{ if $.GitInfo }} 
+        <p class="post-commit">
+            Latest commit: 
+            <a href="https://github.com/{{ . }}/commit/{{ $.GitInfo.Hash }}" rel="noopener">
+                {{ $.GitInfo.AbbreviatedHash }}
+            </a>
+        </p>
+    {{ end }}
+{{ end }}
