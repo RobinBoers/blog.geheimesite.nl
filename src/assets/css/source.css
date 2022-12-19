@@ -112,6 +112,15 @@
     nav ul {
         @apply flex flex-row gap-10 m-0 p-0;
     }
+
+    .info {
+        @apply text-sm font-sans before:font-semibold !p-2 border-y border-x-0 border-foreground/10 border-solid lowercase;
+    }
+
+    .info::before {
+        content: "Let op: ";
+        text-transform: none;
+    }
 }
 
 @layer base {

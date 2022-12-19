@@ -34,7 +34,7 @@
                 {{ else }}
                 {{ if eq $diff -1 }}{{ i18n "days_from_now" 1 }}
                 {{ else }}
-                {{ if lt $diff 0 }}{{ i18n "days_from_now" mul -1 $diff }}
+                {{ if lt $diff 0 }}{{ i18n "days_from_now" (mul -1 $diff) }}
                 {{ else }}
                 {{ if eq $diff 1 }}{{ i18n "days_ago" 1}}
                 {{ else }}

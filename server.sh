@@ -3,4 +3,4 @@
 # and starts tailwind in the background
 
 npx tailwindcss -c tailwind.config.js -i src/assets/css/source.css -o src/assets/css/main.css -w &
-hugo server -D -p 4000
+hugo server -DF -p 4000
