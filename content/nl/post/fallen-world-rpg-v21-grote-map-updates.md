@@ -14,6 +14,6 @@ Een tijd geleden heb ik het eerste devlog op YouTube gepost. Sindsdien heb ik er
 
 Hieronder kan je het tweede devlog kijken. Ik hoop dat jullie het leuk vinden!
 
-{{< youtube ZvWq_RgY4Ng >}}
+{{< video ZvWq_RgY4Ng >}}
 
 \- Robin

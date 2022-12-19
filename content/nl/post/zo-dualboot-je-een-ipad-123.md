@@ -8,4 +8,4 @@ tags:
 - jailbreak
 ---
 
-{{< youtube JBPA_u034-0 >}}
+{{< video JBPA_u034-0 >}}

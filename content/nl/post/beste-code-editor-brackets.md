@@ -26,7 +26,7 @@ Brackets is een code-editor / IDE gemaakt door Adobe. Ze gebruiken [Code Mirror
 
 En dan nu tot slot, een filmpje over Live Voorbeeld, en de andere functies.
 
-{{< youtube KJXdvaY9lTA >}}
+{{< video KJXdvaY9lTA >}}
   
 Ik hoop dat jullie iets aan deze blogpost gehad hebben, en tot de volgende keer!  
 Robin

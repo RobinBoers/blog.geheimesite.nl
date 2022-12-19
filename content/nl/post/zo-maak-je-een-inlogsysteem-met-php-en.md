@@ -10,7 +10,7 @@ tags:
 
 Hallo, ik ben Robin. In deze tutorial laat ik zien hoe je een simpel inlogsysteem maakt in PHP.  
 
-{{< youtube Nqw5XAYdeMc >}}
+{{< video Nqw5XAYdeMc >}}
 
 Voor deze video moet je wel de basisvaardigheden van PHP en HTML onder de knie hebben. Wil je leren hoe je je eerste HTML website maakt? Houd dan dit blog in de gaten, want binnenkort plaats ik een beginners handleiding HTML.  
   

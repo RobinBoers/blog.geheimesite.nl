@@ -8,7 +8,7 @@ tags:
 - php
 ---
 
-{{< youtube 0_Sr9a0whH8 >}}
+{{< video 0_Sr9a0whH8 >}}
 
 Ik heb een hele tijd geleden een video gemaakt over het schrijven van een inlogsysteem in PHP. Ik heb nu een deel 2 gemaakt, waarin ik laat zien hoe je het aan een database kan koppelen. Daardoor kan je meerdere accounts met verschillenden rechten maken.
 

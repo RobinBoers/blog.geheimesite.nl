@@ -9,4 +9,4 @@ tags:
 
 Ik heb laatst een monitor besteld, en ik had besloten hem vandaag voor jullie te unboxen. Wat is een techkanaal namelijk zonder unboxings?
 
-{{< youtube DbL1n7I5qb4 >}}
+{{< video DbL1n7I5qb4 >}}

@@ -10,7 +10,7 @@ tags:
 Hey, vandaag heb ik een robot gebouwd met mijn (vaders) LEGO Mindstorms.  
 Het is een Morse code Printer. Je tapt de morse code op de touchsensor, het programma vertaalt dat naar letters, en print die. De robot is ontworpen door Jason van [jkbrickworks.com](https://jkbrickworks.com/), bouwinstructies en het programma zijn ook door hem gemaakt. Hieronder zie je een video:  
   
-{{< youtube dIgSKPzLC9g >}}
+{{< video dIgSKPzLC9g >}}
 
 Ik vind het zelf een mooie constructie, en een mooi programma, en wil Jason daar graag voor bedanken.  
   

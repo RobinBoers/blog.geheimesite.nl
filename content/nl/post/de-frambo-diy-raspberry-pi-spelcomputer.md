@@ -14,6 +14,6 @@ Ik heb vorig jaar (2019) voor kerst een Raspberry Pi gekregen. Nu (een half jaar
 
 Maar hoe heb ik hem gebouwd? Dat leg ik uit in de video hieronder.
 
-{{< youtube 7P-LVfkQSNQ >}}
+{{< video 7P-LVfkQSNQ >}}
 
 \- Robin

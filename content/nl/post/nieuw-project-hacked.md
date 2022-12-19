@@ -9,7 +9,7 @@ tags:
 
 Hallo, een kleine update vandaag. Hier is mijn niewst programma:  
   
-{{< youtube fjbV4eEZJqs >}}
+{{< video fjbV4eEZJqs >}}
   
 Het is een simpel script, dat nieuwe vensters blijft openen, todat je ze sluit vanuit task manager.
   

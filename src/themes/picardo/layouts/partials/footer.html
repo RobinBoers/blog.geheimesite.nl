@@ -4,11 +4,12 @@
     <aside class="text-xs">
         {{ i18n "built_with" }} <a href="https://gohugo.io">Hugo v{{ hugo.Version }}</a> •
         {{ if .IsPage}} 
-            {{ if .File.Path }}
-                {{ $.Scratch.Set "FilePath" .File.Path }}
-            {{ end }}
-            {{ with .Site.Params.github_repo }}
-                <a href='https://github.com/{{ . }}/edit/master/content/{{ $.Site.LanguageCode }}/{{ $.Scratch.Get "FilePath" }}'>{{ i18n "edit_on_gh" }}</a> •
+            {{ with  .File.Path }}
+                {{ $file_path := . }}
+
+                {{ with $.Site.Params.github_repo }}
+                    <a href='https://github.com/{{ . }}/edit/master/content/{{ $.Site.LanguageCode }}/{{ $file_path }}'>{{ i18n "edit_on_gh" }}</a> •
+                {{ end }}
             {{ end }}
         {{ end }}
 
