@@ -131,10 +131,6 @@
     .h-feed {
         padding: 0;
     }
-
-    blockquote {
-        @apply opacity-70 italic text-sm pl-5 border-0 border-solid border-l-3 border-foreground/20;
-    }
 }
 
 /* Normally not picked up by tailwind because the 
