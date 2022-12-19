@@ -47,6 +47,14 @@ languages:
         copyright: Webdesigner and Elixir programmer since 2017.
 
 markup:
+    highlight:
+        codeFences: true
+        guessSyntax: false
+        noClasses: true
+        noHl: false
+        style: github-dark
+        tabWidth: 4
+
     goldmark:
         renderer:
             unsafe: true

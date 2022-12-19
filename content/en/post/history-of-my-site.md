@@ -11,6 +11,8 @@ This site is my little gem. I launched it in 2017 and I have been improving and 
 
 This page provides an insight into the development and design process of building this beauty. Enjoy. At the end of the post, I have linked some good resources for building your own site.
 
+{{< hr >}}
+
 ## Framework? No thanks
 
 Some of you might think I built this using some frontend framework like React, Svelte, Phoenix, or Ruby on Rails. But no.
@@ -71,6 +73,8 @@ I've also open-sourced the blogging software I built for [my neolog](https://mic
 For CI/CD I'm using GitHub actions since all of my code is also hosted on GitHub. I know GitHub isn't open-source and I should probably use Gitea or GitLab, but you know, old habits.
 
 All projects that have documentation hosted using GitHub pages (on docs.geheimesite.nl) have CD to build and deploy new docs on push to the master branch. My website and neolog are being deployed using [FTP-Deploy-Action](https://github.com/marketplace/actions/ftp-deploy).
+
+{{< hr >}}
 
 ## As promised...
 

@@ -1,3 +1,7 @@
 <p class="info">
-    {{ .Get 0 }}
+    {{ with .Get 0 }}
+        {{ . | markdownify }}
+    {{ else }}
+        {{ .Inner | markdownify }}
+    {{ end }}
 </p>
