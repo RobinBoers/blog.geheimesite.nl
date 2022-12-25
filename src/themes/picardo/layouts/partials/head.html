@@ -14,8 +14,7 @@
 
     <link rel="canonical" href="{{ .Permalink }}" />
 
-    {{ $css := resources.Get "css/main.css" | resources.Minify |
-    resources.Fingerprint }}
+    {{ $css := resources.Get "css/main.css" | fingerprint }}
     <link
         rel="stylesheet"
         href="{{ $css.RelPermalink }}"
