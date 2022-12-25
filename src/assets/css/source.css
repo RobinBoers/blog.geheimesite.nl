@@ -109,8 +109,14 @@
         @apply pr-7;
     }
 
-    nav ul {
-        @apply flex flex-row gap-10 m-0 p-0;
+    nav ul.menu {
+        @apply flex flex-row gap-4 m-0 p-0;
+    }
+    nav ul.menu li {
+        @apply list-none lowercase;
+    }
+    nav ul.menu li a {
+        @apply no-underline;
     }
 }
 
