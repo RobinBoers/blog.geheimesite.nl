@@ -202,7 +202,7 @@ De Invidious instance die ik gebruik is [yewtu.be](https://yewtu.be).
 
 {{< hr >}}
 
-Ik denk niet dat dit mijn reguliere lezers veel zal schelen, maar het leek me gewoon leuk om een keer alle dingen die ik tegenkwam en interessant/leuk vond te bundelen in een post. Misschien dat een deperate Googlende programmeur deze post ooit nog eens tegenkomt :P
+Ik denk niet dat dit mijn reguliere lezers veel zal schelen, maar het leek me gewoon leuk om een keer alle dingen die ik tegenkwam en interessant/leuk vond te bundelen in een post. Misschien dat een desperate Googlende programmeur deze post ooit nog eens tegenkomt :P
 
 Anyway, ik vond het echt super leuk om te schrijven.  
 Happy 2022 alvast!
