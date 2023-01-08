@@ -47,3 +47,6 @@ days_ago:
 days_from_now:
     one: over een dag
     other: "over {{ . }} dagen"
+
+reply:
+    other: "Als je wil dat ik op je comment reageer moet je de \"reply via email\" knop gebruiken."
