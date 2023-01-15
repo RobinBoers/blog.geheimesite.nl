@@ -1,5 +1,6 @@
 ---
 title: 'My vision for an alternative web'
+date: 2023-01-15T20:53:22+01:00
 hideFromGoogle: true
 ---
 
