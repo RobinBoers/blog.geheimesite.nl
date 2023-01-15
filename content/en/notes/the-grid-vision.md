@@ -1,5 +1,6 @@
 ---
 title: 'My vision for an alternative web'
+hideFromGoogle: true
 ---
 
 I am not content with the way the web works at the moment. It is an absolute mess with laggy pages, popups, ads, newsletters and tracking everywhere.
