@@ -1,4 +1,4 @@
-{{ $script := resources.Get "js/webmention.js" | resources.Minify | resources.Fingerprint }} 
+{{ $script := resources.Get "assets/js/webmention.js" | resources.Minify | resources.Fingerprint }} 
 
 {{ if .Site.IsServer }}
     <script
