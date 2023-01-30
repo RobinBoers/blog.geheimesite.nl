@@ -1,7 +1,6 @@
 ---
 title: "Smartphones verbieden in de klas: niet de oplossing"
 date: 2023-01-28T17:05:40+01:00
-draft: true
 tags: 
 - social media
 - onderwijs
