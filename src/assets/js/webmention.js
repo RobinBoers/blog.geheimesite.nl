@@ -352,9 +352,9 @@ A more detailed example:
             }
 
             // format the other reactions
-            if (collects.length > 0) {
-                html += formatReactions(dedupe(collects));
-            }
+            // if (collects.length > 0) {
+            //     html += formatReactions(dedupe(collects));
+            // }
 
             if (html !== "") {
                 container.innerHTML = html;
