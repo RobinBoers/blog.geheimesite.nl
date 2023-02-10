@@ -20,6 +20,10 @@
         object-position: top right;
     }
 
+    .reply-button {
+        @apply block cursor-pointer bg-primary text-foreground dark:text-background hover:brightness-90 outline-none rounded-none shadow-none px-10 py-6 m-10 max-w-max mx-auto text-xl mb-4;
+    }
+
     .h-entry.preview {
         @apply rounded-md p-6 bg-[#ebf1fa] dark:bg-slate/70 shadow-md max-w-[52rem] my-5 mx-auto;
     }
@@ -118,6 +122,13 @@
     nav ul.menu li a {
         @apply no-underline;
     }
+
+    .post-footer {
+        opacity: 0.7;
+    }
+    .post-footer::before {
+        @apply block content-[""] bg-foreground/30 w-[400px] h-[2px] sm:ml-[10%] md:ml-[20.5%] mb-[20px];
+    }
 }
 
 @layer base {
@@ -149,4 +160,8 @@ comments are generated client-side using JS */
 
 .comments li {
     list-style: none;
+}
+
+.webmentions {
+    display: none;
 }

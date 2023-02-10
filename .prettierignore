@@ -19,5 +19,6 @@ src/themes/picardo/layouts/partials/preview.html
 src/themes/picardo/layouts/partials/preview-small.html
 src/themes/picardo/layouts/partials/views.html
 src/themes/picardo/layouts/partials/webmentions.html
+src/themes/picardo/layouts/partials/reply-button.html
 src/themes/picardo/layouts/partials/latest_commit.html
 src/themes/picardo/layouts/shortcodes/info.html

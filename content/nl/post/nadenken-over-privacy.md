@@ -7,8 +7,6 @@ tags:
 - open-source
 ---
 
-*Ik heb officieel mijn elke-week-een-blogpost challenge gefailed. Oeps.*
-
 Ik ben bezig met het lezen van [This is how they tell me the world ends](https://www.bibliotheek.nl/catalogus/titel.434364606.html/this-is-how-they-tell-me-the-world-ends/). Er staat niet heel veel nieuwe of schokkende informatie in, maar het is toch nogal een eye-opener. Het boek gaat over hoe regeringen kritieke bugs in software (ookwel zero-days) kopen en exploiteren om toegang tot data te krijgen die ze niet hadden mogen hebben.
 
 Ik heb nooit veel vertrouwen gehad in grote bedrijven en apps. Mijn informatica docente staat elke maandag voor de klas een futuritisch sprookje te vertellen over hoe apps en bedrijven ons leven zoveel makkelijker hebben gemaakt en hoe ons technologisch utopia te wachten staat in de toekomst. Ik ben zelf van mening dat dit een nogal naïef en ondoordacht standpunt is.
@@ -36,5 +34,3 @@ Ik krijg van leeftijdsgenoten vaak te horen dat ze het gek vinden dat ik zo priv
 - Ik vind het leuk om zelf de technische problemen op te lossen en systemen te beheren waarin mijn data staat.
 
 Dus, hoe zit het met jullie (mijn lezers). Hoe denken jullie over privacy? Hebben jullie vragen of opmerkingen? Je kan een comment achterlaten :)
-
-*Als je wil dat ik reageer op je comment moet je deze via email versturen met de knop hieronder*.

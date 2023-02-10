@@ -194,8 +194,10 @@ A more detailed example:
     }
 
     function formatComments(comments) {
-        let html = '<h2>Webmentions</h2><ul class="comments p-0">';
+        let html = '<ul class="comments p-0">';
         comments.forEach(function (c) {
+            document.querySelector("webmentions").style.display = "block";
+
             html +=
                 '<li class="rounded-md p-6 list-style-none bg-[#ebf1fa] dark:bg-slate/70 shadow-md my-5 max-w-[52rem]"><div class="webmention">';
 
