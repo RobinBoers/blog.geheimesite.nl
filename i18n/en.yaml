@@ -47,6 +47,3 @@ days_ago:
 days_from_now:
     one: a day from now
     other: "{{ . }} days in the future"
-
-reply:
-    other: "If you want me to reply to your comment, use the \"reply via email\" button."
