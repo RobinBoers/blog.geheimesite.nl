@@ -23,6 +23,10 @@ Ik heb [This is how they tell me the world ends](https://www.bibliotheek.nl/cata
 
 Daarnaast ben ik op zaterdag naar de boekpresentatie van [De sage van Aya: Grootheerser](https://www.boekscout.nl/shop2/boek.php?bid=14059) geweest. Het is geschreven door mijn tante en ik had *toevallig* in januari als verjaardagskado een tegoedbon voor een gratis exemplaar  gekregen. Ik vond deel één echt fantastisch (maar misschien ben ik een beetje bevooroordeeld XD) en ik ben dus gelijk aan mijn nieuwe boek begonnen.
 
+## Gekeken
+
+Ik heb op Netflix [We are the Wave](https://en.wikipedia.org/wiki/We_Are_the_Wave) gekeken om mijn Duits een beetje te oefenen. Zeker een aanrader!
+
 ## Interessante posts uit mijn RSS feed
 
 - [**Terence Eden:** Never use a URL shortening service - even if you own it](https://shkspr.mobi/blog/2023/02/never-use-a-url-shortening-service-even-if-you-own-it/)
