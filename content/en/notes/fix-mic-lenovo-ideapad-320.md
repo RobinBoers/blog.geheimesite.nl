@@ -7,8 +7,6 @@ tags:
 - lenovo
 ---
 
-From: <https://gist.github.com/Therises/d2e91c81af1574f9069635d520fdc7ec>
-
 In `/usr/share/pulseaudio/alsa-mixer/paths/analog-input-internal-mic.conf` and `/usr/share/pulseaudio/alsa-mixer/paths/analog-input-mic.conf`:
 
 - Under `[Element Internal Mic Boost]` set volume to `zero`.
@@ -34,3 +32,7 @@ Then restart PulseAudio:
 pulseaudio -k
 pulseaudio --start
 ```
+
+{{< supplement >}}
+From: <https://gist.github.com/Therises/d2e91c81af1574f9069635d520fdc7ec>
+{{</ supplement >}}
