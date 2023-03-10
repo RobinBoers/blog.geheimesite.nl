@@ -1,0 +1,18 @@
+---
+title: "GRUB2 init tunes"
+date: 2023-03-10T19:25:43+01:00
+draft: true
+tags: 
+- linux
+- grub
+---
+
+To use one of these, simply edit the `GRUB_INIT_TUNE` line of `/etc/default/grub`
+
+*Amogus* - `GRUB_INIT_TUNE="500 262 2 311 2 349 2 370 2 349 2 311 2 262 5 233 1 294 1 262 2"`
+
+*Megalovania* - `GRUB_INIT_TUNE="400 294 1 294 1 587 2 440 3 415 2 392 2 349 2 294 1 349 1 392 1 294 3"`
+
+*Rickroll* - `GRUB_INIT_TUNE="500 262 1 294 1 349 1 294 1 440 3 440 3 392 5 262 1 294 1 349 1 294 1 392 3 392 3 349 3 330 1 294 3 262 1 294 1 349 1 294 1 349 4 392 2 330 3 294 1 262 3 262 2 392 4 349 4"`
+
+*Happy Birthday* - `GRUB_INIT_TUNE="500 392 2 392 1 440 3 392 2 523 3 494 4 392 2 392 1 440 3 392 2 587 3 523 3 392 2 392 1 784 3 659 3 523 3 494 3 440 4 698 2 698 2 659 3 523 3 587 3 523 4"`

@@ -1,4 +1,4 @@
-----
+---
 title: 'Fix microphone (Lenovo Ideapad 320) on Linux'
 date: 2023-03-10T19:17:27+01:00
 draft: false
@@ -34,4 +34,3 @@ Then restart PulseAudio:
 pulseaudio -k
 pulseaudio --start
 ```
-
