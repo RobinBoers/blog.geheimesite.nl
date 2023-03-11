@@ -44,6 +44,7 @@ languages:
         title: Webdevelopment-En-Meer
         params:
             description: Ik ben Robin, en ik ben 15 jaar oud. Ik woon in Maasssluis. Ik ben webdesigner en programmeur en ik werk momenteel bij Qdentity. Ik specialiseer me vooral in webdevelopment, maar doe ook wel eens backend stuff. Op dit blog post ik regelmatig over mijn hobby en dingen die me interesseren.
+            main_site_url: https://geheimesite.nl
         copyright: Webdesigner en Elixir programmeur sinds 2017.
 
     en:
@@ -53,6 +54,7 @@ languages:
         title: ThatCrazyWebdev
         params:
             description: Hi! My name is Robin. I’m an enthusiastic developer from the Netherlands. I mostly talk about programming and new stuff I learn, but also about software-development as a whole. I’m also a Linux enthusiast, so you’ll also see me talk about Linux and open-source in general a lot.
+            main_site_url: https://geheimesite.nl/en
         copyright: Webdesigner and Elixir programmer since 2017.
 
 markup:

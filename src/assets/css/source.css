@@ -113,11 +113,17 @@
         @apply pr-7;
     }
 
+    @media (max-width: 600px) {
+        header .pagetitle {
+            font-size: 1.2em;
+        }
+    }
+
     nav ul.menu {
         @apply flex flex-row gap-4 m-0 p-0;
     }
     nav ul.menu li {
-        @apply list-none lowercase;
+        @apply list-none;
     }
     nav ul.menu li a {
         @apply no-underline;
