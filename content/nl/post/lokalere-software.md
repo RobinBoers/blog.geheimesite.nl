@@ -1,7 +1,6 @@
 ---
 title: "Hoe kunnen we software lokaler maken?"
 date: 2023-03-19T09:39:08+01:00
-draft: true
 tags:
     - social media
     - open-source
