@@ -8,7 +8,6 @@ theme: picardo
 author:
     name: Robin Boers
     image: https://geheimesite.nl/assets/images/me-optimized.webp
-    about: I'm a webdesigner, programmer, and nerd living in the Netherlands. I'm 15 years old and I currently work at Qdentity.
 
 publishDir: dist
 themesDir: src/themes
@@ -43,7 +42,7 @@ languages:
         languageCode: nl
         title: Webdevelopment-En-Meer
         params:
-            description: Ik ben Robin, en ik ben 15 jaar oud. Ik woon in Maasssluis. Ik ben webdesigner en programmeur en ik werk momenteel bij Qdentity. Ik specialiseer me vooral in webdevelopment, maar doe ook wel eens backend stuff. Op dit blog post ik regelmatig over mijn hobby en dingen die me interesseren.
+            description: Ik ben Robin, en ik ben een tiener uit Maassluis. Ik ben webdesigner en programmeur en ik werk momenteel bij Qdentity. Ik specialiseer me vooral in webdevelopment, maar doe ook wel eens backend stuff. Op dit blog post ik regelmatig over mijn hobby en dingen die me interesseren.
             main_site_url: https://geheimesite.nl
         copyright: Webdesigner en Elixir programmeur sinds 2017.
 
