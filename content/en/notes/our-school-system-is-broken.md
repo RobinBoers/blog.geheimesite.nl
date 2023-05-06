@@ -27,6 +27,10 @@ So, the goal of a good test is to check whether a student has mastered a certain
 
 And it also doesn't help that we get grades for those tests. Because by put consequences on the test, you're also putting pressure to perform on the student. The result is that students are now actively studying for tests, which means that what you're testing not what knowledge and skills the student has acquired during the lessons, and can be reasonably expected to reproduce in a real scenario. No, instead, you're measuring the amount of time that a student spent preparing for a test. In other words: we're testing the wrong thing.
 
+To properly learn something exercising is very important, especially with the subjects I follow. However, when I get home from an exhausting school day I don't want to do more schoolwork. Most students make their homework with a 'let's get done with it already' mindset, which makes it a lot less effective.
+
+According to some teachers "students need to spend at least 40 hours on school work per week to learn enough". There is a fatal flaw in that statement: the assumption that school is the only place students learn something. What about developing their own talents? I think I learn way more in my spare time, when I'm working or playing around with silly coding thingies.
+
 We go to school to learn new things, which we will need in our future life. School prepares us for society, future jobs and life. I am now at the point where I know what interests me, what I'm good at, and in what domain I would like to work. However, I still have to follow a lot of courses at school that I don't particularly need or like. And that sucks, because now I feel very constrained when it comes to learning the things I actually like. Instead of giving me the opportunity to develop my talents and learn more things, ~~our school system makes me do German~~ I feel like school is holding me back.
 
 Sometimes I think the current school system makes us do a lot of things just because we can. [More isn't always better](https://blog.geheimesite.nl/post/waarom-altijd-meer/). Instead of making VWO students do more courses (GERMAN!!), we should focus on spending more time and effort at the courses they like and want to develop further.
@@ -37,7 +41,7 @@ I think knowing _why_ I'm learning certain things makes me more motivated to act
 
 Furthermore, I also think that the way of testing should be changed. Instead of sharp deadlines with grades, I think students should choose to do a test when they feel like they mastered something. The test is then purely a check, with no additional consequences. This also eliminates the 'studying for the test' behavior.
 
-I also think exercising is very important, especially with the subjects I follow. However, I think that homework is not as effective and generally stressful for students. I want to know that when I come home, I am **done for the day**. I currently make my homework in a "let's get done it already" mindset. That why I think lessons should be a lot longer (with fewer lessons per day) to make room for regular exercising _during the lessons_. Likewise, we should make school days a bit longer.
+Moreover, I think lessons should be a lot longer (with fewer lessons per day) to make room for regular exercising _during the lessons_ (instead of making homework at home). Likewise, we should make school days a bit longer to account for that.
 
 Another point I think can be improved is the schedule. It has been proven time and time again that the biological clock of teens just works differently. In vacations, I wake up around 8:00, which is in quite the contrast to the 6:50 on school days. I think we should move the entire schedule ahead about an hour. Students then get to wake up at their natural time.
 
