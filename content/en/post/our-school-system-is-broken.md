@@ -1,6 +1,7 @@
 ---
 title: "Our school system is broken"
 date: 2023-05-06T14:03:02+02:00
+url: /en/notes/our-school-system-is-broken/
 tags: 
 - school
 ---
