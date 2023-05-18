@@ -1,6 +1,6 @@
 {{ with .Site.Params.github_repo }}
     {{ if $.GitInfo }} 
-        <p class="post-commit">
+        <p class="post-commit print:hidden">
             Latest commit: 
             <a href="https://github.com/{{ . }}/commit/{{ $.GitInfo.Hash }}" rel="noopener">
                 {{ $.GitInfo.AbbreviatedHash }}
