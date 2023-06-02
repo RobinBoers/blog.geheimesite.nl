@@ -11,7 +11,7 @@ Ik ben erg blij met m'n Fairphone. Ik heb nu een groene Fairphone 4 met 256 GB a
 
 Daarnaast is mijn website nu roze met paars. Ik had even behoefte aan een redesign, so here you are. Ik ben er wel blij mee. Ik heb ook de oude versies van mijn site verplaatst van `geheimesite.nl/website/v/X` naar [classic.geheimesite.nl](https://classic.geheimesite.nl), en ik zat ook na te denken om een mirror van mijn site op iets van `raw.geheimesite.nl` of `plain.geheimesite.nl` te hosten met alleen bare-bones semantic HTML.
 
-En tot slot heb ik vorige week zo'n 8 uur besteedt aan het lezen van wetenschappelijke artikelen over nepnieuws voor een opdracht voor school. Ik vond het erg interessant (anders had ik er geen 8 uur van mijn leven aan gespendeerd LOL) en ik sta te popelen om te schrijven over wat ik allemaal heb geleerd. Ik denk dat ik mijn hoofdstuk uit onze schrijfopdracht (een beetje aangepast) hier zal publiceren :)
+En tot slot heb ik vorige week zo'n 8 uur besteed aan het lezen van wetenschappelijke artikelen over nepnieuws voor een opdracht voor school. Ik vond het erg interessant (anders had ik er geen 8 uur van mijn leven aan gespendeerd LOL) en ik sta te popelen om te schrijven over wat ik allemaal heb geleerd. Ik denk dat ik mijn hoofdstuk uit onze schrijfopdracht (een beetje aangepast) hier zal publiceren :)
 
 ## Aan het lezen
 
