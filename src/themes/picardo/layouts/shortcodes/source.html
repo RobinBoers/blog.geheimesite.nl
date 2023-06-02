@@ -1,0 +1,5 @@
+<p>
+    <small class='source opacity-75 {{ with .Get "class" }} {{ . }}{{ end}}'>
+        {{ .Inner | markdownify }}
+    </small>
+</p>
