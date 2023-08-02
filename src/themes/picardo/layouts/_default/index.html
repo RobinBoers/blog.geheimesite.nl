@@ -7,7 +7,11 @@
         
         {{ range $paginator.Pages }}
             {{ if .Content }}
-                {{ partial "preview" . }}
+                {{ if in .Params.tags "status update" }}
+                    {{ partial "preview-small" . }}
+                {{ else }}
+                    {{ partial "preview" . }}
+                {{ end }}
             {{ end }}
         {{ end }}
     </div>

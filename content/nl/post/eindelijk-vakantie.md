@@ -4,6 +4,7 @@ date: 2023-03-03T10:44:37+01:00
 tags: 
 - school
 - leestips
+- status update
 ---
 
 Deze week heb ik vooral aan mijn site gewerkt. Ik ben bezig met het ontwerpen van een nieuw systeem om mijn data te beheren, en ik ben het stap voor stap aan het integreren met mijn site.

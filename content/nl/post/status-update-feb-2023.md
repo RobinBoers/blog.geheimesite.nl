@@ -1,5 +1,5 @@
 ---
-title: "Status update: Verbeterde navigatie op mijn site en leestips"
+title: "Deze maand: Februari"
 date: 2023-02-12T20:59:44+01:00
 tags: 
 - status update

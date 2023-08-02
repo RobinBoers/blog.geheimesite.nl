@@ -1,5 +1,5 @@
 ---
-title: "Status update: 2022"
+title: "2022 in een notendop"
 date: 2022-12-23T15:31:55+01:00
 tags: 
 - status update
