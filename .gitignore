@@ -7,3 +7,4 @@ hugo_stats.json
 /**/node_modules
 /src/assets/css/main.css
 .vscode
+.direnv

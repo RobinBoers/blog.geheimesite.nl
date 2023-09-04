@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This scripts opens a local webserver at localhost:4000
 # and starts tailwind in the background
 

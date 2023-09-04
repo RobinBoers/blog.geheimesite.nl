@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # This script builds the site using tailwind and hugo, validates it and then formats all HTML & markdown.
 
 [[ -z "${VALIDATE}" ]] && VALIDATE=false || VALIDATE="${VALIDATE_ENV}"
