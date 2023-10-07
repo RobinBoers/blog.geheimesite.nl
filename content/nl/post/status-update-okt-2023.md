@@ -1,6 +1,6 @@
 ---
-title: "Deze maan: Okt 2023"
-date: 2023-10-07T11:55:53+01:00
+title: "Deze maand: Okt 2023"
+date: 2023-10-07T10:55:53+01:00
 draft: false
 tags: 
 - status update
