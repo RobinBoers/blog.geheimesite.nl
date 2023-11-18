@@ -4,135 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-    .profile-picture {
-        object-fit: cover;
-        border-radius: 100%;
-        aspect-ratio: 1/1;
-    }
-}
-
 @layer components {
-    .u-photo {
-        @apply profile-picture;
-        height: 80px;
-        width: auto;
-        object-position: top right;
-    }
-
-    .reply-button {
-        @apply block cursor-pointer hover:brightness-90 outline-none rounded-none shadow-none px-10 py-6 m-10 max-w-max mx-auto text-xl mb-4 font-bold bg-background text-foreground border-[3px] border-solid border-primary no-underline;
-    }
-
-    .reply-button {
-        box-shadow: 6px 6px 0 0 rgb(var(--primary));
-        transition: all 0.1s ease;
-    }
-
-    .reply-button:hover {
-        box-shadow: 0 0 0 0 rgb(var(--primary));
-        @apply text-background dark:text-foreground;
-    }
-
-    .h-entry.preview {
-        @apply rounded-md p-6 bg-[#ebf1fa] dark:bg-slate/70 shadow-md max-w-[52rem] my-5 mx-auto;
-    }
-    .h-entry.preview .p-summary,
-    .h-entry.preview .properties {
-        @apply mb-0;
-    }
-    .h-entry.preview .author {
-        @apply flex items-center gap-5;
-    }
-    .h-entry.preview .author p {
-        @apply m-0;
-    }
-    .h-entry.preview .author p span {
-        @apply block;
-    }
-    .h-entry.preview .author .p-name {
-        @apply font-bold;
-    }
-
-    .h-entry.preview-small {
-        @apply mx-auto max-w-[45rem];
-    }
-    .h-entry.preview-small h2 {
-        @apply m-0;
-    }
-
-    .h-entry.post {
-        @apply mt-10;
-    }
-    .h-entry .post-title-box {
-        @apply text-center my-7 max-w-xl mx-auto;
-    }
-    .h-entry .post-date {
-        @apply my-5 font-mono font-bold text-lg lowercase;
-    }
-    .h-entry .post-title {
-        @apply mb-0 text-4xl;
-    }
-    .h-entry .post-data {
-        font-size: 90%;
-        font-style: italic;
-    }
-    .h-entry .post-data p {
-        margin-bottom: 0;
-    }
-    .h-entry .post-data p:last-child {
-        margin-bottom: 0.7em;
-    }
-
-    .h-entry .post-data-extra {
-        font-size: 80%;
-        font-style: italic;
-    }
-    .read-more {
-        display: block;
-        opacity: 0.8;
-        margin-top: 25px;
-        text-transform: lowercase;
-        font-weight: bold;
-    }
-    .read-more a::after {
-        content: " →";
-    }
-    .follow-me {
-        text-align: center;
-        @apply m-0;
-    }
-
-    .properties {
-        @apply flex flex-row justify-between items-center pt-3;
-    }
-    a.datetime,
-    a.datetime:hover,
-    .categories a,
-    .categories a:hover,
-    .p-name a,
-    .p-name a:hover {
-        color: inherit !important;
-        background-color: inherit !important;
-        text-decoration: none !important;
-    }
-
-    a.datetime {
-        font-family: var(--font-sans);
-        font-size: 1.1rem;
-    }
-
-    .webmentions {
-        @apply print:hidden mt-20;
-    }
-
-    .tag-title {
-        @apply flex flex-row justify-end;
-    }
-    .tag-title h1 {
-        @apply pr-7;
-    }
-
     @media (max-width: 600px) {
         header .pagetitle {
             font-size: 1.2em;
@@ -149,27 +21,73 @@
         @apply no-underline;
     }
 
-    .post-footer,
-    .pagination {
-        opacity: 0.7;
-    }
-    .post-footer::before {
-        @apply block content-[""] bg-foreground/30 w-[400px] h-[2px] sm:ml-[10%] md:ml-[20.5%] mb-[20px];
+    .post-title {
+        margin-bottom: 0;
     }
 
-    .pagination {
-        @apply border-0 border-t-2 !pt-4 !px-3 mt-20 border-solid border-foreground/30;
+    .post-date, .page-footer, hr {
+        margin-top: .5em;
+        opacity: .7;
+    }
+
+    .skip-nav {
+        @apply lowercase absolute top-0 transition-transform translate-y-[-120%] focus:translate-y-0 left-[7px] p-4;
     }
 }
 
 @layer base {
+    html {
+        background: rgb(30, 30, 30);
+        color: rgb(212, 212, 212);
+    }
+    
+    body {
+        font-size: 1.1rem;
+        line-height: 1.5;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+
+    a {
+        color: rgb(212, 212, 212);
+    }
+
+    h1 a, h2 a, h3 a {
+        text-decoration: none !important;
+    }
+
+    img {
+      max-width: 100%;
+      user-select: none;
+    }
+
+    pre {
+      max-width: 100%;
+      width: 100%;
+      overflow-x: auto;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    pre::-webkit-scrollbar {
+      display: none;
+    }
+
     body > header {
         display: flex;
         justify-content: center;
     }
     body > header > div {
-        max-width: 960px;
+        max-width: 750px;
         flex-grow: 1;
+    }
+
+    .h-entry h1 {
+        font-size: 2em;
+    }
+
+    main {
+        max-width: 750px;
+        margin: 0 auto;
     }
 
     .h-feed,
@@ -179,20 +97,4 @@
     .h-feed {
         padding: 0;
     }
-}
-
-/* Normally not picked up by tailwind because the 
-comments are generated client-side using JS */
-
-.webmention__author__img {
-    @apply profile-picture;
-    max-width: 40px;
-}
-
-.comments li {
-    list-style: none;
-}
-
-.webmentions {
-    display: none;
 }

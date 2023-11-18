@@ -17,15 +17,10 @@
         <ul class="h-feed mt-0">
 	{{ end }}
 
-        {{ $pages := .Pages }}
-        {{ $paginator := .Paginate $pages }}
-
-        {{ range $paginator.Pages }}
+        {{ range .Pages }}
             {{ if .Content }}
-                {{ partial "preview-small" . }}
+                {{ partial "preview" . }}
             {{ end }}
         {{ end }}
     </ul>
-
-    {{ partial "pagination" . }}
 {{ end }}

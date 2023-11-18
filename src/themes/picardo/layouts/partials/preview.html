@@ -1,46 +1,8 @@
-<article class="h-entry preview">
-    <hgroup class="h1">
-        <h2 class="p-name my-0 text-[1em]">
-            <a href="{{ .Permalink }}">
-                {{ .Title }}
-            </a>
-        </h2>
+<li class="h-entry">
+    <a class="u-url" href="{{ .Permalink }}">
         {{ if .Date }}
-            <a class="datetime u-url" href="{{ .Permalink }}">
-                <time 
-                    class="dt-published" 
-                    datetime='{{ .Date.Format "2006-01-02T15:04:05" }}' >
-                    {{ $diff := div (sub now.Unix .Date.Unix) 86400 }}
-                    {{ if eq $diff 0 }}{{ i18n "earlier_today" }}
-                    {{ else }}
-                    {{ if eq $diff -1 }}{{ i18n "days_from_now" 1 }}
-                    {{ else }}
-                    {{ if lt $diff 0 }}{{ i18n "days_from_now" (mul -1 $diff) }}
-                    {{ else }}
-                    {{ if eq $diff 1 }}{{ i18n "days_ago" 1}}
-                    {{ else }}
-                    {{ i18n "days_ago" $diff }}
-                    {{ end }}{{ end }}{{ end }}{{ end }}
-                </time>
-            </a>
+            <time class="dt-published font-bold">{{ dateFormat "2006-01-02" .Date }}</time>:
         {{ end }}
-    </hgroup>
-
-    <p class="p-summary e-content">
-        {{ .Summary }}
-
-        <span class="properties">
-            {{ if .Truncated }}
-                <span class="read-more">
-                    <a href="{{ .Permalink }}">{{ i18n "read_more" }}</a>
-                </span>
-            {{ end }}
-            
-            <span class="categories">
-                {{ range (.GetTerms "tags") }}
-                    <a class="p-category" href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
-                {{ end }}
-            </span>
-        </span>
-    </p>
-</article>
+        <span class="p-name">{{ .Title }}</span>
+    </a>
+</li>

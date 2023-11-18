@@ -47,3 +47,5 @@ days_ago:
 days_from_now:
     one: over een dag
     other: "over {{ . }} dagen"
+
+moved: Ik heb dit blog in november 2023 verhuisd. Je bekijkt nu een publiek archief van alle content die voor die datum op dit blog stond.
