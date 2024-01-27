@@ -1,6 +1,7 @@
 ---
 title: Met betrekking tot mijn blog
 date: 2023-11-12T07:08:00.002-08:00
+draft: true
 ---
 
 Zoals je misschien al gezien hebt, is mijn site nogal veranderd. Ik was niet meer tevreden met het uiterlijk, en -- misschien nog wel belangrijker -- de inhoud van mijn website.
