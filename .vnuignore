@@ -1,0 +1,4 @@
+# I like the trailing slash. Fuck off.
+Trailing slash on void elements has no effect and interacts badly with unquoted attribute values.
+# Yea, I couldn't care less.
+An “img” element must have an “alt” attribute, except under certain conditions. For details, consult guidance on providing text alternatives for images.

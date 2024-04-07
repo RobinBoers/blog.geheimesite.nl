@@ -1,9 +1,9 @@
 {{ define "main" }}
     <article class="h-entry post">
         {{ with .Params.hideTitle }}
-            <section class="p-summary e-content">
+            <div class="p-summary e-content">
                 {{ $.Content }}
-            </section>
+            </div>
         {{ else }}
             <div class="post-title-box">
                 <h1 class="post-title p-name">{{ $.Title }}</h1>
@@ -22,9 +22,9 @@
                 {{ end }}
             </div>
             
-            <section class="p-summary e-content">
+            <div class="p-summary e-content">
                 {{ $.Content }}
-            </section>
+            </div>
         {{ end }}
     </article>
 {{ end }}

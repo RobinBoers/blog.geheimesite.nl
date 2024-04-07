@@ -1,0 +1,60 @@
+#!/bin/bash
+
+DIST="dist"
+
+TAILWIND="tailwindcss -c tailwind.config.js --minify"
+HUGO="hugo --quiet"
+FORMAT="prettier --loglevel error"
+VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
+
+setup() {
+  bun i
+}
+
+format() {
+  $FORMAT --write . 
+}
+
+clean() {
+  rm -rf dist
+}
+
+serve() {
+  $TAILWIND -i src/assets/css/source.css -o src/assets/css/main.css &
+  $HUGO server -DF -p 4000
+}
+
+build() {
+  echo "Emptying cache"
+  clean
+
+  echo "Building CSS..."
+  $TAILWIND -i src/assets/css/source.css -o src/assets/css/main.css > /dev/null 2>&1
+
+  echo "Building site..."
+  $HUGO
+
+  echo "Cleaning up..."
+  rm -rf dist/categories
+  rm -rf dist/categories.html
+  rm -rf dist/en/categories
+  rm -rf dist/en/categories.html
+
+  echo "Formatting..."
+  format
+}
+
+check() {
+  export HUGO_UGLYURLS=true 
+  export HUGO_MINIFY_TDEWOLFF_HTML_KEEPCOMMENTS=true 
+  export HUGO_ENABLEMISSINGTRANSLATIONPLACEHOLDERS=true 
+  
+  build
+
+  echo "Validating HTML..."
+  $VALIDATE --skip-non-html $DIST
+
+  if grep -inorE "raw HTML omitted|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" $DIST/; then
+    err "hugo emitted build errors"
+  fi
+}
