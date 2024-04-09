@@ -23,13 +23,11 @@ jobs:
               with:
                   fetch-depth: 0
 
-            - name: Setup node
-              uses: actions/setup-node@v3
-              with:
-                  node-version: 16.x
+            - name: Setup bun
+              uses: oven-sh/setup-bun@v1
 
             - name: Install deps
-              run: npm install
+              run: bun install
 
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
@@ -46,7 +44,7 @@ jobs:
                       ${{ runner.os }}-hugomod-
 
             - name: Build
-              run: npm run build
+              run: bun run build
 
             - name: Setup Pages
               uses: actions/configure-pages@v2
