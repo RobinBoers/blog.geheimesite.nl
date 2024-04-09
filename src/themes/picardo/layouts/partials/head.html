@@ -22,12 +22,8 @@
         title="default" />
 
     <!-- Webmention -->
-    <link
-        rel="webmention"
-        href="https://webmention.io/geheimesite.nl/webmention" />
-    <link
-        rel="pingback"
-        href="https://webmention.io/geheimesite.nl/xmlrpc" />
+    <link rel="webmention" href="https://api.geheimesite.nl/webmentions" />
+    <link rel="pingback" href="https://webmention.io/webmention?forward=https://api.geheimesite.nl/webmentions" />
 
     {{ with .Page.Params.hideFromGoogle }}
         <!-- Prevent search engines from indexing -->
