@@ -6,10 +6,10 @@
     "homepage": "https://blog.geheimesite.nl",
     "license": "UNLICENSED",
     "scripts": {
-        "start": ".ci/server.sh",
-        "build": ".ci/build.sh",
-        "check": ".ci/check.sh",
-        "format": "prettier --write ."
+        "start": "source Bakefile && serve",
+        "build": "source Bakefile && build",
+        "check": "source Bakefile && check",
+        "format": "source Bakefile && format"
     },
     "repository": {
         "type": "git",
