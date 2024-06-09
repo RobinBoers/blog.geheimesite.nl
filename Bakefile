@@ -3,12 +3,15 @@
 required hugo
 required bun
 
-DIST="dist"
+DIST=dist
+REMOTE=s11
+DOMAIN=blog.geheimesite.nl
 
 TAILWIND="tailwindcss -c tailwind.config.js --minify"
 HUGO="hugo --quiet"
 FORMAT="prettier --loglevel warn"
 VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
+DEPLOY="rsync -ciavuP --delete"
 
 setup() {
   bun i
@@ -46,6 +49,14 @@ build() {
 
   printf "Formatting... "
   format && finish
+}
+
+deploy() {
+  if [ -d $DIST ]; then
+    $DEPLOY $DIST/ $REMOTE:domains/$DOMAIN/public_html
+  else
+    err "'$DIST' does not exist."
+  fi
 }
 
 check() {
