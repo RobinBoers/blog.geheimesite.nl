@@ -1,10 +1,13 @@
 #!/bin/bash
 
+required hugo
+required bun
+
 DIST="dist"
 
 TAILWIND="tailwindcss -c tailwind.config.js --minify"
 HUGO="hugo --quiet"
-FORMAT="prettier --loglevel error"
+FORMAT="prettier --loglevel warn"
 VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
 
 setup() {
@@ -25,23 +28,24 @@ serve() {
 }
 
 build() {
-  echo "Emptying cache"
-  clean
+  printf "Emptying cache... "
+  clean && finish
 
-  echo "Building CSS..."
-  $TAILWIND -i src/assets/css/source.css -o src/assets/css/main.css > /dev/null 2>&1
+  printf "Building CSS... "
+  $TAILWIND -i src/assets/css/source.css -o src/assets/css/main.css > /dev/null 2>&1 && finish || err "tailwind build failed"
 
-  echo "Building site..."
-  $HUGO
+  printf "Building site... "
+  $HUGO > /dev/null && finish || err "hugo build failed"
 
-  echo "Cleaning up..."
+  printf "Cleaning up... "
   rm -rf dist/categories
   rm -rf dist/categories.html
   rm -rf dist/en/categories
   rm -rf dist/en/categories.html
+  finish
 
-  echo "Formatting..."
-  format
+  printf "Formatting... "
+  format && finish
 }
 
 check() {
@@ -51,10 +55,21 @@ check() {
   
   build
 
-  echo "Validating HTML..."
-  $VALIDATE --skip-non-html $DIST
+  printf "Validating HTML... "
+  $VALIDATE --skip-non-html $DIST && great
 
   if grep -inorE "raw HTML omitted|ZgotmplZ|\[i18n\]|\(<nil>\)|(&lt;nil&gt;)|hahahugo" $DIST/; then
     err "hugo emitted build errors"
   fi
+}
+
+GREEN="\033[1;32m"
+CLEAR="\033[0m"
+
+great() {
+  printf "${GREEN}no issues${CLEAR}\n"
+}
+
+finish() {
+  printf "${GREEN}done${CLEAR}\n"
 }
