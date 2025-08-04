@@ -4,8 +4,6 @@ required hugo
 required bun
 
 DIST=dist
-REMOTE=s11
-DOMAIN=blog.geheimesite.nl
 
 TAILWIND="tailwindcss -c tailwind.config.js --minify"
 HUGO="hugo --quiet"
@@ -52,10 +50,10 @@ build() {
 }
 
 deploy() {
-  if [ -d $DIST ]; then
-    $DEPLOY $DIST/ $REMOTE:domains/$DOMAIN/public_html
+  if [ -d dist ]; then
+    lift deploy
   else
-    err "'$DIST' does not exist."
+    err "site not built."
   fi
 }
 
