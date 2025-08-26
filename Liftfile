@@ -1,5 +1,4 @@
 name: blog.geheimesite.nl
-host: nov
 type: static
+host: nov
 src: dist
-target: /volume1/www/blog.geheimesite.nl

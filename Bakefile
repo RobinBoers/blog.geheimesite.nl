@@ -9,7 +9,6 @@ TAILWIND="tailwindcss -c tailwind.config.js --minify"
 HUGO="hugo --quiet"
 FORMAT="prettier --loglevel warn"
 VALIDATE="vnu --exit-zero-always --filterfile .vnuignore"
-DEPLOY="rsync -ciavuP --delete"
 
 setup() {
   bun i
